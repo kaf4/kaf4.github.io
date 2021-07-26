@@ -13,30 +13,110 @@ const div = d3.selectAll("div");
 <html>
 <script src='https://d3js.org/d3.v5.min.js'></script>
 <body>
-<svg width=150 height=300>
-</svg>
 <script>
 
-xdomain = [0,42];
-xrange = [0,100];
-ydomain = [0,5];
-yrange = [100,250];
-cdomain = [0,42];
-crange = ["blue", "orange"];
+// set the dimensions and margins of the graph
+const margin = {top: 10, right: 30, bottom: 30, left: 60},
+    width = 800 - margin.left - margin.right,
+    height = 550 - margin.top - margin.bottom;
 
-xs = d3.scaleLinear().domain(xdomain).range(xrange);
-ys = d3.scaleLinear().domain(ydomain).range(yrange);
-cs = d3.scaleLinear().domain(cdomain).range(crange);
-d3.select('svg')
-  .selectAll('rect')
-  .data([4,8,15,16,23,42])
-  .enter()
-  .append('rect')
-    .attr('x',20)
-    .attr('y',function(d,i) {return ys(i);})
-    .attr('width',function(d,i) {return xs(d);})
-    .attr('height',10)
-    .style('fill',function(d,i) {return cs(d);});
-</script>
-</body>
-</html>
+// append the svg object to the body of the page
+const svg = d3.select("body")
+  .append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", `translate(${margin.left},${margin.top})`);
+
+//Read the data
+d3.csv("https://kaf4.github.io/data/US_Race_AllAge.csv")
+.then(function(data){
+  data.forEach(function(d){
+    d.year = d3.timeParse("%Y")(d.Year);
+    d.Total = +d.Total;
+    d.White = +d.White;
+    d.WhiteNH = +d.WhiteNH;
+    d.Black = +d.Black
+    d.Asian = +d.Asian
+    d.Hispanic = +d.Hispanic
+    races = data.columns.slice(1);
+    });
+
+    // x-axis
+    const x = d3.scaleTime()
+      .domain(d3.extent(data, function(d) { return d.year; }))
+      .range([ 0, width ]);
+    svg.append("g")
+      .attr("transform", `translate(0, ${height})`)
+      .call(d3.axisBottom(x));
+
+    // y-axis
+    const y = d3.scaleLinear()
+      .domain([25, 75])
+      .range([ height, 0]);
+    svg.append("g")
+      .call(d3.axisLeft(y));
+      
+var totalLine = d3.line()
+    .x(function(d) { return x(d.year); })
+    .y(function(d) { return y(d.Total); });
+    
+var whiteLine = d3.line()
+    .x(function(d) { return x(d.year); })
+    .y(function(d) { return y(d.White); });
+
+var whiteNHLine = d3.line()
+    .x(function(d) { return x(d.year); })
+    .y(function(d) { return y(d.WhiteNH); });
+
+var blackLine = d3.line()
+    .x(function(d) { return x(d.year); })
+    .y(function(d) { return y(d.Black); });
+
+var asianLine = d3.line()
+    .x(function(d) { return x(d.year); })
+    .y(function(d) { return y(d.Asian); });
+
+var hispanicLine = d3.line()
+    .x(function(d) { return x(d.year); })
+    .y(function(d) { return y(d.Hispanic); });
+
+
+  svg.append("path")
+      .data([data]).attr("fill", "none")
+      .attr("class", "line")
+      .style("stroke", "blue")
+      .attr("d", totalLine);
+  
+  svg.append("path")
+      .data([data]).attr("fill", "none")
+      .attr("class", "line")
+      .style("stroke", "orange")
+      .attr("d", whiteLine);
+      
+  svg.append("path")
+      .data([data]).attr("fill", "none")
+      .attr("class", "line")
+      .style("stroke", "green")
+      .attr("d", whiteNHLine);
+      
+   svg.append("path")
+      .data([data]).attr("fill", "none")
+      .attr("class", "line")
+      .style("stroke", "black")
+      .attr("d", blackLine);
+
+  svg.append("path")
+      .data([data]).attr("fill", "none")
+      .attr("class", "line")
+      .style("stroke", "red")
+      .attr("d", asianLine);
+  
+  svg.append("path")
+      .data([data]).attr("fill", "none")
+      .attr("class", "line")
+      .style("stroke", "purple")
+      .attr("d", hispanicLine);
+
+})
+</script></body></html>

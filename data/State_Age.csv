@@ -1,0 +1,1873 @@
+﻿Year,Value,State,Age
+2020,66.8,US,Total
+2018,53.4,US,Total
+2016,61.4,US,Total
+2014,41.9,US,Total
+2012,61.8,US,Total
+2010,45.5,US,Total
+2020,51.4,US,18 to 24
+2018,32.4,US,18 to 24
+2016,43,US,18 to 24
+2014,17.1,US,18 to 24
+2012,41.2,US,18 to 24
+2010,21.3,US,18 to 24
+2020,60.3,US,25 to 34
+2018,42.1,US,25 to 34
+2016,53.1,US,25 to 34
+2014,27.6,US,25 to 34
+2012,53.5,US,25 to 34
+2010,37.1,US,25 to 34
+2020,65.1,US,35 to 44
+2018,51,US,35 to 44
+2016,60.2,US,35 to 44
+2014,37.8,US,35 to 44
+2012,61.2,US,35 to 44
+2010,54.4,US,35 to 44
+2020,71,US,45 to 64
+2018,59.5,US,45 to 64
+2016,66.6,US,45 to 64
+2014,49.6,US,45 to 64
+2012,67.9,US,45 to 64
+2010,62.1,US,45 to 64
+2020,74.5,US,65+
+2018,66.1,US,65+
+2016,70.9,US,65+
+2014,59.4,US,65+
+2012,72,US,65+
+2010,59.2,US,65+
+2020,60.5,Alabama,Total
+2018,50.7,Alabama,Total
+2016,57.4,Alabama,Total
+2014,42.5,Alabama,Total
+2012,61.9,Alabama,Total
+2010,44.1,Alabama,Total
+2020,45.4,Alabama,18 to 24
+2018,29.9,Alabama,18 to 24
+2016,42.7,Alabama,18 to 24
+2014,17.2,Alabama,18 to 24
+2012,36.2,Alabama,18 to 24
+2010,17,Alabama,18 to 24
+2020,53.7,Alabama,25 to 34
+2018,42.4,Alabama,25 to 34
+2016,54.5,Alabama,25 to 34
+2014,29.9,Alabama,25 to 34
+2012,50.6,Alabama,25 to 34
+2010,40.3,Alabama,25 to 34
+2020,60,Alabama,35 to 44
+2018,47.1,Alabama,35 to 44
+2016,55.8,Alabama,35 to 44
+2014,43.2,Alabama,35 to 44
+2012,56.8,Alabama,35 to 44
+2010,50.7,Alabama,35 to 44
+2020,66.2,Alabama,45 to 64
+2018,56,Alabama,45 to 64
+2016,59.4,Alabama,45 to 64
+2014,49.3,Alabama,45 to 64
+2012,73.7,Alabama,45 to 64
+2010,57.1,Alabama,45 to 64
+2020,64.8,Alabama,65+
+2018,63.1,Alabama,65+
+2016,66.9,Alabama,65+
+2014,55.1,Alabama,65+
+2012,69.5,Alabama,65+
+2010,51.7,Alabama,65+
+2020,63.8,Alaska,Total
+2018,52.8,Alaska,Total
+2016,61.3,Alaska,Total
+2014,50.7,Alaska,Total
+2012,58.4,Alaska,Total
+2010,50.7,Alaska,Total
+2020,*,Alaska,18 to 24
+2018,*,Alaska,18 to 24
+2016,*,Alaska,18 to 24
+2014,*,Alaska,18 to 24
+2012,32.5,Alaska,18 to 24
+2010,17.7,Alaska,18 to 24
+2020,43.6,Alaska,25 to 34
+2018,39.6,Alaska,25 to 34
+2016,52.7,Alaska,25 to 34
+2014,42.9,Alaska,25 to 34
+2012,45,Alaska,25 to 34
+2010,45.5,Alaska,25 to 34
+2020,62.6,Alaska,35 to 44
+2018,*,Alaska,35 to 44
+2016,*,Alaska,35 to 44
+2014,*,Alaska,35 to 44
+2012,62.9,Alaska,35 to 44
+2010,61.2,Alaska,35 to 44
+2020,75,Alaska,45 to 64
+2018,59.1,Alaska,45 to 64
+2016,70.2,Alaska,45 to 64
+2014,61.6,Alaska,45 to 64
+2012,67.1,Alaska,45 to 64
+2010,74,Alaska,45 to 64
+2020,73.6,Alaska,65+
+2018,65,Alaska,65+
+2016,*,Alaska,65+
+2014,*,Alaska,65+
+2012,73.2,Alaska,65+
+2010,65.3,Alaska,65+
+2020,71.9,Arizona,Total
+2018,58.9,Arizona,Total
+2016,60.4,Arizona,Total
+2014,40.6,Arizona,Total
+2012,55.9,Arizona,Total
+2010,48.8,Arizona,Total
+2020,52,Arizona,18 to 24
+2018,35,Arizona,18 to 24
+2016,40.2,Arizona,18 to 24
+2014,15.1,Arizona,18 to 24
+2012,43,Arizona,18 to 24
+2010,27,Arizona,18 to 24
+2020,68.2,Arizona,25 to 34
+2018,39.4,Arizona,25 to 34
+2016,51.7,Arizona,25 to 34
+2014,23.1,Arizona,25 to 34
+2012,40.8,Arizona,25 to 34
+2010,40.6,Arizona,25 to 34
+2020,67.3,Arizona,35 to 44
+2018,57,Arizona,35 to 44
+2016,52.6,Arizona,35 to 44
+2014,32.2,Arizona,35 to 44
+2012,53.6,Arizona,35 to 44
+2010,57.1,Arizona,35 to 44
+2020,76.4,Arizona,45 to 64
+2018,66.6,Arizona,45 to 64
+2016,68.7,Arizona,45 to 64
+2014,46.5,Arizona,45 to 64
+2012,60,Arizona,45 to 64
+2010,64.4,Arizona,45 to 64
+2020,81.8,Arizona,65+
+2018,75.6,Arizona,65+
+2016,72.2,Arizona,65+
+2014,66.3,Arizona,65+
+2012,71.7,Arizona,65+
+2010,62.3,Arizona,65+
+2020,54,Arkansas,Total
+2018,42.6,Arkansas,Total
+2016,58.7,Arkansas,Total
+2014,38.8,Arkansas,Total
+2012,53.3,Arkansas,Total
+2010,40.7,Arkansas,Total
+2020,32.3,Arkansas,18 to 24
+2018,23.9,Arkansas,18 to 24
+2016,34.5,Arkansas,18 to 24
+2014,15.5,Arkansas,18 to 24
+2012,24.8,Arkansas,18 to 24
+2010,15.2,Arkansas,18 to 24
+2020,45.1,Arkansas,25 to 34
+2018,30.8,Arkansas,25 to 34
+2016,47.1,Arkansas,25 to 34
+2014,21.9,Arkansas,25 to 34
+2012,41.6,Arkansas,25 to 34
+2010,29.5,Arkansas,25 to 34
+2020,56.3,Arkansas,35 to 44
+2018,36.1,Arkansas,35 to 44
+2016,58.3,Arkansas,35 to 44
+2014,40.8,Arkansas,35 to 44
+2012,60.3,Arkansas,35 to 44
+2010,53,Arkansas,35 to 44
+2020,59,Arkansas,45 to 64
+2018,47.1,Arkansas,45 to 64
+2016,64.8,Arkansas,45 to 64
+2014,44.5,Arkansas,45 to 64
+2012,62.8,Arkansas,45 to 64
+2010,60.4,Arkansas,45 to 64
+2020,63.2,Arkansas,65+
+2018,58.4,Arkansas,65+
+2016,67.3,Arkansas,65+
+2014,54.4,Arkansas,65+
+2012,59.6,Arkansas,65+
+2010,46.8,Arkansas,65+
+2020,65.1,California,Total
+2018,51.9,California,Total
+2016,57.9,California,Total
+2014,36.6,California,Total
+2012,57.5,California,Total
+2010,47.1,California,Total
+2020,53.6,California,18 to 24
+2018,35.3,California,18 to 24
+2016,42.7,California,18 to 24
+2014,15.9,California,18 to 24
+2012,41.6,California,18 to 24
+2010,25.1,California,18 to 24
+2020,60,California,25 to 34
+2018,43.2,California,25 to 34
+2016,51.9,California,25 to 34
+2014,21.6,California,25 to 34
+2012,49.8,California,25 to 34
+2010,39.4,California,25 to 34
+2020,63.6,California,35 to 44
+2018,49.2,California,35 to 44
+2016,54.6,California,35 to 44
+2014,30.5,California,35 to 44
+2012,57.6,California,35 to 44
+2010,55.6,California,35 to 44
+2020,69.4,California,45 to 64
+2018,56.9,California,45 to 64
+2016,62.1,California,45 to 64
+2014,45.5,California,45 to 64
+2012,62.9,California,45 to 64
+2010,61.8,California,45 to 64
+2020,71.4,California,65+
+2018,63.8,California,65+
+2016,69.2,California,65+
+2014,56.9,California,65+
+2012,67.7,California,65+
+2010,66.6,California,65+
+2020,67.6,Colorado,Total
+2018,58.1,Colorado,Total
+2016,69.5,Colorado,Total
+2014,59.3,Colorado,Total
+2012,70.4,Colorado,Total
+2010,52.6,Colorado,Total
+2020,53.3,Colorado,18 to 24
+2018,41.1,Colorado,18 to 24
+2016,49,Colorado,18 to 24
+2014,18.4,Colorado,18 to 24
+2012,56.1,Colorado,18 to 24
+2010,23.8,Colorado,18 to 24
+2020,64.6,Colorado,25 to 34
+2018,48.8,Colorado,25 to 34
+2016,62.9,Colorado,25 to 34
+2014,46.3,Colorado,25 to 34
+2012,60.3,Colorado,25 to 34
+2010,44.8,Colorado,25 to 34
+2020,66.7,Colorado,35 to 44
+2018,56.6,Colorado,35 to 44
+2016,75.3,Colorado,35 to 44
+2014,58.6,Colorado,35 to 44
+2012,73.4,Colorado,35 to 44
+2010,60.9,Colorado,35 to 44
+2020,70.8,Colorado,45 to 64
+2018,60.8,Colorado,45 to 64
+2016,69.7,Colorado,45 to 64
+2014,68.4,Colorado,45 to 64
+2012,76.9,Colorado,45 to 64
+2010,71.1,Colorado,45 to 64
+2020,74.7,Colorado,65+
+2018,72.7,Colorado,65+
+2016,81.1,Colorado,65+
+2014,78.5,Colorado,65+
+2012,74.8,Colorado,65+
+2010,77.3,Colorado,65+
+2020,66.6,Connecticut,Total
+2018,54,Connecticut,Total
+2016,63.9,Connecticut,Total
+2014,46.7,Connecticut,Total
+2012,62.7,Connecticut,Total
+2010,49.3,Connecticut,Total
+2020,51.9,Connecticut,18 to 24
+2018,35.1,Connecticut,18 to 24
+2016,43.3,Connecticut,18 to 24
+2014,20.1,Connecticut,18 to 24
+2012,39.8,Connecticut,18 to 24
+2010,21.8,Connecticut,18 to 24
+2020,60.5,Connecticut,25 to 34
+2018,36.7,Connecticut,25 to 34
+2016,57.5,Connecticut,25 to 34
+2014,30.5,Connecticut,25 to 34
+2012,53.5,Connecticut,25 to 34
+2010,39.1,Connecticut,25 to 34
+2020,62.2,Connecticut,35 to 44
+2018,54.9,Connecticut,35 to 44
+2016,60.1,Connecticut,35 to 44
+2014,38.3,Connecticut,35 to 44
+2012,58.3,Connecticut,35 to 44
+2010,61.6,Connecticut,35 to 44
+2020,70,Connecticut,45 to 64
+2018,58.8,Connecticut,45 to 64
+2016,67.4,Connecticut,45 to 64
+2014,56.1,Connecticut,45 to 64
+2012,70,Connecticut,45 to 64
+2010,63.7,Connecticut,45 to 64
+2020,74.7,Connecticut,65+
+2018,67.5,Connecticut,65+
+2016,73.6,Connecticut,65+
+2014,61.7,Connecticut,65+
+2012,72.2,Connecticut,65+
+2010,54.9,Connecticut,65+
+2020,67.7,Delaware,Total
+2018,51.8,Delaware,Total
+2016,62.3,Delaware,Total
+2014,45.2,Delaware,Total
+2012,67.3,Delaware,Total
+2010,51,Delaware,Total
+2020,53.6,Delaware,18 to 24
+2018,*,Delaware,18 to 24
+2016,*,Delaware,18 to 24
+2014,*,Delaware,18 to 24
+2012,43.4,Delaware,18 to 24
+2010,25.4,Delaware,18 to 24
+2020,56.2,Delaware,25 to 34
+2018,37.5,Delaware,25 to 34
+2016,*,Delaware,25 to 34
+2014,30.3,Delaware,25 to 34
+2012,57.4,Delaware,25 to 34
+2010,43.7,Delaware,25 to 34
+2020,69.7,Delaware,35 to 44
+2018,47.4,Delaware,35 to 44
+2016,61.1,Delaware,35 to 44
+2014,36.6,Delaware,35 to 44
+2012,66.4,Delaware,35 to 44
+2010,60.2,Delaware,35 to 44
+2020,68.6,Delaware,45 to 64
+2018,59.1,Delaware,45 to 64
+2016,66.8,Delaware,45 to 64
+2014,52.1,Delaware,45 to 64
+2012,72.3,Delaware,45 to 64
+2010,63.1,Delaware,45 to 64
+2020,77.8,Delaware,65+
+2018,61.9,Delaware,65+
+2016,70.5,Delaware,65+
+2014,63.7,Delaware,65+
+2012,78.1,Delaware,65+
+2010,57.4,Delaware,65+
+2020,84,District Of Columbia,Total
+2018,61.1,District Of Columbia,Total
+2016,74.3,District Of Columbia,Total
+2014,51.4,District Of Columbia,Total
+2012,75.9,District Of Columbia,Total
+2010,45.3,District Of Columbia,Total
+2020,*,District Of Columbia,18 to 24
+2018,*,District Of Columbia,18 to 24
+2016,*,District Of Columbia,18 to 24
+2014,*,District Of Columbia,18 to 24
+2012,61.4,District Of Columbia,18 to 24
+2010,30.1,District Of Columbia,18 to 24
+2020,85.9,District Of Columbia,25 to 34
+2018,59.5,District Of Columbia,25 to 34
+2016,73.3,District Of Columbia,25 to 34
+2014,43.4,District Of Columbia,25 to 34
+2012,76.2,District Of Columbia,25 to 34
+2010,41.6,District Of Columbia,25 to 34
+2020,82.6,District Of Columbia,35 to 44
+2018,67.7,District Of Columbia,35 to 44
+2016,*,District Of Columbia,35 to 44
+2014,*,District Of Columbia,35 to 44
+2012,81.9,District Of Columbia,35 to 44
+2010,49.2,District Of Columbia,35 to 44
+2020,85.4,District Of Columbia,45 to 64
+2018,57.5,District Of Columbia,45 to 64
+2016,75.7,District Of Columbia,45 to 64
+2014,62,District Of Columbia,45 to 64
+2012,77,District Of Columbia,45 to 64
+2010,64.1,District Of Columbia,45 to 64
+2020,81.1,District Of Columbia,65+
+2018,66.7,District Of Columbia,65+
+2016,*,District Of Columbia,65+
+2014,66.6,District Of Columbia,65+
+2012,80.2,District Of Columbia,65+
+2010,53.5,District Of Columbia,65+
+2020,62.1,Florida,Total
+2018,52.6,Florida,Total
+2016,59.5,Florida,Total
+2014,44.8,Florida,Total
+2012,60.8,Florida,Total
+2010,43.9,Florida,Total
+2020,46.6,Florida,18 to 24
+2018,29.7,Florida,18 to 24
+2016,37.3,Florida,18 to 24
+2014,17.6,Florida,18 to 24
+2012,41.9,Florida,18 to 24
+2010,23,Florida,18 to 24
+2020,54.3,Florida,25 to 34
+2018,40,Florida,25 to 34
+2016,51.6,Florida,25 to 34
+2014,30,Florida,25 to 34
+2012,51.9,Florida,25 to 34
+2010,34.3,Florida,25 to 34
+2020,58.6,Florida,35 to 44
+2018,44,Florida,35 to 44
+2016,57.6,Florida,35 to 44
+2014,35.8,Florida,35 to 44
+2012,60.1,Florida,35 to 44
+2010,48.7,Florida,35 to 44
+2020,63.3,Florida,45 to 64
+2018,57.9,Florida,45 to 64
+2016,62.3,Florida,45 to 64
+2014,51.6,Florida,45 to 64
+2012,64.5,Florida,45 to 64
+2010,58,Florida,45 to 64
+2020,72.1,Florida,65+
+2018,65.9,Florida,65+
+2016,69.8,Florida,65+
+2014,60,Florida,65+
+2012,69.8,Florida,65+
+2010,59.9,Florida,65+
+2020,66.1,Georgia,Total
+2018,55.9,Georgia,Total
+2016,60.2,Georgia,Total
+2014,43.2,Georgia,Total
+2012,61.9,Georgia,Total
+2010,43.6,Georgia,Total
+2020,52.9,Georgia,18 to 24
+2018,36.7,Georgia,18 to 24
+2016,43.5,Georgia,18 to 24
+2014,22.4,Georgia,18 to 24
+2012,40.2,Georgia,18 to 24
+2010,20.8,Georgia,18 to 24
+2020,58.6,Georgia,25 to 34
+2018,46.8,Georgia,25 to 34
+2016,54.4,Georgia,25 to 34
+2014,32.2,Georgia,25 to 34
+2012,61,Georgia,25 to 34
+2010,40.5,Georgia,25 to 34
+2020,63.7,Georgia,35 to 44
+2018,56.7,Georgia,35 to 44
+2016,55.5,Georgia,35 to 44
+2014,44,Georgia,35 to 44
+2012,59.1,Georgia,35 to 44
+2010,50.9,Georgia,35 to 44
+2020,72.6,Georgia,45 to 64
+2018,62.1,Georgia,45 to 64
+2016,64.9,Georgia,45 to 64
+2014,47,Georgia,45 to 64
+2012,68.4,Georgia,45 to 64
+2010,53.8,Georgia,45 to 64
+2020,71.4,Georgia,65+
+2018,65.2,Georgia,65+
+2016,72.4,Georgia,65+
+2014,60.7,Georgia,65+
+2012,68.7,Georgia,65+
+2010,44.7,Georgia,65+
+2020,64.3,Hawaii,Total
+2018,44,Hawaii,Total
+2016,47.3,Hawaii,Total
+2014,41.8,Hawaii,Total
+2012,51.6,Hawaii,Total
+2010,43.1,Hawaii,Total
+2020,44.4,Hawaii,18 to 24
+2018,23.9,Hawaii,18 to 24
+2016,21.7,Hawaii,18 to 24
+2014,8.7,Hawaii,18 to 24
+2012,26,Hawaii,18 to 24
+2010,21.9,Hawaii,18 to 24
+2020,51.7,Hawaii,25 to 34
+2018,37.5,Hawaii,25 to 34
+2016,34.3,Hawaii,25 to 34
+2014,29.4,Hawaii,25 to 34
+2012,35.5,Hawaii,25 to 34
+2010,32,Hawaii,25 to 34
+2020,65.6,Hawaii,35 to 44
+2018,32.3,Hawaii,35 to 44
+2016,46.6,Hawaii,35 to 44
+2014,35.8,Hawaii,35 to 44
+2012,45.2,Hawaii,35 to 44
+2010,51.9,Hawaii,35 to 44
+2020,73.9,Hawaii,45 to 64
+2018,50,Hawaii,45 to 64
+2016,54.6,Hawaii,45 to 64
+2014,51.7,Hawaii,45 to 64
+2012,61.8,Hawaii,45 to 64
+2010,63.8,Hawaii,45 to 64
+2020,66.6,Hawaii,65+
+2018,56.5,Hawaii,65+
+2016,60.3,Hawaii,65+
+2014,57.7,Hawaii,65+
+2012,63.7,Hawaii,65+
+2010,56.5,Hawaii,65+
+2020,64.9,Idaho,Total
+2018,47.9,Idaho,Total
+2016,62.1,Idaho,Total
+2014,41.8,Idaho,Total
+2012,63.9,Idaho,Total
+2010,47.5,Idaho,Total
+2020,53.9,Idaho,18 to 24
+2018,21.4,Idaho,18 to 24
+2016,44.3,Idaho,18 to 24
+2014,12.5,Idaho,18 to 24
+2012,31.9,Idaho,18 to 24
+2010,21.2,Idaho,18 to 24
+2020,59.7,Idaho,25 to 34
+2018,35.3,Idaho,25 to 34
+2016,51.4,Idaho,25 to 34
+2014,31.2,Idaho,25 to 34
+2012,57.3,Idaho,25 to 34
+2010,35.5,Idaho,25 to 34
+2020,66.2,Idaho,35 to 44
+2018,48.3,Idaho,35 to 44
+2016,55.7,Idaho,35 to 44
+2014,30,Idaho,35 to 44
+2012,70.6,Idaho,35 to 44
+2010,57.3,Idaho,35 to 44
+2020,65.8,Idaho,45 to 64
+2018,54.1,Idaho,45 to 64
+2016,69.1,Idaho,45 to 64
+2014,52.2,Idaho,45 to 64
+2012,65.4,Idaho,45 to 64
+2010,68.9,Idaho,45 to 64
+2020,73.4,Idaho,65+
+2018,63.1,Idaho,65+
+2016,74.7,Idaho,65+
+2014,64.9,Idaho,65+
+2012,79.5,Idaho,65+
+2010,68.8,Idaho,65+
+2020,68.4,Illinois,Total
+2018,53,Illinois,Total
+2016,63.8,Illinois,Total
+2014,41.7,Illinois,Total
+2012,61.5,Illinois,Total
+2010,45.5,Illinois,Total
+2020,55,Illinois,18 to 24
+2018,30.9,Illinois,18 to 24
+2016,46.8,Illinois,18 to 24
+2014,15,Illinois,18 to 24
+2012,35.3,Illinois,18 to 24
+2010,20.6,Illinois,18 to 24
+2020,58.5,Illinois,25 to 34
+2018,42.9,Illinois,25 to 34
+2016,54.5,Illinois,25 to 34
+2014,27.8,Illinois,25 to 34
+2012,57.2,Illinois,25 to 34
+2010,37.3,Illinois,25 to 34
+2020,69.5,Illinois,35 to 44
+2018,48.4,Illinois,35 to 44
+2016,60.9,Illinois,35 to 44
+2014,33.7,Illinois,35 to 44
+2012,58.9,Illinois,35 to 44
+2010,55.7,Illinois,35 to 44
+2020,73.3,Illinois,45 to 64
+2018,60.9,Illinois,45 to 64
+2016,71,Illinois,45 to 64
+2014,53.8,Illinois,45 to 64
+2012,69.3,Illinois,45 to 64
+2010,60.7,Illinois,45 to 64
+2020,75.2,Illinois,65+
+2018,64.7,Illinois,65+
+2016,73.2,Illinois,65+
+2014,57.5,Illinois,65+
+2012,70.7,Illinois,65+
+2010,59.1,Illinois,65+
+2020,61,Indiana,Total
+2018,49.3,Indiana,Total
+2016,58.3,Indiana,Total
+2014,35.1,Indiana,Total
+2012,59.3,Indiana,Total
+2010,39.4,Indiana,Total
+2020,38.8,Indiana,18 to 24
+2018,31.1,Indiana,18 to 24
+2016,43,Indiana,18 to 24
+2014,18,Indiana,18 to 24
+2012,36.4,Indiana,18 to 24
+2010,9.9,Indiana,18 to 24
+2020,52.8,Indiana,25 to 34
+2018,36.3,Indiana,25 to 34
+2016,50.2,Indiana,25 to 34
+2014,20.2,Indiana,25 to 34
+2012,44.5,Indiana,25 to 34
+2010,31.8,Indiana,25 to 34
+2020,58,Indiana,35 to 44
+2018,47.3,Indiana,35 to 44
+2016,59.7,Indiana,35 to 44
+2014,27.8,Indiana,35 to 44
+2012,52.4,Indiana,35 to 44
+2010,50,Indiana,35 to 44
+2020,64.9,Indiana,45 to 64
+2018,56.8,Indiana,45 to 64
+2016,62,Indiana,45 to 64
+2014,40.6,Indiana,45 to 64
+2012,70,Indiana,45 to 64
+2010,58.9,Indiana,45 to 64
+2020,75.1,Indiana,65+
+2018,59.2,Indiana,65+
+2016,67.7,Indiana,65+
+2014,54.1,Indiana,65+
+2012,73.3,Indiana,65+
+2010,49.7,Indiana,65+
+2020,70.5,Iowa,Total
+2018,59.6,Iowa,Total
+2016,63.4,Iowa,Total
+2014,52.9,Iowa,Total
+2012,69.4,Iowa,Total
+2010,52.3,Iowa,Total
+2020,63.3,Iowa,18 to 24
+2018,34.2,Iowa,18 to 24
+2016,37.6,Iowa,18 to 24
+2014,20.2,Iowa,18 to 24
+2012,49.9,Iowa,18 to 24
+2010,25.2,Iowa,18 to 24
+2020,62.7,Iowa,25 to 34
+2018,47.9,Iowa,25 to 34
+2016,59.5,Iowa,25 to 34
+2014,33.9,Iowa,25 to 34
+2012,62.8,Iowa,25 to 34
+2010,44.8,Iowa,25 to 34
+2020,69.8,Iowa,35 to 44
+2018,56.8,Iowa,35 to 44
+2016,60.2,Iowa,35 to 44
+2014,54.5,Iowa,35 to 44
+2012,66.5,Iowa,35 to 44
+2010,61.4,Iowa,35 to 44
+2020,72.3,Iowa,45 to 64
+2018,63.1,Iowa,45 to 64
+2016,66.2,Iowa,45 to 64
+2014,60.2,Iowa,45 to 64
+2012,72.2,Iowa,45 to 64
+2010,69.6,Iowa,45 to 64
+2020,76.8,Iowa,65+
+2018,77.4,Iowa,65+
+2016,78,Iowa,65+
+2014,73.3,Iowa,65+
+2012,82.8,Iowa,65+
+2010,62.1,Iowa,65+
+2020,65.7,Kansas,Total
+2018,56.9,Kansas,Total
+2016,61.3,Kansas,Total
+2014,48.3,Kansas,Total
+2012,63.3,Kansas,Total
+2010,47.2,Kansas,Total
+2020,53.4,Kansas,18 to 24
+2018,37.7,Kansas,18 to 24
+2016,35.8,Kansas,18 to 24
+2014,14.3,Kansas,18 to 24
+2012,33.7,Kansas,18 to 24
+2010,11.7,Kansas,18 to 24
+2020,57.8,Kansas,25 to 34
+2018,41.8,Kansas,25 to 34
+2016,50.8,Kansas,25 to 34
+2014,29.2,Kansas,25 to 34
+2012,47.9,Kansas,25 to 34
+2010,37.4,Kansas,25 to 34
+2020,67,Kansas,35 to 44
+2018,53.7,Kansas,35 to 44
+2016,66.7,Kansas,35 to 44
+2014,44.6,Kansas,35 to 44
+2012,63,Kansas,35 to 44
+2010,59.7,Kansas,35 to 44
+2020,64.6,Kansas,45 to 64
+2018,63.9,Kansas,45 to 64
+2016,65.2,Kansas,45 to 64
+2014,61.4,Kansas,45 to 64
+2012,74.2,Kansas,45 to 64
+2010,72,Kansas,45 to 64
+2020,77.5,Kansas,65+
+2018,70.2,Kansas,65+
+2016,75.2,Kansas,65+
+2014,66,Kansas,65+
+2012,78.3,Kansas,65+
+2010,61.6,Kansas,65+
+2020,68.5,Kentucky,Total
+2018,53.8,Kentucky,Total
+2016,57,Kentucky,Total
+2014,47.5,Kentucky,Total
+2012,59.3,Kentucky,Total
+2010,46.8,Kentucky,Total
+2020,59.3,Kentucky,18 to 24
+2018,24.2,Kentucky,18 to 24
+2016,53.9,Kentucky,18 to 24
+2014,24.9,Kentucky,18 to 24
+2012,37.9,Kentucky,18 to 24
+2010,19.7,Kentucky,18 to 24
+2020,54.3,Kentucky,25 to 34
+2018,46.5,Kentucky,25 to 34
+2016,55.1,Kentucky,25 to 34
+2014,38.9,Kentucky,25 to 34
+2012,51,Kentucky,25 to 34
+2010,38.4,Kentucky,25 to 34
+2020,72.5,Kentucky,35 to 44
+2018,50.1,Kentucky,35 to 44
+2016,56.7,Kentucky,35 to 44
+2014,48.1,Kentucky,35 to 44
+2012,61.7,Kentucky,35 to 44
+2010,53.1,Kentucky,35 to 44
+2020,70.8,Kentucky,45 to 64
+2018,63.1,Kentucky,45 to 64
+2016,57.2,Kentucky,45 to 64
+2014,52.8,Kentucky,45 to 64
+2012,65.7,Kentucky,45 to 64
+2010,67.3,Kentucky,45 to 64
+2020,74.4,Kentucky,65+
+2018,63.5,Kentucky,65+
+2016,60.2,Kentucky,65+
+2014,59.2,Kentucky,65+
+2012,67.1,Kentucky,65+
+2010,69.7,Kentucky,65+
+2020,61.9,Louisiana,Total
+2018,49.8,Louisiana,Total
+2016,61.6,Louisiana,Total
+2014,50.2,Louisiana,Total
+2012,66.3,Louisiana,Total
+2010,50,Louisiana,Total
+2020,46.9,Louisiana,18 to 24
+2018,25.2,Louisiana,18 to 24
+2016,49.8,Louisiana,18 to 24
+2014,27.2,Louisiana,18 to 24
+2012,42,Louisiana,18 to 24
+2010,24.2,Louisiana,18 to 24
+2020,51.5,Louisiana,25 to 34
+2018,39.5,Louisiana,25 to 34
+2016,52.8,Louisiana,25 to 34
+2014,38.1,Louisiana,25 to 34
+2012,66.9,Louisiana,25 to 34
+2010,41.9,Louisiana,25 to 34
+2020,63.2,Louisiana,35 to 44
+2018,44.8,Louisiana,35 to 44
+2016,60.4,Louisiana,35 to 44
+2014,39.6,Louisiana,35 to 44
+2012,64.6,Louisiana,35 to 44
+2010,61.3,Louisiana,35 to 44
+2020,65.9,Louisiana,45 to 64
+2018,56.9,Louisiana,45 to 64
+2016,66.9,Louisiana,45 to 64
+2014,60.5,Louisiana,45 to 64
+2012,71.4,Louisiana,45 to 64
+2010,65.1,Louisiana,45 to 64
+2020,70.4,Louisiana,65+
+2018,64.3,Louisiana,65+
+2016,70.2,Louisiana,65+
+2014,68.5,Louisiana,65+
+2012,74.7,Louisiana,65+
+2010,63.8,Louisiana,65+
+2020,71.3,Maine,Total
+2018,65.6,Maine,Total
+2016,72.7,Maine,Total
+2014,61.5,Maine,Total
+2012,68.6,Maine,Total
+2010,59.4,Maine,Total
+2020,63.1,Maine,18 to 24
+2018,29.2,Maine,18 to 24
+2016,49.4,Maine,18 to 24
+2014,31,Maine,18 to 24
+2012,42.8,Maine,18 to 24
+2010,31.4,Maine,18 to 24
+2020,65,Maine,25 to 34
+2018,51.3,Maine,25 to 34
+2016,61.8,Maine,25 to 34
+2014,44,Maine,25 to 34
+2012,59.5,Maine,25 to 34
+2010,45.5,Maine,25 to 34
+2020,70.8,Maine,35 to 44
+2018,62.9,Maine,35 to 44
+2016,69.6,Maine,35 to 44
+2014,60.1,Maine,35 to 44
+2012,67.8,Maine,35 to 44
+2010,69.3,Maine,35 to 44
+2020,72.7,Maine,45 to 64
+2018,72.1,Maine,45 to 64
+2016,78.2,Maine,45 to 64
+2014,68.7,Maine,45 to 64
+2012,73.7,Maine,45 to 64
+2010,76.8,Maine,45 to 64
+2020,75.7,Maine,65+
+2018,78.9,Maine,65+
+2016,82,Maine,65+
+2014,74.7,Maine,65+
+2012,79.2,Maine,65+
+2010,74.1,Maine,65+
+2020,73.6,Maryland,Total
+2018,54.2,Maryland,Total
+2016,65.8,Maryland,Total
+2014,48.9,Maryland,Total
+2012,65.1,Maryland,Total
+2010,46.8,Maryland,Total
+2020,70.7,Maryland,18 to 24
+2018,37.7,Maryland,18 to 24
+2016,54.3,Maryland,18 to 24
+2014,24.5,Maryland,18 to 24
+2012,44.1,Maryland,18 to 24
+2010,22.3,Maryland,18 to 24
+2020,67.3,Maryland,25 to 34
+2018,43.8,Maryland,25 to 34
+2016,59.7,Maryland,25 to 34
+2014,32.3,Maryland,25 to 34
+2012,63.3,Maryland,25 to 34
+2010,37.6,Maryland,25 to 34
+2020,76,Maryland,35 to 44
+2018,55.2,Maryland,35 to 44
+2016,63.6,Maryland,35 to 44
+2014,50,Maryland,35 to 44
+2012,67.1,Maryland,35 to 44
+2010,57.1,Maryland,35 to 44
+2020,74.6,Maryland,45 to 64
+2018,60.7,Maryland,45 to 64
+2016,71.4,Maryland,45 to 64
+2014,57.6,Maryland,45 to 64
+2012,70.7,Maryland,45 to 64
+2010,64.2,Maryland,45 to 64
+2020,76.4,Maryland,65+
+2018,61.4,Maryland,65+
+2016,68.1,Maryland,65+
+2014,62.3,Maryland,65+
+2012,69.8,Maryland,65+
+2010,49.8,Maryland,65+
+2020,66.3,Massachusetts,Total
+2018,55.5,Massachusetts,Total
+2016,66.7,Massachusetts,Total
+2014,46.9,Massachusetts,Total
+2012,70.8,Massachusetts,Total
+2010,52.2,Massachusetts,Total
+2020,55.2,Massachusetts,18 to 24
+2018,33.9,Massachusetts,18 to 24
+2016,42.8,Massachusetts,18 to 24
+2014,20.3,Massachusetts,18 to 24
+2012,49.9,Massachusetts,18 to 24
+2010,22.4,Massachusetts,18 to 24
+2020,60.3,Massachusetts,25 to 34
+2018,46.1,Massachusetts,25 to 34
+2016,60.4,Massachusetts,25 to 34
+2014,27.5,Massachusetts,25 to 34
+2012,63.8,Massachusetts,25 to 34
+2010,43.2,Massachusetts,25 to 34
+2020,62.2,Massachusetts,35 to 44
+2018,48.6,Massachusetts,35 to 44
+2016,68.3,Massachusetts,35 to 44
+2014,41.5,Massachusetts,35 to 44
+2012,67.6,Massachusetts,35 to 44
+2010,64.4,Massachusetts,35 to 44
+2020,68.3,Massachusetts,45 to 64
+2018,64.9,Massachusetts,45 to 64
+2016,72.5,Massachusetts,45 to 64
+2014,57.4,Massachusetts,45 to 64
+2012,79.2,Massachusetts,45 to 64
+2010,68,Massachusetts,45 to 64
+2020,75.8,Massachusetts,65+
+2018,64.1,Massachusetts,65+
+2016,74.3,Massachusetts,65+
+2014,63.3,Massachusetts,65+
+2012,77.8,Massachusetts,65+
+2010,60.4,Massachusetts,65+
+2020,66.9,Michigan,Total
+2018,59.5,Michigan,Total
+2016,64.3,Michigan,Total
+2014,47.1,Michigan,Total
+2012,66.8,Michigan,Total
+2010,47.3,Michigan,Total
+2020,52.9,Michigan,18 to 24
+2018,33.9,Michigan,18 to 24
+2016,37.8,Michigan,18 to 24
+2014,18.6,Michigan,18 to 24
+2012,44,Michigan,18 to 24
+2010,21.8,Michigan,18 to 24
+2020,61.8,Michigan,25 to 34
+2018,47.2,Michigan,25 to 34
+2016,54.1,Michigan,25 to 34
+2014,32.7,Michigan,25 to 34
+2012,56.9,Michigan,25 to 34
+2010,39.4,Michigan,25 to 34
+2020,62.6,Michigan,35 to 44
+2018,58.1,Michigan,35 to 44
+2016,64.2,Michigan,35 to 44
+2014,45.8,Michigan,35 to 44
+2012,67.6,Michigan,35 to 44
+2010,55.1,Michigan,35 to 44
+2020,70.6,Michigan,45 to 64
+2018,64.8,Michigan,45 to 64
+2016,71.6,Michigan,45 to 64
+2014,51.4,Michigan,45 to 64
+2012,73,Michigan,45 to 64
+2010,65.7,Michigan,45 to 64
+2020,75,Michigan,65+
+2018,74.1,Michigan,65+
+2016,74.4,Michigan,65+
+2014,67.3,Michigan,65+
+2012,76.7,Michigan,65+
+2010,62.3,Michigan,65+
+2020,77.9,Minnesota,Total
+2018,63,Minnesota,Total
+2016,68.7,Minnesota,Total
+2014,52,Minnesota,Total
+2012,73.2,Minnesota,Total
+2010,54.9,Minnesota,Total
+2020,69.2,Minnesota,18 to 24
+2018,42.7,Minnesota,18 to 24
+2016,54.7,Minnesota,18 to 24
+2014,21.6,Minnesota,18 to 24
+2012,59.4,Minnesota,18 to 24
+2010,27.9,Minnesota,18 to 24
+2020,70,Minnesota,25 to 34
+2018,47.4,Minnesota,25 to 34
+2016,64.5,Minnesota,25 to 34
+2014,38.1,Minnesota,25 to 34
+2012,64.4,Minnesota,25 to 34
+2010,48.2,Minnesota,25 to 34
+2020,74.9,Minnesota,35 to 44
+2018,64.2,Minnesota,35 to 44
+2016,70.1,Minnesota,35 to 44
+2014,48.9,Minnesota,35 to 44
+2012,72.6,Minnesota,35 to 44
+2010,63.1,Minnesota,35 to 44
+2020,82.2,Minnesota,45 to 64
+2018,67.1,Minnesota,45 to 64
+2016,72.6,Minnesota,45 to 64
+2014,59.7,Minnesota,45 to 64
+2012,77.9,Minnesota,45 to 64
+2010,74,Minnesota,45 to 64
+2020,84.3,Minnesota,65+
+2018,78.7,Minnesota,65+
+2016,72.6,Minnesota,65+
+2014,72.5,Minnesota,65+
+2012,81.6,Minnesota,65+
+2010,65,Minnesota,65+
+2020,70.3,Mississippi,Total
+2018,54.2,Mississippi,Total
+2016,67.7,Mississippi,Total
+2014,42.3,Mississippi,Total
+2012,74.5,Mississippi,Total
+2010,47.1,Mississippi,Total
+2020,42.3,Mississippi,18 to 24
+2018,26.7,Mississippi,18 to 24
+2016,46.7,Mississippi,18 to 24
+2014,26.5,Mississippi,18 to 24
+2012,63.8,Mississippi,18 to 24
+2010,28.1,Mississippi,18 to 24
+2020,68.3,Mississippi,25 to 34
+2018,37.6,Mississippi,25 to 34
+2016,58.9,Mississippi,25 to 34
+2014,24.5,Mississippi,25 to 34
+2012,71.3,Mississippi,25 to 34
+2010,39.1,Mississippi,25 to 34
+2020,70.4,Mississippi,35 to 44
+2018,53.1,Mississippi,35 to 44
+2016,68.4,Mississippi,35 to 44
+2014,36.8,Mississippi,35 to 44
+2012,71.8,Mississippi,35 to 44
+2010,54.9,Mississippi,35 to 44
+2020,77.7,Mississippi,45 to 64
+2018,65.4,Mississippi,45 to 64
+2016,73.5,Mississippi,45 to 64
+2014,51.2,Mississippi,45 to 64
+2012,77.4,Mississippi,45 to 64
+2010,61.7,Mississippi,45 to 64
+2020,75.2,Mississippi,65+
+2018,65.8,Mississippi,65+
+2016,77.7,Mississippi,65+
+2014,57.9,Mississippi,65+
+2012,82.2,Mississippi,65+
+2010,61,Mississippi,65+
+2020,66.8,Missouri,Total
+2018,55,Missouri,Total
+2016,64.8,Missouri,Total
+2014,38.7,Missouri,Total
+2012,63.9,Missouri,Total
+2010,45.7,Missouri,Total
+2020,55.5,Missouri,18 to 24
+2018,41.4,Missouri,18 to 24
+2016,48,Missouri,18 to 24
+2014,14.6,Missouri,18 to 24
+2012,42.9,Missouri,18 to 24
+2010,20.2,Missouri,18 to 24
+2020,60,Missouri,25 to 34
+2018,48.1,Missouri,25 to 34
+2016,55.1,Missouri,25 to 34
+2014,27.6,Missouri,25 to 34
+2012,55.4,Missouri,25 to 34
+2010,35.7,Missouri,25 to 34
+2020,53.9,Missouri,35 to 44
+2018,50.9,Missouri,35 to 44
+2016,60.4,Missouri,35 to 44
+2014,39.2,Missouri,35 to 44
+2012,65.6,Missouri,35 to 44
+2010,57.7,Missouri,35 to 44
+2020,72.9,Missouri,45 to 64
+2018,57.4,Missouri,45 to 64
+2016,70.1,Missouri,45 to 64
+2014,43.3,Missouri,45 to 64
+2012,69.8,Missouri,45 to 64
+2010,59.2,Missouri,45 to 64
+2020,77.4,Missouri,65+
+2018,65.6,Missouri,65+
+2016,75.8,Missouri,65+
+2014,50.7,Missouri,65+
+2012,73.1,Missouri,65+
+2010,54.7,Missouri,65+
+2020,73.5,Montana,Total
+2018,63.8,Montana,Total
+2016,65.9,Montana,Total
+2014,50.1,Montana,Total
+2012,65.7,Montana,Total
+2010,51.9,Montana,Total
+2020,57.6,Montana,18 to 24
+2018,38.9,Montana,18 to 24
+2016,*,Montana,18 to 24
+2014,21.1,Montana,18 to 24
+2012,41.9,Montana,18 to 24
+2010,20.9,Montana,18 to 24
+2020,66.1,Montana,25 to 34
+2018,49.2,Montana,25 to 34
+2016,50.7,Montana,25 to 34
+2014,31.6,Montana,25 to 34
+2012,47.7,Montana,25 to 34
+2010,41.6,Montana,25 to 34
+2020,75.9,Montana,35 to 44
+2018,61.3,Montana,35 to 44
+2016,67.8,Montana,35 to 44
+2014,52.8,Montana,35 to 44
+2012,59.2,Montana,35 to 44
+2010,58,Montana,35 to 44
+2020,76.9,Montana,45 to 64
+2018,70.3,Montana,45 to 64
+2016,73,Montana,45 to 64
+2014,57.2,Montana,45 to 64
+2012,75.6,Montana,45 to 64
+2010,78,Montana,45 to 64
+2020,80,Montana,65+
+2018,77.1,Montana,65+
+2016,78.1,Montana,65+
+2014,68.2,Montana,65+
+2012,79.4,Montana,65+
+2010,73,Montana,65+
+2020,65.2,Nebraska,Total
+2018,50.8,Nebraska,Total
+2016,66.8,Nebraska,Total
+2014,44.3,Nebraska,Total
+2012,61.6,Nebraska,Total
+2010,41.3,Nebraska,Total
+2020,42.3,Nebraska,18 to 24
+2018,32,Nebraska,18 to 24
+2016,52.9,Nebraska,18 to 24
+2014,15.5,Nebraska,18 to 24
+2012,40.3,Nebraska,18 to 24
+2010,10.7,Nebraska,18 to 24
+2020,59.8,Nebraska,25 to 34
+2018,41.7,Nebraska,25 to 34
+2016,54.8,Nebraska,25 to 34
+2014,28.8,Nebraska,25 to 34
+2012,49,Nebraska,25 to 34
+2010,29.9,Nebraska,25 to 34
+2020,63.3,Nebraska,35 to 44
+2018,45,Nebraska,35 to 44
+2016,68.7,Nebraska,35 to 44
+2014,41.3,Nebraska,35 to 44
+2012,58.7,Nebraska,35 to 44
+2010,51.6,Nebraska,35 to 44
+2020,68.2,Nebraska,45 to 64
+2018,55.5,Nebraska,45 to 64
+2016,69.8,Nebraska,45 to 64
+2014,53.1,Nebraska,45 to 64
+2012,67.4,Nebraska,45 to 64
+2010,61.2,Nebraska,45 to 64
+2020,76,Nebraska,65+
+2018,66,Nebraska,65+
+2016,79.5,Nebraska,65+
+2014,63.4,Nebraska,65+
+2012,77.2,Nebraska,65+
+2010,64.1,Nebraska,65+
+2020,61.5,Nevada,Total
+2018,48.7,Nevada,Total
+2016,60.5,Nevada,Total
+2014,37.3,Nevada,Total
+2012,57.9,Nevada,Total
+2010,42.4,Nevada,Total
+2020,36.7,Nevada,18 to 24
+2018,32.4,Nevada,18 to 24
+2016,42.9,Nevada,18 to 24
+2014,18.1,Nevada,18 to 24
+2012,41.4,Nevada,18 to 24
+2010,25.2,Nevada,18 to 24
+2020,57,Nevada,25 to 34
+2018,30.9,Nevada,25 to 34
+2016,50.6,Nevada,25 to 34
+2014,26.8,Nevada,25 to 34
+2012,51,Nevada,25 to 34
+2010,32.5,Nevada,25 to 34
+2020,56.7,Nevada,35 to 44
+2018,43.7,Nevada,35 to 44
+2016,60.9,Nevada,35 to 44
+2014,29.3,Nevada,35 to 44
+2012,58.9,Nevada,35 to 44
+2010,51,Nevada,35 to 44
+2020,65.5,Nevada,45 to 64
+2018,54.2,Nevada,45 to 64
+2016,63.5,Nevada,45 to 64
+2014,41,Nevada,45 to 64
+2012,61.9,Nevada,45 to 64
+2010,56.8,Nevada,45 to 64
+2020,76,Nevada,65+
+2018,67.4,Nevada,65+
+2016,74,Nevada,65+
+2014,59,Nevada,65+
+2012,70.4,Nevada,65+
+2010,53.7,Nevada,65+
+2020,74,New Hampshire,Total
+2018,56.2,New Hampshire,Total
+2016,69,New Hampshire,Total
+2014,50.2,New Hampshire,Total
+2012,69.4,New Hampshire,Total
+2010,46.9,New Hampshire,Total
+2020,62.3,New Hampshire,18 to 24
+2018,37.1,New Hampshire,18 to 24
+2016,*,New Hampshire,18 to 24
+2014,19,New Hampshire,18 to 24
+2012,51.9,New Hampshire,18 to 24
+2010,19.9,New Hampshire,18 to 24
+2020,66.7,New Hampshire,25 to 34
+2018,44,New Hampshire,25 to 34
+2016,59.8,New Hampshire,25 to 34
+2014,26.6,New Hampshire,25 to 34
+2012,61.7,New Hampshire,25 to 34
+2010,36.9,New Hampshire,25 to 34
+2020,72.4,New Hampshire,35 to 44
+2018,48.4,New Hampshire,35 to 44
+2016,66.3,New Hampshire,35 to 44
+2014,49.5,New Hampshire,35 to 44
+2012,62.8,New Hampshire,35 to 44
+2010,55.4,New Hampshire,35 to 44
+2020,74.2,New Hampshire,45 to 64
+2018,62.1,New Hampshire,45 to 64
+2016,74.2,New Hampshire,45 to 64
+2014,58.2,New Hampshire,45 to 64
+2012,75.4,New Hampshire,45 to 64
+2010,68.6,New Hampshire,45 to 64
+2020,84.2,New Hampshire,65+
+2018,68,New Hampshire,65+
+2016,73.2,New Hampshire,65+
+2014,69.7,New Hampshire,65+
+2012,79.6,New Hampshire,65+
+2010,60.3,New Hampshire,65+
+2020,78.3,New Jersey,Total
+2018,54,New Jersey,Total
+2016,61.5,New Jersey,Total
+2014,36.4,New Jersey,Total
+2012,61.9,New Jersey,Total
+2010,41.7,New Jersey,Total
+2020,75.3,New Jersey,18 to 24
+2018,32.1,New Jersey,18 to 24
+2016,40.7,New Jersey,18 to 24
+2014,14.3,New Jersey,18 to 24
+2012,39.1,New Jersey,18 to 24
+2010,16.7,New Jersey,18 to 24
+2020,69.9,New Jersey,25 to 34
+2018,42.2,New Jersey,25 to 34
+2016,52.3,New Jersey,25 to 34
+2014,18.3,New Jersey,25 to 34
+2012,56.4,New Jersey,25 to 34
+2010,32.5,New Jersey,25 to 34
+2020,76.8,New Jersey,35 to 44
+2018,62,New Jersey,35 to 44
+2016,64.3,New Jersey,35 to 44
+2014,30.5,New Jersey,35 to 44
+2012,57.1,New Jersey,35 to 44
+2010,48.5,New Jersey,35 to 44
+2020,80.6,New Jersey,45 to 64
+2018,59.6,New Jersey,45 to 64
+2016,67,New Jersey,45 to 64
+2014,44.2,New Jersey,45 to 64
+2012,69.7,New Jersey,45 to 64
+2010,55.8,New Jersey,45 to 64
+2020,82.6,New Jersey,65+
+2018,60.3,New Jersey,65+
+2016,68,New Jersey,65+
+2014,51.5,New Jersey,65+
+2012,68.4,New Jersey,65+
+2010,59.2,New Jersey,65+
+2020,62.6,New Mexico,Total
+2018,48.1,New Mexico,Total
+2016,54.8,New Mexico,Total
+2014,45.6,New Mexico,Total
+2012,61.6,New Mexico,Total
+2010,42.5,New Mexico,Total
+2020,42.9,New Mexico,18 to 24
+2018,28,New Mexico,18 to 24
+2016,40.9,New Mexico,18 to 24
+2014,12.3,New Mexico,18 to 24
+2012,40.2,New Mexico,18 to 24
+2010,13.5,New Mexico,18 to 24
+2020,53.1,New Mexico,25 to 34
+2018,37.2,New Mexico,25 to 34
+2016,39.5,New Mexico,25 to 34
+2014,26.1,New Mexico,25 to 34
+2012,52.5,New Mexico,25 to 34
+2010,30.6,New Mexico,25 to 34
+2020,57.3,New Mexico,35 to 44
+2018,37,New Mexico,35 to 44
+2016,51.2,New Mexico,35 to 44
+2014,40.8,New Mexico,35 to 44
+2012,54.9,New Mexico,35 to 44
+2010,57.5,New Mexico,35 to 44
+2020,68.7,New Mexico,45 to 64
+2018,53.7,New Mexico,45 to 64
+2016,56.6,New Mexico,45 to 64
+2014,56.2,New Mexico,45 to 64
+2012,70.8,New Mexico,45 to 64
+2010,56.7,New Mexico,45 to 64
+2020,74.9,New Mexico,65+
+2018,66.5,New Mexico,65+
+2016,74.7,New Mexico,65+
+2014,66.7,New Mexico,65+
+2012,70.6,New Mexico,65+
+2010,53.2,New Mexico,65+
+2020,64.7,New York,Total
+2018,49.5,New York,Total
+2016,57.2,New York,Total
+2014,34.4,New York,Total
+2012,58.7,New York,Total
+2010,43.6,New York,Total
+2020,47.8,New York,18 to 24
+2018,33.3,New York,18 to 24
+2016,38.2,New York,18 to 24
+2014,14.9,New York,18 to 24
+2012,39.6,New York,18 to 24
+2010,21.6,New York,18 to 24
+2020,63.2,New York,25 to 34
+2018,38.6,New York,25 to 34
+2016,51,New York,25 to 34
+2014,20.8,New York,25 to 34
+2012,52.7,New York,25 to 34
+2010,34.2,New York,25 to 34
+2020,66.5,New York,35 to 44
+2018,50.1,New York,35 to 44
+2016,55.1,New York,35 to 44
+2014,30.9,New York,35 to 44
+2012,60.5,New York,35 to 44
+2010,54.2,New York,35 to 44
+2020,68,New York,45 to 64
+2018,52.8,New York,45 to 64
+2016,63.4,New York,45 to 64
+2014,40.8,New York,45 to 64
+2012,64.7,New York,45 to 64
+2010,57.6,New York,45 to 64
+2020,67.9,New York,65+
+2018,60.6,New York,65+
+2016,64.5,New York,65+
+2014,49.9,New York,65+
+2012,64.6,New York,65+
+2010,54.1,New York,65+
+2020,64.7,North Carolina,Total
+2018,52.4,North Carolina,Total
+2016,67.5,North Carolina,Total
+2014,46.2,North Carolina,Total
+2012,68.9,North Carolina,Total
+2010,45.4,North Carolina,Total
+2020,49.3,North Carolina,18 to 24
+2018,31.6,North Carolina,18 to 24
+2016,50.7,North Carolina,18 to 24
+2014,23.4,North Carolina,18 to 24
+2012,50,North Carolina,18 to 24
+2010,21.4,North Carolina,18 to 24
+2020,56,North Carolina,25 to 34
+2018,38.2,North Carolina,25 to 34
+2016,60,North Carolina,25 to 34
+2014,33.5,North Carolina,25 to 34
+2012,66.2,North Carolina,25 to 34
+2010,37.4,North Carolina,25 to 34
+2020,59.6,North Carolina,35 to 44
+2018,49.1,North Carolina,35 to 44
+2016,65.2,North Carolina,35 to 44
+2014,43.2,North Carolina,35 to 44
+2012,67.6,North Carolina,35 to 44
+2010,53,North Carolina,35 to 44
+2020,71.1,North Carolina,45 to 64
+2018,59.1,North Carolina,45 to 64
+2016,73.1,North Carolina,45 to 64
+2014,51.5,North Carolina,45 to 64
+2012,72.1,North Carolina,45 to 64
+2010,65.7,North Carolina,45 to 64
+2020,71.9,North Carolina,65+
+2018,66.1,North Carolina,65+
+2016,74.7,North Carolina,65+
+2014,64.7,North Carolina,65+
+2012,77.3,North Carolina,65+
+2010,58.5,North Carolina,65+
+2020,67.1,North Dakota,Total
+2018,61.9,North Dakota,Total
+2016,64.2,North Dakota,Total
+2014,51,North Dakota,Total
+2012,63.9,North Dakota,Total
+2010,55.7,North Dakota,Total
+2020,*,North Dakota,18 to 24
+2018,*,North Dakota,18 to 24
+2016,*,North Dakota,18 to 24
+2014,26.7,North Dakota,18 to 24
+2012,48.9,North Dakota,18 to 24
+2010,37.6,North Dakota,18 to 24
+2020,59.9,North Dakota,25 to 34
+2018,53.2,North Dakota,25 to 34
+2016,60,North Dakota,25 to 34
+2014,39.4,North Dakota,25 to 34
+2012,58.6,North Dakota,25 to 34
+2010,42.3,North Dakota,25 to 34
+2020,67.9,North Dakota,35 to 44
+2018,61.1,North Dakota,35 to 44
+2016,*,North Dakota,35 to 44
+2014,42.8,North Dakota,35 to 44
+2012,64,North Dakota,35 to 44
+2010,65.3,North Dakota,35 to 44
+2020,74.6,North Dakota,45 to 64
+2018,69.1,North Dakota,45 to 64
+2016,70.3,North Dakota,45 to 64
+2014,59,North Dakota,45 to 64
+2012,68.2,North Dakota,45 to 64
+2010,75.1,North Dakota,45 to 64
+2020,74.2,North Dakota,65+
+2018,76.4,North Dakota,65+
+2016,*,North Dakota,65+
+2014,74.8,North Dakota,65+
+2012,72.3,North Dakota,65+
+2010,74.9,North Dakota,65+
+2020,70.1,Ohio,Total
+2018,52.5,Ohio,Total
+2016,63.6,Ohio,Total
+2014,39.7,Ohio,Total
+2012,63.1,Ohio,Total
+2010,45.2,Ohio,Total
+2020,53,Ohio,18 to 24
+2018,22.5,Ohio,18 to 24
+2016,40.1,Ohio,18 to 24
+2014,12.6,Ohio,18 to 24
+2012,46.3,Ohio,18 to 24
+2010,20.7,Ohio,18 to 24
+2020,61.3,Ohio,25 to 34
+2018,42.9,Ohio,25 to 34
+2016,56.3,Ohio,25 to 34
+2014,28.7,Ohio,25 to 34
+2012,57.1,Ohio,25 to 34
+2010,36,Ohio,25 to 34
+2020,67.4,Ohio,35 to 44
+2018,53.4,Ohio,35 to 44
+2016,62.3,Ohio,35 to 44
+2014,38.2,Ohio,35 to 44
+2012,60.6,Ohio,35 to 44
+2010,54.3,Ohio,35 to 44
+2020,74.1,Ohio,45 to 64
+2018,57.5,Ohio,45 to 64
+2016,69.1,Ohio,45 to 64
+2014,43.7,Ohio,45 to 64
+2012,67.9,Ohio,45 to 64
+2010,63.4,Ohio,45 to 64
+2020,81.3,Ohio,65+
+2018,67.1,Ohio,65+
+2016,74,Ohio,65+
+2014,56.7,Ohio,65+
+2012,72,Ohio,65+
+2010,55.9,Ohio,65+
+2020,58.3,Oklahoma,Total
+2018,49.4,Oklahoma,Total
+2016,56.6,Oklahoma,Total
+2014,34.2,Oklahoma,Total
+2012,52.4,Oklahoma,Total
+2010,40.4,Oklahoma,Total
+2020,30.5,Oklahoma,18 to 24
+2018,22.6,Oklahoma,18 to 24
+2016,33.7,Oklahoma,18 to 24
+2014,11.8,Oklahoma,18 to 24
+2012,27.3,Oklahoma,18 to 24
+2010,18.7,Oklahoma,18 to 24
+2020,49.2,Oklahoma,25 to 34
+2018,40.5,Oklahoma,25 to 34
+2016,48,Oklahoma,25 to 34
+2014,20.9,Oklahoma,25 to 34
+2012,34.1,Oklahoma,25 to 34
+2010,30.7,Oklahoma,25 to 34
+2020,51.5,Oklahoma,35 to 44
+2018,43.1,Oklahoma,35 to 44
+2016,52.5,Oklahoma,35 to 44
+2014,29.7,Oklahoma,35 to 44
+2012,50.8,Oklahoma,35 to 44
+2010,46.4,Oklahoma,35 to 44
+2020,68.1,Oklahoma,45 to 64
+2018,55.4,Oklahoma,45 to 64
+2016,62,Oklahoma,45 to 64
+2014,39.9,Oklahoma,45 to 64
+2012,61.4,Oklahoma,45 to 64
+2010,59.8,Oklahoma,45 to 64
+2020,70.3,Oklahoma,65+
+2018,64.7,Oklahoma,65+
+2016,70.7,Oklahoma,65+
+2014,53.8,Oklahoma,65+
+2012,73,Oklahoma,65+
+2010,62.8,Oklahoma,65+
+2020,74.1,Oregon,Total
+2018,61.1,Oregon,Total
+2016,66.3,Oregon,Total
+2014,55.5,Oregon,Total
+2012,67.6,Oregon,Total
+2010,56.3,Oregon,Total
+2020,56.1,Oregon,18 to 24
+2018,38.8,Oregon,18 to 24
+2016,48.8,Oregon,18 to 24
+2014,24.9,Oregon,18 to 24
+2012,51.1,Oregon,18 to 24
+2010,32.9,Oregon,18 to 24
+2020,69.2,Oregon,25 to 34
+2018,57.1,Oregon,25 to 34
+2016,54.6,Oregon,25 to 34
+2014,50.2,Oregon,25 to 34
+2012,53.9,Oregon,25 to 34
+2010,48,Oregon,25 to 34
+2020,77.5,Oregon,35 to 44
+2018,52.5,Oregon,35 to 44
+2016,72.3,Oregon,35 to 44
+2014,54.4,Oregon,35 to 44
+2012,61.8,Oregon,35 to 44
+2010,64.4,Oregon,35 to 44
+2020,77.4,Oregon,45 to 64
+2018,68.1,Oregon,45 to 64
+2016,69.5,Oregon,45 to 64
+2014,61.8,Oregon,45 to 64
+2012,73.7,Oregon,45 to 64
+2010,68.4,Oregon,45 to 64
+2020,79.5,Oregon,65+
+2018,70.6,Oregon,65+
+2016,74.7,Oregon,65+
+2014,68.5,Oregon,65+
+2012,81.3,Oregon,65+
+2010,71.2,Oregon,65+
+2020,70.2,Pennsylvania,Total
+2018,54.6,Pennsylvania,Total
+2016,62.6,Pennsylvania,Total
+2014,40,Pennsylvania,Total
+2012,61.6,Pennsylvania,Total
+2010,43.9,Pennsylvania,Total
+2020,51,Pennsylvania,18 to 24
+2018,33,Pennsylvania,18 to 24
+2016,51.4,Pennsylvania,18 to 24
+2014,10.9,Pennsylvania,18 to 24
+2012,42.1,Pennsylvania,18 to 24
+2010,15.5,Pennsylvania,18 to 24
+2020,69,Pennsylvania,25 to 34
+2018,41.4,Pennsylvania,25 to 34
+2016,54.9,Pennsylvania,25 to 34
+2014,28,Pennsylvania,25 to 34
+2012,54.8,Pennsylvania,25 to 34
+2010,37.3,Pennsylvania,25 to 34
+2020,67.6,Pennsylvania,35 to 44
+2018,53.2,Pennsylvania,35 to 44
+2016,64.1,Pennsylvania,35 to 44
+2014,36.8,Pennsylvania,35 to 44
+2012,64.4,Pennsylvania,35 to 44
+2010,50.9,Pennsylvania,35 to 44
+2020,74.1,Pennsylvania,45 to 64
+2018,61.8,Pennsylvania,45 to 64
+2016,67.8,Pennsylvania,45 to 64
+2014,46.3,Pennsylvania,45 to 64
+2012,65.7,Pennsylvania,45 to 64
+2010,59.5,Pennsylvania,45 to 64
+2020,75.4,Pennsylvania,65+
+2018,63.9,Pennsylvania,65+
+2016,64.8,Pennsylvania,65+
+2014,55.3,Pennsylvania,65+
+2012,68.9,Pennsylvania,65+
+2010,55.4,Pennsylvania,65+
+2020,66.3,Rhode Island,Total
+2018,51.6,Rhode Island,Total
+2016,60.6,Rhode Island,Total
+2014,43.3,Rhode Island,Total
+2012,62.5,Rhode Island,Total
+2010,46.7,Rhode Island,Total
+2020,51.6,Rhode Island,18 to 24
+2018,41.8,Rhode Island,18 to 24
+2016,*,Rhode Island,18 to 24
+2014,13.7,Rhode Island,18 to 24
+2012,50.3,Rhode Island,18 to 24
+2010,18.7,Rhode Island,18 to 24
+2020,59.5,Rhode Island,25 to 34
+2018,33.1,Rhode Island,25 to 34
+2016,53.6,Rhode Island,25 to 34
+2014,21,Rhode Island,25 to 34
+2012,53.3,Rhode Island,25 to 34
+2010,40,Rhode Island,25 to 34
+2020,63.9,Rhode Island,35 to 44
+2018,46.9,Rhode Island,35 to 44
+2016,62.2,Rhode Island,35 to 44
+2014,41.7,Rhode Island,35 to 44
+2012,59.9,Rhode Island,35 to 44
+2010,56.2,Rhode Island,35 to 44
+2020,69.9,Rhode Island,45 to 64
+2018,59.7,Rhode Island,45 to 64
+2016,64.2,Rhode Island,45 to 64
+2014,57.4,Rhode Island,45 to 64
+2012,68.3,Rhode Island,45 to 64
+2010,63.7,Rhode Island,45 to 64
+2020,76.1,Rhode Island,65+
+2018,61.6,Rhode Island,65+
+2016,64.4,Rhode Island,65+
+2014,55.7,Rhode Island,65+
+2012,67.7,Rhode Island,65+
+2010,58.9,Rhode Island,65+
+2020,63.4,South Carolina,Total
+2018,48.7,South Carolina,Total
+2016,62.1,South Carolina,Total
+2014,42.4,South Carolina,Total
+2012,64.7,South Carolina,Total
+2010,50.9,South Carolina,Total
+2020,53.4,South Carolina,18 to 24
+2018,24.1,South Carolina,18 to 24
+2016,43.9,South Carolina,18 to 24
+2014,19.5,South Carolina,18 to 24
+2012,54,South Carolina,18 to 24
+2010,33.5,South Carolina,18 to 24
+2020,49,South Carolina,25 to 34
+2018,31.7,South Carolina,25 to 34
+2016,49.3,South Carolina,25 to 34
+2014,26.4,South Carolina,25 to 34
+2012,61.6,South Carolina,25 to 34
+2010,46.7,South Carolina,25 to 34
+2020,60.1,South Carolina,35 to 44
+2018,53.1,South Carolina,35 to 44
+2016,58.9,South Carolina,35 to 44
+2014,37.6,South Carolina,35 to 44
+2012,61.1,South Carolina,35 to 44
+2010,57.9,South Carolina,35 to 44
+2020,68.8,South Carolina,45 to 64
+2018,52.5,South Carolina,45 to 64
+2016,67.1,South Carolina,45 to 64
+2014,54.3,South Carolina,45 to 64
+2012,67.2,South Carolina,45 to 64
+2010,56.8,South Carolina,45 to 64
+2020,72.4,South Carolina,65+
+2018,64.2,South Carolina,65+
+2016,73.1,South Carolina,65+
+2014,52.8,South Carolina,65+
+2012,73.2,South Carolina,65+
+2010,54.1,South Carolina,65+
+2020,58.5,South Dakota,Total
+2018,51.9,South Dakota,Total
+2016,59.1,South Dakota,Total
+2014,44.1,South Dakota,Total
+2012,61,South Dakota,Total
+2010,54.9,South Dakota,Total
+2020,43.9,South Dakota,18 to 24
+2018,26.3,South Dakota,18 to 24
+2016,*,South Dakota,18 to 24
+2014,*,South Dakota,18 to 24
+2012,32.9,South Dakota,18 to 24
+2010,23.4,South Dakota,18 to 24
+2020,45.2,South Dakota,25 to 34
+2018,31.3,South Dakota,25 to 34
+2016,*,South Dakota,25 to 34
+2014,26,South Dakota,25 to 34
+2012,45.6,South Dakota,25 to 34
+2010,47.8,South Dakota,25 to 34
+2020,52.9,South Dakota,35 to 44
+2018,43.4,South Dakota,35 to 44
+2016,*,South Dakota,35 to 44
+2014,48.7,South Dakota,35 to 44
+2012,66.3,South Dakota,35 to 44
+2010,63.5,South Dakota,35 to 44
+2020,66,South Dakota,45 to 64
+2018,67.3,South Dakota,45 to 64
+2016,65.4,South Dakota,45 to 64
+2014,53,South Dakota,45 to 64
+2012,71.5,South Dakota,45 to 64
+2010,73.1,South Dakota,45 to 64
+2020,69.5,South Dakota,65+
+2018,66.4,South Dakota,65+
+2016,73.9,South Dakota,65+
+2014,61.4,South Dakota,65+
+2012,73.7,South Dakota,65+
+2010,69.9,South Dakota,65+
+2020,66.4,Tennessee,Total
+2018,49.6,Tennessee,Total
+2016,54,Tennessee,Total
+2014,36.6,Tennessee,Total
+2012,55.7,Tennessee,Total
+2010,37.7,Tennessee,Total
+2020,49.1,Tennessee,18 to 24
+2018,31.1,Tennessee,18 to 24
+2016,31.1,Tennessee,18 to 24
+2014,11.9,Tennessee,18 to 24
+2012,35.2,Tennessee,18 to 24
+2010,15.6,Tennessee,18 to 24
+2020,56.3,Tennessee,25 to 34
+2018,40.5,Tennessee,25 to 34
+2016,42,Tennessee,25 to 34
+2014,18.5,Tennessee,25 to 34
+2012,51,Tennessee,25 to 34
+2010,27.7,Tennessee,25 to 34
+2020,66.3,Tennessee,35 to 44
+2018,49.5,Tennessee,35 to 44
+2016,55.5,Tennessee,35 to 44
+2014,38.8,Tennessee,35 to 44
+2012,54.3,Tennessee,35 to 44
+2010,44.8,Tennessee,35 to 44
+2020,73.4,Tennessee,45 to 64
+2018,54,Tennessee,45 to 64
+2016,60.2,Tennessee,45 to 64
+2014,43.6,Tennessee,45 to 64
+2012,57.9,Tennessee,45 to 64
+2010,63.3,Tennessee,45 to 64
+2020,72.2,Tennessee,65+
+2018,59.5,Tennessee,65+
+2016,64.2,Tennessee,65+
+2014,53.7,Tennessee,65+
+2012,68.9,Tennessee,65+
+2010,44.6,Tennessee,65+
+2020,63.9,Texas,Total
+2018,48.4,Texas,Total
+2016,55.4,Texas,Total
+2014,34.6,Texas,Total
+2012,53.8,Texas,Total
+2010,36.4,Texas,Total
+2020,43.3,Texas,18 to 24
+2018,27,Texas,18 to 24
+2016,31.9,Texas,18 to 24
+2014,12.1,Texas,18 to 24
+2012,25.4,Texas,18 to 24
+2010,16.1,Texas,18 to 24
+2020,54.8,Texas,25 to 34
+2018,36.8,Texas,25 to 34
+2016,46.5,Texas,25 to 34
+2014,21.9,Texas,25 to 34
+2012,41.4,Texas,25 to 34
+2010,26.6,Texas,25 to 34
+2020,63.5,Texas,35 to 44
+2018,45.5,Texas,35 to 44
+2016,53.7,Texas,35 to 44
+2014,29.7,Texas,35 to 44
+2012,53.6,Texas,35 to 44
+2010,46.3,Texas,35 to 44
+2020,70.2,Texas,45 to 64
+2018,56.7,Texas,45 to 64
+2016,62.3,Texas,45 to 64
+2014,43.6,Texas,45 to 64
+2012,62.6,Texas,45 to 64
+2010,58.1,Texas,45 to 64
+2020,76.3,Texas,65+
+2018,65.5,Texas,65+
+2016,69,Texas,65+
+2014,54.5,Texas,65+
+2012,73.8,Texas,65+
+2010,52.8,Texas,65+
+2020,63.6,Utah,Total
+2018,57.6,Utah,Total
+2016,62.7,Utah,Total
+2014,36.5,Utah,Total
+2012,57,Utah,Total
+2010,38.6,Utah,Total
+2020,50.1,Utah,18 to 24
+2018,35.1,Utah,18 to 24
+2016,43.6,Utah,18 to 24
+2014,13.9,Utah,18 to 24
+2012,36.9,Utah,18 to 24
+2010,11.8,Utah,18 to 24
+2020,59.3,Utah,25 to 34
+2018,42.6,Utah,25 to 34
+2016,51.8,Utah,25 to 34
+2014,23.3,Utah,25 to 34
+2012,47.5,Utah,25 to 34
+2010,30.3,Utah,25 to 34
+2020,61.8,Utah,35 to 44
+2018,59.9,Utah,35 to 44
+2016,65.2,Utah,35 to 44
+2014,29.5,Utah,35 to 44
+2012,52.6,Utah,35 to 44
+2010,52.6,Utah,35 to 44
+2020,69.5,Utah,45 to 64
+2018,68.6,Utah,45 to 64
+2016,71.5,Utah,45 to 64
+2014,46.3,Utah,45 to 64
+2012,65.1,Utah,45 to 64
+2010,62.7,Utah,45 to 64
+2020,75.6,Utah,65+
+2018,73.5,Utah,65+
+2016,76.6,Utah,65+
+2014,67.9,Utah,65+
+2012,81.3,Utah,65+
+2010,56.9,Utah,65+
+2020,68.4,Vermont,Total
+2018,54.9,Vermont,Total
+2016,62.5,Vermont,Total
+2014,42.5,Vermont,Total
+2012,63.3,Vermont,Total
+2010,55,Vermont,Total
+2020,*,Vermont,18 to 24
+2018,*,Vermont,18 to 24
+2016,*,Vermont,18 to 24
+2014,*,Vermont,18 to 24
+2012,39.1,Vermont,18 to 24
+2010,19.8,Vermont,18 to 24
+2020,52.8,Vermont,25 to 34
+2018,40.4,Vermont,25 to 34
+2016,*,Vermont,25 to 34
+2014,*,Vermont,25 to 34
+2012,44.6,Vermont,25 to 34
+2010,44.7,Vermont,25 to 34
+2020,*,Vermont,35 to 44
+2018,49.7,Vermont,35 to 44
+2016,*,Vermont,35 to 44
+2014,*,Vermont,35 to 44
+2012,61.2,Vermont,35 to 44
+2010,65.4,Vermont,35 to 44
+2020,73.4,Vermont,45 to 64
+2018,60,Vermont,45 to 64
+2016,66.5,Vermont,45 to 64
+2014,52.3,Vermont,45 to 64
+2012,69.2,Vermont,45 to 64
+2010,66.4,Vermont,45 to 64
+2020,79.6,Vermont,65+
+2018,68.2,Vermont,65+
+2016,77.1,Vermont,65+
+2014,62.2,Vermont,65+
+2012,82.2,Vermont,65+
+2010,75.5,Vermont,65+
+2020,71.5,Virginia,Total
+2018,57.5,Virginia,Total
+2016,68.2,Virginia,Total
+2014,41.7,Virginia,Total
+2012,66.9,Virginia,Total
+2010,40.7,Virginia,Total
+2020,51.8,Virginia,18 to 24
+2018,39.7,Virginia,18 to 24
+2016,60.7,Virginia,18 to 24
+2014,16.5,Virginia,18 to 24
+2012,47.7,Virginia,18 to 24
+2010,19.7,Virginia,18 to 24
+2020,69.7,Virginia,25 to 34
+2018,50.2,Virginia,25 to 34
+2016,55.3,Virginia,25 to 34
+2014,26.6,Virginia,25 to 34
+2012,59,Virginia,25 to 34
+2010,32.8,Virginia,25 to 34
+2020,72.5,Virginia,35 to 44
+2018,47,Virginia,35 to 44
+2016,68.8,Virginia,35 to 44
+2014,40.8,Virginia,35 to 44
+2012,71.3,Virginia,35 to 44
+2010,49.2,Virginia,35 to 44
+2020,75.3,Virginia,45 to 64
+2018,62.7,Virginia,45 to 64
+2016,74.2,Virginia,45 to 64
+2014,48.7,Virginia,45 to 64
+2012,71.9,Virginia,45 to 64
+2010,55.8,Virginia,45 to 64
+2020,76.2,Virginia,65+
+2018,70.1,Virginia,65+
+2016,72.6,Virginia,65+
+2014,57.1,Virginia,65+
+2012,72.4,Virginia,65+
+2010,50.6,Virginia,65+
+2020,71.5,Washington,Total
+2018,61.9,Washington,Total
+2016,66.3,Washington,Total
+2014,50,Washington,Total
+2012,65.6,Washington,Total
+2010,58.1,Washington,Total
+2020,52.4,Washington,18 to 24
+2018,34.8,Washington,18 to 24
+2016,45.9,Washington,18 to 24
+2014,24.3,Washington,18 to 24
+2012,42.1,Washington,18 to 24
+2010,31,Washington,18 to 24
+2020,66.1,Washington,25 to 34
+2018,49.8,Washington,25 to 34
+2016,54.2,Washington,25 to 34
+2014,29.4,Washington,25 to 34
+2012,53.6,Washington,25 to 34
+2010,47.1,Washington,25 to 34
+2020,71,Washington,35 to 44
+2018,65.8,Washington,35 to 44
+2016,64.4,Washington,35 to 44
+2014,44.6,Washington,35 to 44
+2012,71.3,Washington,35 to 44
+2010,67.7,Washington,35 to 44
+2020,76.6,Washington,45 to 64
+2018,65.9,Washington,45 to 64
+2016,73.5,Washington,45 to 64
+2014,59.3,Washington,45 to 64
+2012,70.1,Washington,45 to 64
+2010,77,Washington,45 to 64
+2020,77.3,Washington,65+
+2018,77,Washington,65+
+2016,77.6,Washington,65+
+2014,70,Washington,65+
+2012,76.7,Washington,65+
+2010,77.3,Washington,65+
+2020,56.1,West Virginia,Total
+2018,44.1,West Virginia,Total
+2016,50.8,West Virginia,Total
+2014,33.6,West Virginia,Total
+2012,47.8,West Virginia,Total
+2010,41,West Virginia,Total
+2020,34.6,West Virginia,18 to 24
+2018,22.6,West Virginia,18 to 24
+2016,32.5,West Virginia,18 to 24
+2014,14.4,West Virginia,18 to 24
+2012,22.7,West Virginia,18 to 24
+2010,19,West Virginia,18 to 24
+2020,41.5,West Virginia,25 to 34
+2018,25.8,West Virginia,25 to 34
+2016,43.8,West Virginia,25 to 34
+2014,20,West Virginia,25 to 34
+2012,31.6,West Virginia,25 to 34
+2010,31.6,West Virginia,25 to 34
+2020,57.1,West Virginia,35 to 44
+2018,37.1,West Virginia,35 to 44
+2016,47.2,West Virginia,35 to 44
+2014,29.5,West Virginia,35 to 44
+2012,47,West Virginia,35 to 44
+2010,47.5,West Virginia,35 to 44
+2020,59.3,West Virginia,45 to 64
+2018,48.1,West Virginia,45 to 64
+2016,52.6,West Virginia,45 to 64
+2014,37.4,West Virginia,45 to 64
+2012,53.3,West Virginia,45 to 64
+2010,60.9,West Virginia,45 to 64
+2020,68,West Virginia,65+
+2018,62.1,West Virginia,65+
+2016,63.3,West Virginia,65+
+2014,49,West Virginia,65+
+2012,61.8,West Virginia,65+
+2010,50.9,West Virginia,65+
+2020,73.6,Wisconsin,Total
+2018,64.6,Wisconsin,Total
+2016,70.5,Wisconsin,Total
+2014,55.4,Wisconsin,Total
+2012,73.6,Wisconsin,Total
+2010,54.3,Wisconsin,Total
+2020,56,Wisconsin,18 to 24
+2018,47.7,Wisconsin,18 to 24
+2016,47.1,Wisconsin,18 to 24
+2014,27.9,Wisconsin,18 to 24
+2012,56,Wisconsin,18 to 24
+2010,23.4,Wisconsin,18 to 24
+2020,78,Wisconsin,25 to 34
+2018,49.3,Wisconsin,25 to 34
+2016,54.6,Wisconsin,25 to 34
+2014,39.6,Wisconsin,25 to 34
+2012,66.1,Wisconsin,25 to 34
+2010,46.1,Wisconsin,25 to 34
+2020,69.1,Wisconsin,35 to 44
+2018,58.5,Wisconsin,35 to 44
+2016,75.2,Wisconsin,35 to 44
+2014,52.6,Wisconsin,35 to 44
+2012,73.9,Wisconsin,35 to 44
+2010,63.5,Wisconsin,35 to 44
+2020,74.5,Wisconsin,45 to 64
+2018,72,Wisconsin,45 to 64
+2016,79,Wisconsin,45 to 64
+2014,64.9,Wisconsin,45 to 64
+2012,77.8,Wisconsin,45 to 64
+2010,74.2,Wisconsin,45 to 64
+2020,82.4,Wisconsin,65+
+2018,76,Wisconsin,65+
+2016,77.9,Wisconsin,65+
+2014,68.9,Wisconsin,65+
+2012,82.4,Wisconsin,65+
+2010,68.9,Wisconsin,65+
+2020,65.5,Wyoming,Total
+2018,52.1,Wyoming,Total
+2016,64.8,Wyoming,Total
+2014,40.3,Wyoming,Total
+2012,58.9,Wyoming,Total
+2010,47.2,Wyoming,Total
+2020,*,Wyoming,18 to 24
+2018,*,Wyoming,18 to 24
+2016,*,Wyoming,18 to 24
+2014,*,Wyoming,18 to 24
+2012,32.3,Wyoming,18 to 24
+2010,18.7,Wyoming,18 to 24
+2020,*,Wyoming,25 to 34
+2018,35.2,Wyoming,25 to 34
+2016,*,Wyoming,25 to 34
+2014,28.4,Wyoming,25 to 34
+2012,54.3,Wyoming,25 to 34
+2010,39,Wyoming,25 to 34
+2020,*,Wyoming,35 to 44
+2018,*,Wyoming,35 to 44
+2016,*,Wyoming,35 to 44
+2014,*,Wyoming,35 to 44
+2012,54.5,Wyoming,35 to 44
+2010,54.3,Wyoming,35 to 44
+2020,74.1,Wyoming,45 to 64
+2018,62.5,Wyoming,45 to 64
+2016,68.6,Wyoming,45 to 64
+2014,49.5,Wyoming,45 to 64
+2012,61.8,Wyoming,45 to 64
+2010,70.7,Wyoming,45 to 64
+2020,76.6,Wyoming,65+
+2018,71.8,Wyoming,65+
+2016,*,Wyoming,65+
+2014,60.1,Wyoming,65+
+2012,81.1,Wyoming,65+
+2010,67.4,Wyoming,65+

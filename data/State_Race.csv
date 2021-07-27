@@ -1,0 +1,1001 @@
+﻿Year,Value,State,Race
+2020,66.8,US,Total
+2018,53.4,US,Total
+2016,61.4,US,Total
+2014,41.9,US,Total
+2012,61.8,US,Total
+2010,45.5,US,Total
+2020,65,US,Male
+2018,51.8,US,Male
+2016,59.3,US,Male
+2014,40.8,US,Male
+2012,59.7,US,Male
+2010,44.8,US,Male
+2020,68.4,US,Female
+2018,55,US,Female
+2016,63.3,US,Female
+2014,43,US,Female
+2012,63.7,US,Female
+2010,46.2,US,Female
+2020,68.3,US,White alone
+2018,55,US,White alone
+2016,62.9,US,White alone
+2014,43.4,US,White alone
+2012,62.2,US,White alone
+2010,46.7,US,White alone
+2020,70.9,US,White non-Hispanic alone
+2018,57.5,US,White non-Hispanic alone
+2016,65.3,US,White non-Hispanic alone
+2014,45.8,US,White non-Hispanic alone
+2012,64.1,US,White non-Hispanic alone
+2010,48.6,US,White non-Hispanic alone
+2020,62.6,US,Black alone
+2018,51.1,US,Black alone
+2016,59.4,US,Black alone
+2014,39.7,US,Black alone
+2012,66.2,US,Black alone
+2010,43.5,US,Black alone
+2020,59.7,US,Asian alone
+2018,40.6,US,Asian alone
+2016,49,US,Asian alone
+2014,27.1,US,Asian alone
+2012,47.3,US,Asian alone
+2010,30.8,US,Asian alone
+2020,53.7,US,Hispanic (of any race)
+2018,40.4,US,Hispanic (of any race)
+2016,47.6,US,Hispanic (of any race)
+2014,27,US,Hispanic (of any race)
+2012,48,US,Hispanic (of any race)
+2010,31.2,US,Hispanic (of any race)
+2020,68.2,US,White alone or in combination
+2018,54.8,US,White alone or in combination
+2016,62.7,US,White alone or in combination
+2014,43.3,US,White alone or in combination
+2012,62.1,US,White alone or in combination
+2010,46.6,US,White alone or in combination
+2020,62.4,US,Black alone or in combination
+2018,50.6,US,Black alone or in combination
+2016,58.9,US,Black alone or in combination
+2014,39.2,US,Black alone or in combination
+2012,65.9,US,Black alone or in combination
+2010,43.2,US,Black alone or in combination
+2020,60.1,US,Asian alone or in combination
+2018,41.7,US,Asian alone or in combination
+2016,49.9,US,Asian alone or in combination
+2014,27.9,US,Asian alone or in combination
+2012,47.9,US,Asian alone or in combination
+2010,31.7,US,Asian alone or in combination
+2020,60.5,ALABAMA,Total
+2018,50.7,ALABAMA,Total
+2016,57.4,ALABAMA,Total
+2014,42.5,ALABAMA,Total
+2012,61.9,ALABAMA,Total
+2010,44.1,ALABAMA,Total
+2020,59.2,ALABAMA,Male
+2018,48.8,ALABAMA,Male
+2016,54.9,ALABAMA,Male
+2014,41.2,ALABAMA,Male
+2012,61.2,ALABAMA,Male
+2010,42,ALABAMA,Male
+2020,61.6,ALABAMA,Female
+2018,52.4,ALABAMA,Female
+2016,59.6,ALABAMA,Female
+2014,43.7,ALABAMA,Female
+2012,62.6,ALABAMA,Female
+2010,45.9,ALABAMA,Female
+2020,62.9,ALABAMA,White alone
+2018,51.6,ALABAMA,White alone
+2016,56.2,ALABAMA,White alone
+2014,41.8,ALABAMA,White alone
+2012,61.2,ALABAMA,White alone
+2010,43.5,ALABAMA,White alone
+2020,63,ALABAMA,White non-Hispanic alone
+2018,52.6,ALABAMA,White non-Hispanic alone
+2016,57,ALABAMA,White non-Hispanic alone
+2014,42.3,ALABAMA,White non-Hispanic alone
+2012,62,ALABAMA,White non-Hispanic alone
+2010,44,ALABAMA,White non-Hispanic alone
+2020,54.8,ALABAMA,Black alone
+2018,49.5,ALABAMA,Black alone
+2016,60.8,ALABAMA,Black alone
+2014,45.5,ALABAMA,Black alone
+2012,63.1,ALABAMA,Black alone
+2010,46.4,ALABAMA,Black alone
+2020,*,ALABAMA,Asian alone
+2018,*,ALABAMA,Asian alone
+2016,*,ALABAMA,Asian alone
+2014,*,ALABAMA,Asian alone
+2012,*,ALABAMA,Asian alone
+2010,*,ALABAMA,Asian alone
+2020,*,ALABAMA,Hispanic (of any race)
+2018,29.1,ALABAMA,Hispanic (of any race)
+2016,*,ALABAMA,Hispanic (of any race)
+2014,*,ALABAMA,Hispanic (of any race)
+2012,*,ALABAMA,Hispanic (of any race)
+2010,22.1,ALABAMA,Hispanic (of any race)
+2020,62.7,ALABAMA,White alone or in combination
+2018,51.6,ALABAMA,White alone or in combination
+2016,56.3,ALABAMA,White alone or in combination
+2014,41.6,ALABAMA,White alone or in combination
+2012,61.6,ALABAMA,White alone or in combination
+2010,43.4,ALABAMA,White alone or in combination
+2020,54.9,ALABAMA,Black alone or in combination
+2018,49.6,ALABAMA,Black alone or in combination
+2016,60.2,ALABAMA,Black alone or in combination
+2014,44.8,ALABAMA,Black alone or in combination
+2012,63.4,ALABAMA,Black alone or in combination
+2010,46.4,ALABAMA,Black alone or in combination
+2020,*,ALABAMA,Asian alone or in combination
+2018,*,ALABAMA,Asian alone or in combination
+2016,*,ALABAMA,Asian alone or in combination
+2014,*,ALABAMA,Asian alone or in combination
+2012,*,ALABAMA,Asian alone or in combination
+2010,*,ALABAMA,Asian alone or in combination
+2020,63.8,ALASKA,Total
+2018,52.8,ALASKA,Total
+2016,61.3,ALASKA,Total
+2014,50.7,ALASKA,Total
+2012,58.4,ALASKA,Total
+2010,50.7,ALASKA,Total
+2020,62.6,ALASKA,Male
+2018,52.1,ALASKA,Male
+2016,58.8,ALASKA,Male
+2014,49.9,ALASKA,Male
+2012,55.1,ALASKA,Male
+2010,52.1,ALASKA,Male
+2020,65.1,ALASKA,Female
+2018,53.6,ALASKA,Female
+2016,64,ALASKA,Female
+2014,51.5,ALASKA,Female
+2012,61.8,ALASKA,Female
+2010,49.2,ALASKA,Female
+2020,70.9,ALASKA,White alone
+2018,59.7,ALASKA,White alone
+2016,68.9,ALASKA,White alone
+2014,56.9,ALASKA,White alone
+2012,63.4,ALASKA,White alone
+2010,55.7,ALASKA,White alone
+2020,71,ALASKA,White non-Hispanic alone
+2018,60.3,ALASKA,White non-Hispanic alone
+2016,68.7,ALASKA,White non-Hispanic alone
+2014,57.8,ALASKA,White non-Hispanic alone
+2012,63.9,ALASKA,White non-Hispanic alone
+2010,56.5,ALASKA,White non-Hispanic alone
+2020,*,ALASKA,Black alone
+2018,*,ALASKA,Black alone
+2016,*,ALASKA,Black alone
+2014,*,ALASKA,Black alone
+2012,*,ALASKA,Black alone
+2010,*,ALASKA,Black alone
+2020,*,ALASKA,Asian alone
+2018,*,ALASKA,Asian alone
+2016,*,ALASKA,Asian alone
+2014,*,ALASKA,Asian alone
+2012,*,ALASKA,Asian alone
+2010,*,ALASKA,Asian alone
+2020,*,ALASKA,Hispanic (of any race)
+2018,*,ALASKA,Hispanic (of any race)
+2016,*,ALASKA,Hispanic (of any race)
+2014,*,ALASKA,Hispanic (of any race)
+2012,*,ALASKA,Hispanic (of any race)
+2010,*,ALASKA,Hispanic (of any race)
+2020,69.7,ALASKA,White alone or in combination
+2018,60.1,ALASKA,White alone or in combination
+2016,69,ALASKA,White alone or in combination
+2014,56.1,ALASKA,White alone or in combination
+2012,62.9,ALASKA,White alone or in combination
+2010,54.1,ALASKA,White alone or in combination
+2020,*,ALASKA,Black alone or in combination
+2018,*,ALASKA,Black alone or in combination
+2016,*,ALASKA,Black alone or in combination
+2014,*,ALASKA,Black alone or in combination
+2012,*,ALASKA,Black alone or in combination
+2010,*,ALASKA,Black alone or in combination
+2020,*,ALASKA,Asian alone or in combination
+2018,*,ALASKA,Asian alone or in combination
+2016,*,ALASKA,Asian alone or in combination
+2014,*,ALASKA,Asian alone or in combination
+2012,*,ALASKA,Asian alone or in combination
+2010,*,ALASKA,Asian alone or in combination
+2020,71.9,ARIZONA,Total
+2018,58.9,ARIZONA,Total
+2016,60.4,ARIZONA,Total
+2014,40.6,ARIZONA,Total
+2012,55.9,ARIZONA,Total
+2010,48.8,ARIZONA,Total
+2020,67.1,ARIZONA,Male
+2018,57,ARIZONA,Male
+2016,56.5,ARIZONA,Male
+2014,38.6,ARIZONA,Male
+2012,56.6,ARIZONA,Male
+2010,48,ARIZONA,Male
+2020,76.5,ARIZONA,Female
+2018,60.6,ARIZONA,Female
+2016,64.2,ARIZONA,Female
+2014,42.5,ARIZONA,Female
+2012,55.3,ARIZONA,Female
+2010,49.7,ARIZONA,Female
+2020,72.2,ARIZONA,White alone
+2018,60.8,ARIZONA,White alone
+2016,62.8,ARIZONA,White alone
+2014,42.3,ARIZONA,White alone
+2012,58,ARIZONA,White alone
+2010,49.6,ARIZONA,White alone
+2020,77,ARIZONA,White non-Hispanic alone
+2018,65.3,ARIZONA,White non-Hispanic alone
+2016,68.3,ARIZONA,White non-Hispanic alone
+2014,46.4,ARIZONA,White non-Hispanic alone
+2012,62.4,ARIZONA,White non-Hispanic alone
+2010,52.4,ARIZONA,White non-Hispanic alone
+2020,69.1,ARIZONA,Black alone
+2018,47,ARIZONA,Black alone
+2016,50.9,ARIZONA,Black alone
+2014,33.1,ARIZONA,Black alone
+2012,46,ARIZONA,Black alone
+2010,41,ARIZONA,Black alone
+2020,67.9,ARIZONA,Asian alone
+2018,56.1,ARIZONA,Asian alone
+2016,51.6,ARIZONA,Asian alone
+2014,20.3,ARIZONA,Asian alone
+2012,27.1,ARIZONA,Asian alone
+2010,61.4,ARIZONA,Asian alone
+2020,60.8,ARIZONA,Hispanic (of any race)
+2018,48.8,ARIZONA,Hispanic (of any race)
+2016,47.4,ARIZONA,Hispanic (of any race)
+2014,31.8,ARIZONA,Hispanic (of any race)
+2012,40.4,ARIZONA,Hispanic (of any race)
+2010,38.3,ARIZONA,Hispanic (of any race)
+2020,72.5,ARIZONA,White alone or in combination
+2018,60.8,ARIZONA,White alone or in combination
+2016,62.2,ARIZONA,White alone or in combination
+2014,42.2,ARIZONA,White alone or in combination
+2012,57.6,ARIZONA,White alone or in combination
+2010,49.1,ARIZONA,White alone or in combination
+2020,72.7,ARIZONA,Black alone or in combination
+2018,50.9,ARIZONA,Black alone or in combination
+2016,49.1,ARIZONA,Black alone or in combination
+2014,28.8,ARIZONA,Black alone or in combination
+2012,44.9,ARIZONA,Black alone or in combination
+2010,39.1,ARIZONA,Black alone or in combination
+2020,71.5,ARIZONA,Asian alone or in combination
+2018,57.4,ARIZONA,Asian alone or in combination
+2016,47.7,ARIZONA,Asian alone or in combination
+2014,21.5,ARIZONA,Asian alone or in combination
+2012,30.3,ARIZONA,Asian alone or in combination
+2010,57,ARIZONA,Asian alone or in combination
+2020,54,ARKANSAS,Total
+2018,42.6,ARKANSAS,Total
+2016,58.7,ARKANSAS,Total
+2014,38.8,ARKANSAS,Total
+2012,53.3,ARKANSAS,Total
+2010,40.7,ARKANSAS,Total
+2020,51.6,ARKANSAS,Male
+2018,41.7,ARKANSAS,Male
+2016,57.4,ARKANSAS,Male
+2014,36.7,ARKANSAS,Male
+2012,52.8,ARKANSAS,Male
+2010,39,ARKANSAS,Male
+2020,56.2,ARKANSAS,Female
+2018,43.4,ARKANSAS,Female
+2016,59.8,ARKANSAS,Female
+2014,40.8,ARKANSAS,Female
+2012,53.7,ARKANSAS,Female
+2010,42.2,ARKANSAS,Female
+2020,56.1,ARKANSAS,White alone
+2018,42.8,ARKANSAS,White alone
+2016,59,ARKANSAS,White alone
+2014,39.3,ARKANSAS,White alone
+2012,54.5,ARKANSAS,White alone
+2010,41.9,ARKANSAS,White alone
+2020,57,ARKANSAS,White non-Hispanic alone
+2018,44,ARKANSAS,White non-Hispanic alone
+2016,60.2,ARKANSAS,White non-Hispanic alone
+2014,39.6,ARKANSAS,White non-Hispanic alone
+2012,55.7,ARKANSAS,White non-Hispanic alone
+2010,42.6,ARKANSAS,White non-Hispanic alone
+2020,44.7,ARKANSAS,Black alone
+2018,41.6,ARKANSAS,Black alone
+2016,58.8,ARKANSAS,Black alone
+2014,38.2,ARKANSAS,Black alone
+2012,49.4,ARKANSAS,Black alone
+2010,32.5,ARKANSAS,Black alone
+2020,*,ARKANSAS,Asian alone
+2018,*,ARKANSAS,Asian alone
+2016,*,ARKANSAS,Asian alone
+2014,*,ARKANSAS,Asian alone
+2012,*,ARKANSAS,Asian alone
+2010,*,ARKANSAS,Asian alone
+2020,34.6,ARKANSAS,Hispanic (of any race)
+2018,20.8,ARKANSAS,Hispanic (of any race)
+2016,*,ARKANSAS,Hispanic (of any race)
+2014,*,ARKANSAS,Hispanic (of any race)
+2012,*,ARKANSAS,Hispanic (of any race)
+2010,20.5,ARKANSAS,Hispanic (of any race)
+2020,55.5,ARKANSAS,White alone or in combination
+2018,42.7,ARKANSAS,White alone or in combination
+2016,58.8,ARKANSAS,White alone or in combination
+2014,39.1,ARKANSAS,White alone or in combination
+2012,54.6,ARKANSAS,White alone or in combination
+2010,42.3,ARKANSAS,White alone or in combination
+2020,44.1,ARKANSAS,Black alone or in combination
+2018,41.6,ARKANSAS,Black alone or in combination
+2016,59.3,ARKANSAS,Black alone or in combination
+2014,37.7,ARKANSAS,Black alone or in combination
+2012,48.5,ARKANSAS,Black alone or in combination
+2010,32.5,ARKANSAS,Black alone or in combination
+2020,*,ARKANSAS,Asian alone or in combination
+2018,*,ARKANSAS,Asian alone or in combination
+2016,*,ARKANSAS,Asian alone or in combination
+2014,*,ARKANSAS,Asian alone or in combination
+2012,*,ARKANSAS,Asian alone or in combination
+2010,*,ARKANSAS,Asian alone or in combination
+2020,65.1,CALIFORNIA,Total
+2018,51.9,CALIFORNIA,Total
+2016,57.9,CALIFORNIA,Total
+2014,36.6,CALIFORNIA,Total
+2012,57.5,CALIFORNIA,Total
+2010,47.1,CALIFORNIA,Total
+2020,63.7,CALIFORNIA,Male
+2018,49.8,CALIFORNIA,Male
+2016,56.3,CALIFORNIA,Male
+2014,35.9,CALIFORNIA,Male
+2012,55.6,CALIFORNIA,Male
+2010,46.4,CALIFORNIA,Male
+2020,66.5,CALIFORNIA,Female
+2018,53.8,CALIFORNIA,Female
+2016,59.4,CALIFORNIA,Female
+2014,37.2,CALIFORNIA,Female
+2012,59.3,CALIFORNIA,Female
+2010,47.7,CALIFORNIA,Female
+2020,66.6,CALIFORNIA,White alone
+2018,54.6,CALIFORNIA,White alone
+2016,60.3,CALIFORNIA,White alone
+2014,39.3,CALIFORNIA,White alone
+2012,58.7,CALIFORNIA,White alone
+2010,50,CALIFORNIA,White alone
+2020,74.6,CALIFORNIA,White non-Hispanic alone
+2018,61.4,CALIFORNIA,White non-Hispanic alone
+2016,67.1,CALIFORNIA,White non-Hispanic alone
+2014,46.6,CALIFORNIA,White non-Hispanic alone
+2012,64.3,CALIFORNIA,White non-Hispanic alone
+2010,56,CALIFORNIA,White non-Hispanic alone
+2020,64,CALIFORNIA,Black alone
+2018,50.6,CALIFORNIA,Black alone
+2016,48.4,CALIFORNIA,Black alone
+2014,29.9,CALIFORNIA,Black alone
+2012,61.1,CALIFORNIA,Black alone
+2010,42.6,CALIFORNIA,Black alone
+2020,59.9,CALIFORNIA,Asian alone
+2018,40.7,CALIFORNIA,Asian alone
+2016,51.9,CALIFORNIA,Asian alone
+2014,26.8,CALIFORNIA,Asian alone
+2012,48.6,CALIFORNIA,Asian alone
+2010,34.3,CALIFORNIA,Asian alone
+2020,54.6,CALIFORNIA,Hispanic (of any race)
+2018,43.3,CALIFORNIA,Hispanic (of any race)
+2016,47.2,CALIFORNIA,Hispanic (of any race)
+2014,24.9,CALIFORNIA,Hispanic (of any race)
+2012,48.5,CALIFORNIA,Hispanic (of any race)
+2010,35.4,CALIFORNIA,Hispanic (of any race)
+2020,66.6,CALIFORNIA,White alone or in combination
+2018,54.3,CALIFORNIA,White alone or in combination
+2016,60.5,CALIFORNIA,White alone or in combination
+2014,39.1,CALIFORNIA,White alone or in combination
+2012,58.7,CALIFORNIA,White alone or in combination
+2010,50.1,CALIFORNIA,White alone or in combination
+2020,64.1,CALIFORNIA,Black alone or in combination
+2018,49.9,CALIFORNIA,Black alone or in combination
+2016,49.3,CALIFORNIA,Black alone or in combination
+2014,29.8,CALIFORNIA,Black alone or in combination
+2012,60.9,CALIFORNIA,Black alone or in combination
+2010,42.8,CALIFORNIA,Black alone or in combination
+2020,59.5,CALIFORNIA,Asian alone or in combination
+2018,41.5,CALIFORNIA,Asian alone or in combination
+2016,52.8,CALIFORNIA,Asian alone or in combination
+2014,27,CALIFORNIA,Asian alone or in combination
+2012,49.5,CALIFORNIA,Asian alone or in combination
+2010,35.3,CALIFORNIA,Asian alone or in combination
+2020,67.6,COLORADO,Total
+2018,58.1,COLORADO,Total
+2016,69.5,COLORADO,Total
+2014,59.3,COLORADO,Total
+2012,70.4,COLORADO,Total
+2010,52.6,COLORADO,Total
+2020,65.3,COLORADO,Male
+2018,57.1,COLORADO,Male
+2016,68.2,COLORADO,Male
+2014,57.3,COLORADO,Male
+2012,68.4,COLORADO,Male
+2010,50.9,COLORADO,Male
+2020,69.8,COLORADO,Female
+2018,59.2,COLORADO,Female
+2016,70.7,COLORADO,Female
+2014,61.2,COLORADO,Female
+2012,72.4,COLORADO,Female
+2010,54.2,COLORADO,Female
+2020,69.5,COLORADO,White alone
+2018,59.6,COLORADO,White alone
+2016,70.9,COLORADO,White alone
+2014,60.8,COLORADO,White alone
+2012,72.1,COLORADO,White alone
+2010,53.7,COLORADO,White alone
+2020,71.9,COLORADO,White non-Hispanic alone
+2018,62.6,COLORADO,White non-Hispanic alone
+2016,73,COLORADO,White non-Hispanic alone
+2014,63.7,COLORADO,White non-Hispanic alone
+2012,75.2,COLORADO,White non-Hispanic alone
+2010,57,COLORADO,White non-Hispanic alone
+2020,53.1,COLORADO,Black alone
+2018,30.3,COLORADO,Black alone
+2016,74.1,COLORADO,Black alone
+2014,42.3,COLORADO,Black alone
+2012,55.6,COLORADO,Black alone
+2010,46.6,COLORADO,Black alone
+2020,43.2,COLORADO,Asian alone
+2018,71.5,COLORADO,Asian alone
+2016,33.4,COLORADO,Asian alone
+2014,*,COLORADO,Asian alone
+2012,31.6,COLORADO,Asian alone
+2010,30.7,COLORADO,Asian alone
+2020,51.1,COLORADO,Hispanic (of any race)
+2018,43.9,COLORADO,Hispanic (of any race)
+2016,55.6,COLORADO,Hispanic (of any race)
+2014,40.9,COLORADO,Hispanic (of any race)
+2012,52.1,COLORADO,Hispanic (of any race)
+2010,31.7,COLORADO,Hispanic (of any race)
+2020,68.9,COLORADO,White alone or in combination
+2018,59,COLORADO,White alone or in combination
+2016,70.6,COLORADO,White alone or in combination
+2014,60.5,COLORADO,White alone or in combination
+2012,72.2,COLORADO,White alone or in combination
+2010,53.4,COLORADO,White alone or in combination
+2020,57,COLORADO,Black alone or in combination
+2018,31,COLORADO,Black alone or in combination
+2016,74.6,COLORADO,Black alone or in combination
+2014,40.4,COLORADO,Black alone or in combination
+2012,58.3,COLORADO,Black alone or in combination
+2010,44.3,COLORADO,Black alone or in combination
+2020,48.1,COLORADO,Asian alone or in combination
+2018,60,COLORADO,Asian alone or in combination
+2016,36.1,COLORADO,Asian alone or in combination
+2014,54.6,COLORADO,Asian alone or in combination
+2012,39.2,COLORADO,Asian alone or in combination
+2010,30.9,COLORADO,Asian alone or in combination
+2020,66.6,CONNECTICUT,Total
+2018,54,CONNECTICUT,Total
+2016,63.9,CONNECTICUT,Total
+2014,46.7,CONNECTICUT,Total
+2012,62.7,CONNECTICUT,Total
+2010,49.3,CONNECTICUT,Total
+2020,63.7,CONNECTICUT,Male
+2018,54.2,CONNECTICUT,Male
+2016,60.7,CONNECTICUT,Male
+2014,48.3,CONNECTICUT,Male
+2012,59.9,CONNECTICUT,Male
+2010,49.3,CONNECTICUT,Male
+2020,69.3,CONNECTICUT,Female
+2018,53.8,CONNECTICUT,Female
+2016,66.7,CONNECTICUT,Female
+2014,45.2,CONNECTICUT,Female
+2012,65.3,CONNECTICUT,Female
+2010,49.4,CONNECTICUT,Female
+2020,68.1,CONNECTICUT,White alone
+2018,55.7,CONNECTICUT,White alone
+2016,65.9,CONNECTICUT,White alone
+2014,48.4,CONNECTICUT,White alone
+2012,63.9,CONNECTICUT,White alone
+2010,50.3,CONNECTICUT,White alone
+2020,71,CONNECTICUT,White non-Hispanic alone
+2018,57.7,CONNECTICUT,White non-Hispanic alone
+2016,67.8,CONNECTICUT,White non-Hispanic alone
+2014,50.1,CONNECTICUT,White non-Hispanic alone
+2012,65.8,CONNECTICUT,White non-Hispanic alone
+2010,52.2,CONNECTICUT,White non-Hispanic alone
+2020,65.2,CONNECTICUT,Black alone
+2018,48.2,CONNECTICUT,Black alone
+2016,53.5,CONNECTICUT,Black alone
+2014,33.5,CONNECTICUT,Black alone
+2012,62.2,CONNECTICUT,Black alone
+2010,44.6,CONNECTICUT,Black alone
+2020,56.6,CONNECTICUT,Asian alone
+2018,37.7,CONNECTICUT,Asian alone
+2016,*,CONNECTICUT,Asian alone
+2014,*,CONNECTICUT,Asian alone
+2012,29,CONNECTICUT,Asian alone
+2010,45.3,CONNECTICUT,Asian alone
+2020,56.4,CONNECTICUT,Hispanic (of any race)
+2018,41.1,CONNECTICUT,Hispanic (of any race)
+2016,47.2,CONNECTICUT,Hispanic (of any race)
+2014,30.8,CONNECTICUT,Hispanic (of any race)
+2012,47,CONNECTICUT,Hispanic (of any race)
+2010,28.3,CONNECTICUT,Hispanic (of any race)
+2020,67.8,CONNECTICUT,White alone or in combination
+2018,55.3,CONNECTICUT,White alone or in combination
+2016,66.3,CONNECTICUT,White alone or in combination
+2014,48.5,CONNECTICUT,White alone or in combination
+2012,64.1,CONNECTICUT,White alone or in combination
+2010,49.9,CONNECTICUT,White alone or in combination
+2020,64.5,CONNECTICUT,Black alone or in combination
+2018,48.3,CONNECTICUT,Black alone or in combination
+2016,57.9,CONNECTICUT,Black alone or in combination
+2014,32.9,CONNECTICUT,Black alone or in combination
+2012,62.9,CONNECTICUT,Black alone or in combination
+2010,43.2,CONNECTICUT,Black alone or in combination
+2020,56.6,CONNECTICUT,Asian alone or in combination
+2018,33.7,CONNECTICUT,Asian alone or in combination
+2016,*,CONNECTICUT,Asian alone or in combination
+2014,*,CONNECTICUT,Asian alone or in combination
+2012,33.8,CONNECTICUT,Asian alone or in combination
+2010,43.4,CONNECTICUT,Asian alone or in combination
+2020,67.7,DELAWARE,Total
+2018,51.8,DELAWARE,Total
+2016,62.3,DELAWARE,Total
+2014,45.2,DELAWARE,Total
+2012,67.3,DELAWARE,Total
+2010,51,DELAWARE,Total
+2020,65.7,DELAWARE,Male
+2018,49.9,DELAWARE,Male
+2016,59.7,DELAWARE,Male
+2014,44.6,DELAWARE,Male
+2012,65,DELAWARE,Male
+2010,48.9,DELAWARE,Male
+2020,69.5,DELAWARE,Female
+2018,53.4,DELAWARE,Female
+2016,64.5,DELAWARE,Female
+2014,45.7,DELAWARE,Female
+2012,69.3,DELAWARE,Female
+2010,52.9,DELAWARE,Female
+2020,67,DELAWARE,White alone
+2018,51.4,DELAWARE,White alone
+2016,64.7,DELAWARE,White alone
+2014,47.2,DELAWARE,White alone
+2012,68.8,DELAWARE,White alone
+2010,51.6,DELAWARE,White alone
+2020,68.4,DELAWARE,White non-Hispanic alone
+2018,52.7,DELAWARE,White non-Hispanic alone
+2016,66.3,DELAWARE,White non-Hispanic alone
+2014,48.3,DELAWARE,White non-Hispanic alone
+2012,69.9,DELAWARE,White non-Hispanic alone
+2010,52.5,DELAWARE,White non-Hispanic alone
+2020,64.7,DELAWARE,Black alone
+2018,56.2,DELAWARE,Black alone
+2016,56.5,DELAWARE,Black alone
+2014,43,DELAWARE,Black alone
+2012,63.7,DELAWARE,Black alone
+2010,49.6,DELAWARE,Black alone
+2020,*,DELAWARE,Asian alone
+2018,*,DELAWARE,Asian alone
+2016,*,DELAWARE,Asian alone
+2014,*,DELAWARE,Asian alone
+2012,*,DELAWARE,Asian alone
+2010,*,DELAWARE,Asian alone
+2020,*,DELAWARE,Hispanic (of any race)
+2018,*,DELAWARE,Hispanic (of any race)
+2016,*,DELAWARE,Hispanic (of any race)
+2014,*,DELAWARE,Hispanic (of any race)
+2012,*,DELAWARE,Hispanic (of any race)
+2010,*,DELAWARE,Hispanic (of any race)
+2020,67.6,DELAWARE,White alone or in combination
+2018,51.1,DELAWARE,White alone or in combination
+2016,64.4,DELAWARE,White alone or in combination
+2014,47.2,DELAWARE,White alone or in combination
+2012,68.7,DELAWARE,White alone or in combination
+2010,51.3,DELAWARE,White alone or in combination
+2020,65.3,DELAWARE,Black alone or in combination
+2018,55.2,DELAWARE,Black alone or in combination
+2016,55.5,DELAWARE,Black alone or in combination
+2014,43.7,DELAWARE,Black alone or in combination
+2012,63.3,DELAWARE,Black alone or in combination
+2010,49.1,DELAWARE,Black alone or in combination
+2020,*,DELAWARE,Asian alone or in combination
+2018,*,DELAWARE,Asian alone or in combination
+2016,*,DELAWARE,Asian alone or in combination
+2014,*,DELAWARE,Asian alone or in combination
+2012,*,DELAWARE,Asian alone or in combination
+2010,*,DELAWARE,Asian alone or in combination
+2020,84,DISTRICT OF COLUMBIA,Total
+2018,61.1,DISTRICT OF COLUMBIA,Total
+2016,74.3,DISTRICT OF COLUMBIA,Total
+2014,51.4,DISTRICT OF COLUMBIA,Total
+2012,75.9,DISTRICT OF COLUMBIA,Total
+2010,45.3,DISTRICT OF COLUMBIA,Total
+2020,81.5,DISTRICT OF COLUMBIA,Male
+2018,59.8,DISTRICT OF COLUMBIA,Male
+2016,71,DISTRICT OF COLUMBIA,Male
+2014,53.6,DISTRICT OF COLUMBIA,Male
+2012,72.7,DISTRICT OF COLUMBIA,Male
+2010,41.9,DISTRICT OF COLUMBIA,Male
+2020,86,DISTRICT OF COLUMBIA,Female
+2018,62.3,DISTRICT OF COLUMBIA,Female
+2016,77.2,DISTRICT OF COLUMBIA,Female
+2014,49.5,DISTRICT OF COLUMBIA,Female
+2012,78.6,DISTRICT OF COLUMBIA,Female
+2010,48.1,DISTRICT OF COLUMBIA,Female
+2020,88.1,DISTRICT OF COLUMBIA,White alone
+2018,67.8,DISTRICT OF COLUMBIA,White alone
+2016,80,DISTRICT OF COLUMBIA,White alone
+2014,55.8,DISTRICT OF COLUMBIA,White alone
+2012,75.9,DISTRICT OF COLUMBIA,White alone
+2010,45.3,DISTRICT OF COLUMBIA,White alone
+2020,88.8,DISTRICT OF COLUMBIA,White non-Hispanic alone
+2018,69.5,DISTRICT OF COLUMBIA,White non-Hispanic alone
+2016,81.9,DISTRICT OF COLUMBIA,White non-Hispanic alone
+2014,56.2,DISTRICT OF COLUMBIA,White non-Hispanic alone
+2012,76.7,DISTRICT OF COLUMBIA,White non-Hispanic alone
+2010,47.1,DISTRICT OF COLUMBIA,White non-Hispanic alone
+2020,79.3,DISTRICT OF COLUMBIA,Black alone
+2018,53.7,DISTRICT OF COLUMBIA,Black alone
+2016,68,DISTRICT OF COLUMBIA,Black alone
+2014,48.6,DISTRICT OF COLUMBIA,Black alone
+2012,76.8,DISTRICT OF COLUMBIA,Black alone
+2010,44.2,DISTRICT OF COLUMBIA,Black alone
+2020,*,DISTRICT OF COLUMBIA,Asian alone
+2018,*,DISTRICT OF COLUMBIA,Asian alone
+2016,*,DISTRICT OF COLUMBIA,Asian alone
+2014,*,DISTRICT OF COLUMBIA,Asian alone
+2012,*,DISTRICT OF COLUMBIA,Asian alone
+2010,*,DISTRICT OF COLUMBIA,Asian alone
+2020,*,DISTRICT OF COLUMBIA,Hispanic (of any race)
+2018,*,DISTRICT OF COLUMBIA,Hispanic (of any race)
+2016,*,DISTRICT OF COLUMBIA,Hispanic (of any race)
+2014,*,DISTRICT OF COLUMBIA,Hispanic (of any race)
+2012,*,DISTRICT OF COLUMBIA,Hispanic (of any race)
+2010,*,DISTRICT OF COLUMBIA,Hispanic (of any race)
+2020,88,DISTRICT OF COLUMBIA,White alone or in combination
+2018,67.8,DISTRICT OF COLUMBIA,White alone or in combination
+2016,80.5,DISTRICT OF COLUMBIA,White alone or in combination
+2014,55.4,DISTRICT OF COLUMBIA,White alone or in combination
+2012,75.7,DISTRICT OF COLUMBIA,White alone or in combination
+2010,45.9,DISTRICT OF COLUMBIA,White alone or in combination
+2020,79.5,DISTRICT OF COLUMBIA,Black alone or in combination
+2018,54.5,DISTRICT OF COLUMBIA,Black alone or in combination
+2016,68.4,DISTRICT OF COLUMBIA,Black alone or in combination
+2014,48.8,DISTRICT OF COLUMBIA,Black alone or in combination
+2012,76.9,DISTRICT OF COLUMBIA,Black alone or in combination
+2010,44.5,DISTRICT OF COLUMBIA,Black alone or in combination
+2020,*,DISTRICT OF COLUMBIA,Asian alone or in combination
+2018,*,DISTRICT OF COLUMBIA,Asian alone or in combination
+2016,*,DISTRICT OF COLUMBIA,Asian alone or in combination
+2014,*,DISTRICT OF COLUMBIA,Asian alone or in combination
+2012,*,DISTRICT OF COLUMBIA,Asian alone or in combination
+2010,*,DISTRICT OF COLUMBIA,Asian alone or in combination
+2020,62.1,FLORIDA,Total
+2018,52.6,FLORIDA,Total
+2016,59.5,FLORIDA,Total
+2014,44.8,FLORIDA,Total
+2012,60.8,FLORIDA,Total
+2010,43.9,FLORIDA,Total
+2020,60.7,FLORIDA,Male
+2018,51.1,FLORIDA,Male
+2016,57.1,FLORIDA,Male
+2014,43.4,FLORIDA,Male
+2012,58.7,FLORIDA,Male
+2010,42.9,FLORIDA,Male
+2020,63.5,FLORIDA,Female
+2018,54,FLORIDA,Female
+2016,61.6,FLORIDA,Female
+2014,46.1,FLORIDA,Female
+2012,62.7,FLORIDA,Female
+2010,44.8,FLORIDA,Female
+2020,63,FLORIDA,White alone
+2018,54.1,FLORIDA,White alone
+2016,61.7,FLORIDA,White alone
+2014,45,FLORIDA,White alone
+2012,62,FLORIDA,White alone
+2010,44.9,FLORIDA,White alone
+2020,66.8,FLORIDA,White non-Hispanic alone
+2018,57,FLORIDA,White non-Hispanic alone
+2016,63.8,FLORIDA,White non-Hispanic alone
+2014,47.5,FLORIDA,White non-Hispanic alone
+2012,61.9,FLORIDA,White non-Hispanic alone
+2010,45.7,FLORIDA,White non-Hispanic alone
+2020,58.7,FLORIDA,Black alone
+2018,47.2,FLORIDA,Black alone
+2016,50.5,FLORIDA,Black alone
+2014,44,FLORIDA,Black alone
+2012,57.6,FLORIDA,Black alone
+2010,41.5,FLORIDA,Black alone
+2020,55.6,FLORIDA,Asian alone
+2018,40.5,FLORIDA,Asian alone
+2016,40.4,FLORIDA,Asian alone
+2014,43,FLORIDA,Asian alone
+2012,43,FLORIDA,Asian alone
+2010,24.7,FLORIDA,Asian alone
+2020,52.7,FLORIDA,Hispanic (of any race)
+2018,44.3,FLORIDA,Hispanic (of any race)
+2016,54.1,FLORIDA,Hispanic (of any race)
+2014,36,FLORIDA,Hispanic (of any race)
+2012,62.2,FLORIDA,Hispanic (of any race)
+2010,41.1,FLORIDA,Hispanic (of any race)
+2020,63,FLORIDA,White alone or in combination
+2018,54,FLORIDA,White alone or in combination
+2016,61.7,FLORIDA,White alone or in combination
+2014,45,FLORIDA,White alone or in combination
+2012,62,FLORIDA,White alone or in combination
+2010,44.9,FLORIDA,White alone or in combination
+2020,58.3,FLORIDA,Black alone or in combination
+2018,47.4,FLORIDA,Black alone or in combination
+2016,50.4,FLORIDA,Black alone or in combination
+2014,43.5,FLORIDA,Black alone or in combination
+2012,58.2,FLORIDA,Black alone or in combination
+2010,40.8,FLORIDA,Black alone or in combination
+2020,56.2,FLORIDA,Asian alone or in combination
+2018,40.1,FLORIDA,Asian alone or in combination
+2016,40,FLORIDA,Asian alone or in combination
+2014,43.2,FLORIDA,Asian alone or in combination
+2012,43.7,FLORIDA,Asian alone or in combination
+2010,25.1,FLORIDA,Asian alone or in combination
+2020,66.1,GEORGIA,Total
+2018,55.9,GEORGIA,Total
+2016,60.2,GEORGIA,Total
+2014,43.2,GEORGIA,Total
+2012,61.9,GEORGIA,Total
+2010,43.6,GEORGIA,Total
+2020,63,GEORGIA,Male
+2018,53.1,GEORGIA,Male
+2016,57.5,GEORGIA,Male
+2014,41.3,GEORGIA,Male
+2012,59.2,GEORGIA,Male
+2010,42.9,GEORGIA,Male
+2020,68.7,GEORGIA,Female
+2018,58.3,GEORGIA,Female
+2016,62.7,GEORGIA,Female
+2014,44.9,GEORGIA,Female
+2012,64.2,GEORGIA,Female
+2010,44.2,GEORGIA,Female
+2020,68.1,GEORGIA,White alone
+2018,55.1,GEORGIA,White alone
+2016,62.6,GEORGIA,White alone
+2014,44,GEORGIA,White alone
+2012,61.1,GEORGIA,White alone
+2010,43,GEORGIA,White alone
+2020,70.3,GEORGIA,White non-Hispanic alone
+2018,56.1,GEORGIA,White non-Hispanic alone
+2016,63.8,GEORGIA,White non-Hispanic alone
+2014,44.8,GEORGIA,White non-Hispanic alone
+2012,62,GEORGIA,White non-Hispanic alone
+2010,43.7,GEORGIA,White non-Hispanic alone
+2020,64,GEORGIA,Black alone
+2018,59.6,GEORGIA,Black alone
+2016,59.7,GEORGIA,Black alone
+2014,43,GEORGIA,Black alone
+2012,65,GEORGIA,Black alone
+2010,46.8,GEORGIA,Black alone
+2020,53.3,GEORGIA,Asian alone
+2018,43.8,GEORGIA,Asian alone
+2016,31.3,GEORGIA,Asian alone
+2014,25.7,GEORGIA,Asian alone
+2012,41.9,GEORGIA,Asian alone
+2010,14.6,GEORGIA,Asian alone
+2020,44.2,GEORGIA,Hispanic (of any race)
+2018,38.2,GEORGIA,Hispanic (of any race)
+2016,47.9,GEORGIA,Hispanic (of any race)
+2014,29.8,GEORGIA,Hispanic (of any race)
+2012,47.8,GEORGIA,Hispanic (of any race)
+2010,23.9,GEORGIA,Hispanic (of any race)
+2020,68.1,GEORGIA,White alone or in combination
+2018,54.6,GEORGIA,White alone or in combination
+2016,62.2,GEORGIA,White alone or in combination
+2014,44,GEORGIA,White alone or in combination
+2012,61.2,GEORGIA,White alone or in combination
+2010,43.2,GEORGIA,White alone or in combination
+2020,63.8,GEORGIA,Black alone or in combination
+2018,58.5,GEORGIA,Black alone or in combination
+2016,59.3,GEORGIA,Black alone or in combination
+2014,43.5,GEORGIA,Black alone or in combination
+2012,64.9,GEORGIA,Black alone or in combination
+2010,47.2,GEORGIA,Black alone or in combination
+2020,55.2,GEORGIA,Asian alone or in combination
+2018,41.9,GEORGIA,Asian alone or in combination
+2016,30,GEORGIA,Asian alone or in combination
+2014,26.5,GEORGIA,Asian alone or in combination
+2012,40.8,GEORGIA,Asian alone or in combination
+2010,13.8,GEORGIA,Asian alone or in combination
+2020,64.3,HAWAII,Total
+2018,44,HAWAII,Total
+2016,47.3,HAWAII,Total
+2014,41.8,HAWAII,Total
+2012,51.6,HAWAII,Total
+2010,43.1,HAWAII,Total
+2020,65.2,HAWAII,Male
+2018,41.7,HAWAII,Male
+2016,45.2,HAWAII,Male
+2014,41.4,HAWAII,Male
+2012,48.7,HAWAII,Male
+2010,41.2,HAWAII,Male
+2020,63.5,HAWAII,Female
+2018,46.1,HAWAII,Female
+2016,49.3,HAWAII,Female
+2014,42.1,HAWAII,Female
+2012,54.6,HAWAII,Female
+2010,45.1,HAWAII,Female
+2020,71.1,HAWAII,White alone
+2018,47.9,HAWAII,White alone
+2016,58.7,HAWAII,White alone
+2014,44,HAWAII,White alone
+2012,66.9,HAWAII,White alone
+2010,47,HAWAII,White alone
+2020,72.7,HAWAII,White non-Hispanic alone
+2018,50.4,HAWAII,White non-Hispanic alone
+2016,61.3,HAWAII,White non-Hispanic alone
+2014,45.1,HAWAII,White non-Hispanic alone
+2012,68.2,HAWAII,White non-Hispanic alone
+2010,47.5,HAWAII,White non-Hispanic alone
+2020,*,HAWAII,Black alone
+2018,*,HAWAII,Black alone
+2016,*,HAWAII,Black alone
+2014,*,HAWAII,Black alone
+2012,*,HAWAII,Black alone
+2010,*,HAWAII,Black alone
+2020,61.4,HAWAII,Asian alone
+2018,44.6,HAWAII,Asian alone
+2016,43.6,HAWAII,Asian alone
+2014,45.8,HAWAII,Asian alone
+2012,49.7,HAWAII,Asian alone
+2010,48.8,HAWAII,Asian alone
+2020,*,HAWAII,Hispanic (of any race)
+2018,30.9,HAWAII,Hispanic (of any race)
+2016,*,HAWAII,Hispanic (of any race)
+2014,*,HAWAII,Hispanic (of any race)
+2012,*,HAWAII,Hispanic (of any race)
+2010,35.7,HAWAII,Hispanic (of any race)
+2020,69.2,HAWAII,White alone or in combination
+2018,49.3,HAWAII,White alone or in combination
+2016,54.6,HAWAII,White alone or in combination
+2014,42.8,HAWAII,White alone or in combination
+2012,59.3,HAWAII,White alone or in combination
+2010,41.8,HAWAII,White alone or in combination
+2020,*,HAWAII,Black alone or in combination
+2018,*,HAWAII,Black alone or in combination
+2016,*,HAWAII,Black alone or in combination
+2014,*,HAWAII,Black alone or in combination
+2012,*,HAWAII,Black alone or in combination
+2010,*,HAWAII,Black alone or in combination
+2020,62.7,HAWAII,Asian alone or in combination
+2018,45.7,HAWAII,Asian alone or in combination
+2016,44.8,HAWAII,Asian alone or in combination
+2014,44.2,HAWAII,Asian alone or in combination
+2012,49,HAWAII,Asian alone or in combination
+2010,44.8,HAWAII,Asian alone or in combination
+2020,64.9,IDAHO,Total
+2018,47.9,IDAHO,Total
+2016,62.1,IDAHO,Total
+2014,41.8,IDAHO,Total
+2012,63.9,IDAHO,Total
+2010,47.5,IDAHO,Total
+2020,63.8,IDAHO,Male
+2018,47,IDAHO,Male
+2016,60.6,IDAHO,Male
+2014,39.9,IDAHO,Male
+2012,62.2,IDAHO,Male
+2010,45.9,IDAHO,Male
+2020,66,IDAHO,Female
+2018,48.7,IDAHO,Female
+2016,63.5,IDAHO,Female
+2014,43.6,IDAHO,Female
+2012,65.4,IDAHO,Female
+2010,49.1,IDAHO,Female
+2020,65.6,IDAHO,White alone
+2018,47.7,IDAHO,White alone
+2016,62.8,IDAHO,White alone
+2014,43.3,IDAHO,White alone
+2012,64.8,IDAHO,White alone
+2010,48.3,IDAHO,White alone
+2020,67.5,IDAHO,White non-Hispanic alone
+2018,50.9,IDAHO,White non-Hispanic alone
+2016,65.1,IDAHO,White non-Hispanic alone
+2014,45.8,IDAHO,White non-Hispanic alone
+2012,66.4,IDAHO,White non-Hispanic alone
+2010,50.3,IDAHO,White non-Hispanic alone
+2020,*,IDAHO,Black alone
+2018,*,IDAHO,Black alone
+2016,*,IDAHO,Black alone
+2014,*,IDAHO,Black alone
+2012,*,IDAHO,Black alone
+2010,*,IDAHO,Black alone
+2020,*,IDAHO,Asian alone
+2018,*,IDAHO,Asian alone
+2016,*,IDAHO,Asian alone
+2014,*,IDAHO,Asian alone
+2012,*,IDAHO,Asian alone
+2010,*,IDAHO,Asian alone
+2020,46.3,IDAHO,Hispanic (of any race)
+2018,23.8,IDAHO,Hispanic (of any race)
+2016,42.9,IDAHO,Hispanic (of any race)
+2014,17.6,IDAHO,Hispanic (of any race)
+2012,*,IDAHO,Hispanic (of any race)
+2010,14.7,IDAHO,Hispanic (of any race)
+2020,65.6,IDAHO,White alone or in combination
+2018,47.7,IDAHO,White alone or in combination
+2016,62.4,IDAHO,White alone or in combination
+2014,43.2,IDAHO,White alone or in combination
+2012,64.6,IDAHO,White alone or in combination
+2010,48,IDAHO,White alone or in combination
+2020,*,IDAHO,Black alone or in combination
+2018,*,IDAHO,Black alone or in combination
+2016,*,IDAHO,Black alone or in combination
+2014,*,IDAHO,Black alone or in combination
+2012,*,IDAHO,Black alone or in combination
+2010,*,IDAHO,Black alone or in combination
+2020,*,IDAHO,Asian alone or in combination
+2018,*,IDAHO,Asian alone or in combination
+2016,*,IDAHO,Asian alone or in combination
+2014,*,IDAHO,Asian alone or in combination
+2012,*,IDAHO,Asian alone or in combination
+2010,*,IDAHO,Asian alone or in combination
+2020,68.4,ILLINOIS,Total
+2018,53,ILLINOIS,Total
+2016,63.8,ILLINOIS,Total
+2014,41.7,ILLINOIS,Total
+2012,61.5,ILLINOIS,Total
+2010,45.5,ILLINOIS,Total
+2020,67.2,ILLINOIS,Male
+2018,50.6,ILLINOIS,Male
+2016,62.1,ILLINOIS,Male
+2014,40.8,ILLINOIS,Male
+2012,59.3,ILLINOIS,Male
+2010,44.6,ILLINOIS,Male
+2020,69.5,ILLINOIS,Female
+2018,55.2,ILLINOIS,Female
+2016,65.3,ILLINOIS,Female
+2014,42.5,ILLINOIS,Female
+2012,63.5,ILLINOIS,Female
+2010,46.3,ILLINOIS,Female
+2020,69.1,ILLINOIS,White alone
+2018,53.7,ILLINOIS,White alone
+2016,65.3,ILLINOIS,White alone
+2014,43.3,ILLINOIS,White alone
+2012,60.1,ILLINOIS,White alone
+2010,44.9,ILLINOIS,White alone
+2020,72.9,ILLINOIS,White non-Hispanic alone
+2018,57.1,ILLINOIS,White non-Hispanic alone
+2016,67.8,ILLINOIS,White non-Hispanic alone
+2014,45.8,ILLINOIS,White non-Hispanic alone
+2012,62.2,ILLINOIS,White non-Hispanic alone
+2010,46.4,ILLINOIS,White non-Hispanic alone
+2020,63.8,ILLINOIS,Black alone
+2018,56.8,ILLINOIS,Black alone
+2016,58.7,ILLINOIS,Black alone
+2014,40.2,ILLINOIS,Black alone
+2012,71.8,ILLINOIS,Black alone
+2010,52,ILLINOIS,Black alone
+2020,69.3,ILLINOIS,Asian alone
+2018,33.1,ILLINOIS,Asian alone
+2016,51.3,ILLINOIS,Asian alone
+2014,18.5,ILLINOIS,Asian alone
+2012,55.4,ILLINOIS,Asian alone
+2010,33.3,ILLINOIS,Asian alone
+2020,46.8,ILLINOIS,Hispanic (of any race)
+2018,33.3,ILLINOIS,Hispanic (of any race)
+2016,49.2,ILLINOIS,Hispanic (of any race)
+2014,24.4,ILLINOIS,Hispanic (of any race)
+2012,38.3,ILLINOIS,Hispanic (of any race)
+2010,32.2,ILLINOIS,Hispanic (of any race)
+2020,69,ILLINOIS,White alone or in combination
+2018,53.7,ILLINOIS,White alone or in combination
+2016,65.3,ILLINOIS,White alone or in combination
+2014,43.2,ILLINOIS,White alone or in combination
+2012,59.9,ILLINOIS,White alone or in combination
+2010,44.9,ILLINOIS,White alone or in combination
+2020,63.7,ILLINOIS,Black alone or in combination
+2018,56,ILLINOIS,Black alone or in combination
+2016,59.7,ILLINOIS,Black alone or in combination
+2014,40.8,ILLINOIS,Black alone or in combination
+2012,71.1,ILLINOIS,Black alone or in combination
+2010,51.5,ILLINOIS,Black alone or in combination
+2020,69.9,ILLINOIS,Asian alone or in combination
+2018,34,ILLINOIS,Asian alone or in combination
+2016,52.4,ILLINOIS,Asian alone or in combination
+2014,18.2,ILLINOIS,Asian alone or in combination
+2012,54.1,ILLINOIS,Asian alone or in combination
+2010,33.3,ILLINOIS,Asian alone or in combination
+2020,61,INDIANA,Total
+2018,49.3,INDIANA,Total
+2016,58.3,INDIANA,Total
+2014,35.1,INDIANA,Total
+2012,59.3,INDIANA,Total
+2010,39.4,INDIANA,Total
+2020,59.3,INDIANA,Male
+2018,47.8,INDIANA,Male
+2016,58.3,INDIANA,Male
+2014,35.4,INDIANA,Male

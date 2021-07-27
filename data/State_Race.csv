@@ -59,17 +59,17 @@
 2014,45.5,Alabama,Black
 2012,63.1,Alabama,Black
 2010,46.4,Alabama,Black
-2020,*,Alabama,Asian
-2018,*,Alabama,Asian
-2016,*,Alabama,Asian
-2014,*,Alabama,Asian
-2012,*,Alabama,Asian
-2010,*,Alabama,Asian
-2020,*,Alabama,Hispanic
+2020,-10000000000,Alabama,Asian
+2018,-10000000000,Alabama,Asian
+2016,-10000000000,Alabama,Asian
+2014,-10000000000,Alabama,Asian
+2012,-10000000000,Alabama,Asian
+2010,-10000000000,Alabama,Asian
+2020,-10000000000,Alabama,Hispanic
 2018,29.1,Alabama,Hispanic
-2016,*,Alabama,Hispanic
-2014,*,Alabama,Hispanic
-2012,*,Alabama,Hispanic
+2016,-10000000000,Alabama,Hispanic
+2014,-10000000000,Alabama,Hispanic
+2012,-10000000000,Alabama,Hispanic
 2010,22.1,Alabama,Hispanic
 2020,63.8,Alaska,Total
 2018,52.8,Alaska,Total
@@ -89,24 +89,24 @@
 2014,57.8,Alaska,White non-Hispanic
 2012,63.9,Alaska,White non-Hispanic
 2010,56.5,Alaska,White non-Hispanic
-2020,*,Alaska,Black
-2018,*,Alaska,Black
-2016,*,Alaska,Black
-2014,*,Alaska,Black
-2012,*,Alaska,Black
-2010,*,Alaska,Black
-2020,*,Alaska,Asian
-2018,*,Alaska,Asian
-2016,*,Alaska,Asian
-2014,*,Alaska,Asian
-2012,*,Alaska,Asian
-2010,*,Alaska,Asian
-2020,*,Alaska,Hispanic
-2018,*,Alaska,Hispanic
-2016,*,Alaska,Hispanic
-2014,*,Alaska,Hispanic
-2012,*,Alaska,Hispanic
-2010,*,Alaska,Hispanic
+2020,-10000000000,Alaska,Black
+2018,-10000000000,Alaska,Black
+2016,-10000000000,Alaska,Black
+2014,-10000000000,Alaska,Black
+2012,-10000000000,Alaska,Black
+2010,-10000000000,Alaska,Black
+2020,-10000000000,Alaska,Asian
+2018,-10000000000,Alaska,Asian
+2016,-10000000000,Alaska,Asian
+2014,-10000000000,Alaska,Asian
+2012,-10000000000,Alaska,Asian
+2010,-10000000000,Alaska,Asian
+2020,-10000000000,Alaska,Hispanic
+2018,-10000000000,Alaska,Hispanic
+2016,-10000000000,Alaska,Hispanic
+2014,-10000000000,Alaska,Hispanic
+2012,-10000000000,Alaska,Hispanic
+2010,-10000000000,Alaska,Hispanic
 2020,71.9,Arizona,Total
 2018,58.9,Arizona,Total
 2016,60.4,Arizona,Total
@@ -167,17 +167,17 @@
 2014,38.2,Arkansas,Black
 2012,49.4,Arkansas,Black
 2010,32.5,Arkansas,Black
-2020,*,Arkansas,Asian
-2018,*,Arkansas,Asian
-2016,*,Arkansas,Asian
-2014,*,Arkansas,Asian
-2012,*,Arkansas,Asian
-2010,*,Arkansas,Asian
+2020,-10000000000,Arkansas,Asian
+2018,-10000000000,Arkansas,Asian
+2016,-10000000000,Arkansas,Asian
+2014,-10000000000,Arkansas,Asian
+2012,-10000000000,Arkansas,Asian
+2010,-10000000000,Arkansas,Asian
 2020,34.6,Arkansas,Hispanic
 2018,20.8,Arkansas,Hispanic
-2016,*,Arkansas,Hispanic
-2014,*,Arkansas,Hispanic
-2012,*,Arkansas,Hispanic
+2016,-10000000000,Arkansas,Hispanic
+2014,-10000000000,Arkansas,Hispanic
+2012,-10000000000,Arkansas,Hispanic
 2010,20.5,Arkansas,Hispanic
 2020,65.1,California,Total
 2018,51.9,California,Total
@@ -242,7 +242,7 @@
 2020,43.2,Colorado,Asian
 2018,71.5,Colorado,Asian
 2016,33.4,Colorado,Asian
-2014,*,Colorado,Asian
+2014,-10000000000,Colorado,Asian
 2012,31.6,Colorado,Asian
 2010,30.7,Colorado,Asian
 2020,51.1,Colorado,Hispanic
@@ -277,8 +277,8 @@
 2010,44.6,Connecticut,Black
 2020,56.6,Connecticut,Asian
 2018,37.7,Connecticut,Asian
-2016,*,Connecticut,Asian
-2014,*,Connecticut,Asian
+2016,-10000000000,Connecticut,Asian
+2014,-10000000000,Connecticut,Asian
 2012,29,Connecticut,Asian
 2010,45.3,Connecticut,Asian
 2020,56.4,Connecticut,Hispanic
@@ -311,18 +311,18 @@
 2014,43,Delaware,Black
 2012,63.7,Delaware,Black
 2010,49.6,Delaware,Black
-2020,*,Delaware,Asian
-2018,*,Delaware,Asian
-2016,*,Delaware,Asian
-2014,*,Delaware,Asian
-2012,*,Delaware,Asian
-2010,*,Delaware,Asian
-2020,*,Delaware,Hispanic
-2018,*,Delaware,Hispanic
-2016,*,Delaware,Hispanic
-2014,*,Delaware,Hispanic
-2012,*,Delaware,Hispanic
-2010,*,Delaware,Hispanic
+2020,-10000000000,Delaware,Asian
+2018,-10000000000,Delaware,Asian
+2016,-10000000000,Delaware,Asian
+2014,-10000000000,Delaware,Asian
+2012,-10000000000,Delaware,Asian
+2010,-10000000000,Delaware,Asian
+2020,-10000000000,Delaware,Hispanic
+2018,-10000000000,Delaware,Hispanic
+2016,-10000000000,Delaware,Hispanic
+2014,-10000000000,Delaware,Hispanic
+2012,-10000000000,Delaware,Hispanic
+2010,-10000000000,Delaware,Hispanic
 2020,84,District Of Columbia,Total
 2018,61.1,District Of Columbia,Total
 2016,74.3,District Of Columbia,Total
@@ -347,18 +347,18 @@
 2014,48.6,District Of Columbia,Black
 2012,76.8,District Of Columbia,Black
 2010,44.2,District Of Columbia,Black
-2020,*,District Of Columbia,Asian
-2018,*,District Of Columbia,Asian
-2016,*,District Of Columbia,Asian
-2014,*,District Of Columbia,Asian
-2012,*,District Of Columbia,Asian
-2010,*,District Of Columbia,Asian
-2020,*,District Of Columbia,Hispanic
-2018,*,District Of Columbia,Hispanic
-2016,*,District Of Columbia,Hispanic
-2014,*,District Of Columbia,Hispanic
-2012,*,District Of Columbia,Hispanic
-2010,*,District Of Columbia,Hispanic
+2020,-10000000000,District Of Columbia,Asian
+2018,-10000000000,District Of Columbia,Asian
+2016,-10000000000,District Of Columbia,Asian
+2014,-10000000000,District Of Columbia,Asian
+2012,-10000000000,District Of Columbia,Asian
+2010,-10000000000,District Of Columbia,Asian
+2020,-10000000000,District Of Columbia,Hispanic
+2018,-10000000000,District Of Columbia,Hispanic
+2016,-10000000000,District Of Columbia,Hispanic
+2014,-10000000000,District Of Columbia,Hispanic
+2012,-10000000000,District Of Columbia,Hispanic
+2010,-10000000000,District Of Columbia,Hispanic
 2020,62.1,Florida,Total
 2018,52.6,Florida,Total
 2016,59.5,Florida,Total
@@ -449,23 +449,23 @@
 2014,45.1,Hawaii,White non-Hispanic
 2012,68.2,Hawaii,White non-Hispanic
 2010,47.5,Hawaii,White non-Hispanic
-2020,*,Hawaii,Black
-2018,*,Hawaii,Black
-2016,*,Hawaii,Black
-2014,*,Hawaii,Black
-2012,*,Hawaii,Black
-2010,*,Hawaii,Black
+2020,-10000000000,Hawaii,Black
+2018,-10000000000,Hawaii,Black
+2016,-10000000000,Hawaii,Black
+2014,-10000000000,Hawaii,Black
+2012,-10000000000,Hawaii,Black
+2010,-10000000000,Hawaii,Black
 2020,61.4,Hawaii,Asian
 2018,44.6,Hawaii,Asian
 2016,43.6,Hawaii,Asian
 2014,45.8,Hawaii,Asian
 2012,49.7,Hawaii,Asian
 2010,48.8,Hawaii,Asian
-2020,*,Hawaii,Hispanic
+2020,-10000000000,Hawaii,Hispanic
 2018,30.9,Hawaii,Hispanic
-2016,*,Hawaii,Hispanic
-2014,*,Hawaii,Hispanic
-2012,*,Hawaii,Hispanic
+2016,-10000000000,Hawaii,Hispanic
+2014,-10000000000,Hawaii,Hispanic
+2012,-10000000000,Hawaii,Hispanic
 2010,35.7,Hawaii,Hispanic
 2020,64.9,Idaho,Total
 2018,47.9,Idaho,Total
@@ -485,23 +485,23 @@
 2014,45.8,Idaho,White non-Hispanic
 2012,66.4,Idaho,White non-Hispanic
 2010,50.3,Idaho,White non-Hispanic
-2020,*,Idaho,Black
-2018,*,Idaho,Black
-2016,*,Idaho,Black
-2014,*,Idaho,Black
-2012,*,Idaho,Black
-2010,*,Idaho,Black
-2020,*,Idaho,Asian
-2018,*,Idaho,Asian
-2016,*,Idaho,Asian
-2014,*,Idaho,Asian
-2012,*,Idaho,Asian
-2010,*,Idaho,Asian
+2020,-10000000000,Idaho,Black
+2018,-10000000000,Idaho,Black
+2016,-10000000000,Idaho,Black
+2014,-10000000000,Idaho,Black
+2012,-10000000000,Idaho,Black
+2010,-10000000000,Idaho,Black
+2020,-10000000000,Idaho,Asian
+2018,-10000000000,Idaho,Asian
+2016,-10000000000,Idaho,Asian
+2014,-10000000000,Idaho,Asian
+2012,-10000000000,Idaho,Asian
+2010,-10000000000,Idaho,Asian
 2020,46.3,Idaho,Hispanic
 2018,23.8,Idaho,Hispanic
 2016,42.9,Idaho,Hispanic
 2014,17.6,Idaho,Hispanic
-2012,*,Idaho,Hispanic
+2012,-10000000000,Idaho,Hispanic
 2010,14.7,Idaho,Hispanic
 2020,68.4,Illinois,Total
 2018,53,Illinois,Total
@@ -565,10 +565,10 @@
 2010,43.5,Indiana,Black
 2020,59.9,Indiana,Asian
 2018,27.6,Indiana,Asian
-2016,*,Indiana,Asian
-2014,*,Indiana,Asian
-2012,*,Indiana,Asian
-2010,*,Indiana,Asian
+2016,-10000000000,Indiana,Asian
+2014,-10000000000,Indiana,Asian
+2012,-10000000000,Indiana,Asian
+2010,-10000000000,Indiana,Asian
 2020,44,Indiana,Hispanic
 2018,36.5,Indiana,Hispanic
 2016,46,Indiana,Hispanic
@@ -595,21 +595,21 @@
 2010,53.5,Iowa,White non-Hispanic
 2020,46.2,Iowa,Black
 2018,54.1,Iowa,Black
-2016,*,Iowa,Black
-2014,*,Iowa,Black
-2012,*,Iowa,Black
-2010,*,Iowa,Black
-2020,*,Iowa,Asian
-2018,*,Iowa,Asian
-2016,*,Iowa,Asian
-2014,*,Iowa,Asian
-2012,*,Iowa,Asian
-2010,*,Iowa,Asian
+2016,-10000000000,Iowa,Black
+2014,-10000000000,Iowa,Black
+2012,-10000000000,Iowa,Black
+2010,-10000000000,Iowa,Black
+2020,-10000000000,Iowa,Asian
+2018,-10000000000,Iowa,Asian
+2016,-10000000000,Iowa,Asian
+2014,-10000000000,Iowa,Asian
+2012,-10000000000,Iowa,Asian
+2010,-10000000000,Iowa,Asian
 2020,44.2,Iowa,Hispanic
 2018,46.7,Iowa,Hispanic
-2016,*,Iowa,Hispanic
-2014,*,Iowa,Hispanic
-2012,*,Iowa,Hispanic
+2016,-10000000000,Iowa,Hispanic
+2014,-10000000000,Iowa,Hispanic
+2012,-10000000000,Iowa,Hispanic
 2010,25.7,Iowa,Hispanic
 2020,65.7,Kansas,Total
 2018,56.9,Kansas,Total
@@ -635,12 +635,12 @@
 2014,43.3,Kansas,Black
 2012,52.4,Kansas,Black
 2010,32.3,Kansas,Black
-2020,*,Kansas,Asian
-2018,*,Kansas,Asian
-2016,*,Kansas,Asian
-2014,*,Kansas,Asian
-2012,*,Kansas,Asian
-2010,*,Kansas,Asian
+2020,-10000000000,Kansas,Asian
+2018,-10000000000,Kansas,Asian
+2016,-10000000000,Kansas,Asian
+2014,-10000000000,Kansas,Asian
+2012,-10000000000,Kansas,Asian
+2010,-10000000000,Kansas,Asian
 2020,45.5,Kansas,Hispanic
 2018,41.4,Kansas,Hispanic
 2016,48.9,Kansas,Hispanic
@@ -671,17 +671,17 @@
 2014,44.7,Kentucky,Black
 2012,56.9,Kentucky,Black
 2010,38.8,Kentucky,Black
-2020,*,Kentucky,Asian
-2018,*,Kentucky,Asian
-2016,*,Kentucky,Asian
-2014,*,Kentucky,Asian
-2012,*,Kentucky,Asian
-2010,*,Kentucky,Asian
-2020,*,Kentucky,Hispanic
-2018,*,Kentucky,Hispanic
-2016,*,Kentucky,Hispanic
-2014,*,Kentucky,Hispanic
-2012,*,Kentucky,Hispanic
+2020,-10000000000,Kentucky,Asian
+2018,-10000000000,Kentucky,Asian
+2016,-10000000000,Kentucky,Asian
+2014,-10000000000,Kentucky,Asian
+2012,-10000000000,Kentucky,Asian
+2010,-10000000000,Kentucky,Asian
+2020,-10000000000,Kentucky,Hispanic
+2018,-10000000000,Kentucky,Hispanic
+2016,-10000000000,Kentucky,Hispanic
+2014,-10000000000,Kentucky,Hispanic
+2012,-10000000000,Kentucky,Hispanic
 2010,3.2,Kentucky,Hispanic
 2020,61.9,Louisiana,Total
 2018,49.8,Louisiana,Total
@@ -707,17 +707,17 @@
 2014,51.6,Louisiana,Black
 2012,69.5,Louisiana,Black
 2010,48.9,Louisiana,Black
-2020,*,Louisiana,Asian
-2018,*,Louisiana,Asian
-2016,*,Louisiana,Asian
-2014,*,Louisiana,Asian
-2012,*,Louisiana,Asian
-2010,*,Louisiana,Asian
+2020,-10000000000,Louisiana,Asian
+2018,-10000000000,Louisiana,Asian
+2016,-10000000000,Louisiana,Asian
+2014,-10000000000,Louisiana,Asian
+2012,-10000000000,Louisiana,Asian
+2010,-10000000000,Louisiana,Asian
 2020,55.1,Louisiana,Hispanic
 2018,31.1,Louisiana,Hispanic
 2016,67.9,Louisiana,Hispanic
 2014,31.3,Louisiana,Hispanic
-2012,*,Louisiana,Hispanic
+2012,-10000000000,Louisiana,Hispanic
 2010,23.9,Louisiana,Hispanic
 2020,71.3,Maine,Total
 2018,65.6,Maine,Total
@@ -737,24 +737,24 @@
 2014,61.8,Maine,White non-Hispanic
 2012,69.1,Maine,White non-Hispanic
 2010,60,Maine,White non-Hispanic
-2020,*,Maine,Black
-2018,*,Maine,Black
-2016,*,Maine,Black
-2014,*,Maine,Black
-2012,*,Maine,Black
-2010,*,Maine,Black
-2020,*,Maine,Asian
-2018,*,Maine,Asian
-2016,*,Maine,Asian
-2014,*,Maine,Asian
-2012,*,Maine,Asian
-2010,*,Maine,Asian
-2020,*,Maine,Hispanic
-2018,*,Maine,Hispanic
-2016,*,Maine,Hispanic
-2014,*,Maine,Hispanic
-2012,*,Maine,Hispanic
-2010,*,Maine,Hispanic
+2020,-10000000000,Maine,Black
+2018,-10000000000,Maine,Black
+2016,-10000000000,Maine,Black
+2014,-10000000000,Maine,Black
+2012,-10000000000,Maine,Black
+2010,-10000000000,Maine,Black
+2020,-10000000000,Maine,Asian
+2018,-10000000000,Maine,Asian
+2016,-10000000000,Maine,Asian
+2014,-10000000000,Maine,Asian
+2012,-10000000000,Maine,Asian
+2010,-10000000000,Maine,Asian
+2020,-10000000000,Maine,Hispanic
+2018,-10000000000,Maine,Hispanic
+2016,-10000000000,Maine,Hispanic
+2014,-10000000000,Maine,Hispanic
+2012,-10000000000,Maine,Hispanic
+2010,-10000000000,Maine,Hispanic
 2020,73.6,Maryland,Total
 2018,54.2,Maryland,Total
 2016,65.8,Maryland,Total
@@ -894,7 +894,7 @@
 2012,78.1,Minnesota,Asian
 2010,24.5,Minnesota,Asian
 2020,62.7,Minnesota,Hispanic
-2018,*,Minnesota,Hispanic
+2018,-10000000000,Minnesota,Hispanic
 2016,36.6,Minnesota,Hispanic
 2014,33.5,Minnesota,Hispanic
 2012,45.7,Minnesota,Hispanic
@@ -923,18 +923,18 @@
 2014,46.5,Mississippi,Black
 2012,82.4,Mississippi,Black
 2010,48.7,Mississippi,Black
-2020,*,Mississippi,Asian
-2018,*,Mississippi,Asian
-2016,*,Mississippi,Asian
-2014,*,Mississippi,Asian
-2012,*,Mississippi,Asian
-2010,*,Mississippi,Asian
-2020,*,Mississippi,Hispanic
-2018,*,Mississippi,Hispanic
-2016,*,Mississippi,Hispanic
-2014,*,Mississippi,Hispanic
-2012,*,Mississippi,Hispanic
-2010,*,Mississippi,Hispanic
+2020,-10000000000,Mississippi,Asian
+2018,-10000000000,Mississippi,Asian
+2016,-10000000000,Mississippi,Asian
+2014,-10000000000,Mississippi,Asian
+2012,-10000000000,Mississippi,Asian
+2010,-10000000000,Mississippi,Asian
+2020,-10000000000,Mississippi,Hispanic
+2018,-10000000000,Mississippi,Hispanic
+2016,-10000000000,Mississippi,Hispanic
+2014,-10000000000,Mississippi,Hispanic
+2012,-10000000000,Mississippi,Hispanic
+2010,-10000000000,Mississippi,Hispanic
 2020,66.8,Missouri,Total
 2018,55,Missouri,Total
 2016,64.8,Missouri,Total
@@ -959,16 +959,16 @@
 2014,37,Missouri,Black
 2012,67.3,Missouri,Black
 2010,47.6,Missouri,Black
-2020,*,Missouri,Asian
-2018,*,Missouri,Asian
-2016,*,Missouri,Asian
-2014,*,Missouri,Asian
-2012,*,Missouri,Asian
-2010,*,Missouri,Asian
+2020,-10000000000,Missouri,Asian
+2018,-10000000000,Missouri,Asian
+2016,-10000000000,Missouri,Asian
+2014,-10000000000,Missouri,Asian
+2012,-10000000000,Missouri,Asian
+2010,-10000000000,Missouri,Asian
 2020,53.3,Missouri,Hispanic
 2018,43.3,Missouri,Hispanic
-2016,*,Missouri,Hispanic
-2014,*,Missouri,Hispanic
+2016,-10000000000,Missouri,Hispanic
+2014,-10000000000,Missouri,Hispanic
 2012,60.7,Missouri,Hispanic
 2010,37.2,Missouri,Hispanic
 2020,73.5,Montana,Total
@@ -989,24 +989,24 @@
 2014,52.4,Montana,White non-Hispanic
 2012,67.2,Montana,White non-Hispanic
 2010,53.5,Montana,White non-Hispanic
-2020,*,Montana,Black
-2018,*,Montana,Black
-2016,*,Montana,Black
-2014,*,Montana,Black
-2012,*,Montana,Black
-2010,*,Montana,Black
-2020,*,Montana,Asian
-2018,*,Montana,Asian
-2016,*,Montana,Asian
-2014,*,Montana,Asian
-2012,*,Montana,Asian
-2010,*,Montana,Asian
-2020,*,Montana,Hispanic
-2018,*,Montana,Hispanic
-2016,*,Montana,Hispanic
-2014,*,Montana,Hispanic
-2012,*,Montana,Hispanic
-2010,*,Montana,Hispanic
+2020,-10000000000,Montana,Black
+2018,-10000000000,Montana,Black
+2016,-10000000000,Montana,Black
+2014,-10000000000,Montana,Black
+2012,-10000000000,Montana,Black
+2010,-10000000000,Montana,Black
+2020,-10000000000,Montana,Asian
+2018,-10000000000,Montana,Asian
+2016,-10000000000,Montana,Asian
+2014,-10000000000,Montana,Asian
+2012,-10000000000,Montana,Asian
+2010,-10000000000,Montana,Asian
+2020,-10000000000,Montana,Hispanic
+2018,-10000000000,Montana,Hispanic
+2016,-10000000000,Montana,Hispanic
+2014,-10000000000,Montana,Hispanic
+2012,-10000000000,Montana,Hispanic
+2010,-10000000000,Montana,Hispanic
 2020,65.2,Nebraska,Total
 2018,50.8,Nebraska,Total
 2016,66.8,Nebraska,Total
@@ -1025,23 +1025,23 @@
 2014,46.6,Nebraska,White non-Hispanic
 2012,63.6,Nebraska,White non-Hispanic
 2010,43.4,Nebraska,White non-Hispanic
-2020,*,Nebraska,Black
-2018,*,Nebraska,Black
-2016,*,Nebraska,Black
-2014,*,Nebraska,Black
-2012,*,Nebraska,Black
-2010,*,Nebraska,Black
-2020,*,Nebraska,Asian
-2018,*,Nebraska,Asian
-2016,*,Nebraska,Asian
-2014,*,Nebraska,Asian
-2012,*,Nebraska,Asian
-2010,*,Nebraska,Asian
-2020,*,Nebraska,Hispanic
+2020,-10000000000,Nebraska,Black
+2018,-10000000000,Nebraska,Black
+2016,-10000000000,Nebraska,Black
+2014,-10000000000,Nebraska,Black
+2012,-10000000000,Nebraska,Black
+2010,-10000000000,Nebraska,Black
+2020,-10000000000,Nebraska,Asian
+2018,-10000000000,Nebraska,Asian
+2016,-10000000000,Nebraska,Asian
+2014,-10000000000,Nebraska,Asian
+2012,-10000000000,Nebraska,Asian
+2010,-10000000000,Nebraska,Asian
+2020,-10000000000,Nebraska,Hispanic
 2018,32.8,Nebraska,Hispanic
-2016,*,Nebraska,Hispanic
-2014,*,Nebraska,Hispanic
-2012,*,Nebraska,Hispanic
+2016,-10000000000,Nebraska,Hispanic
+2014,-10000000000,Nebraska,Hispanic
+2012,-10000000000,Nebraska,Hispanic
 2010,21.6,Nebraska,Hispanic
 2020,61.5,Nevada,Total
 2018,48.7,Nevada,Total
@@ -1097,24 +1097,24 @@
 2014,50.2,New Hampshire,White non-Hispanic
 2012,70,New Hampshire,White non-Hispanic
 2010,47.6,New Hampshire,White non-Hispanic
-2020,*,New Hampshire,Black
-2018,*,New Hampshire,Black
-2016,*,New Hampshire,Black
-2014,*,New Hampshire,Black
-2012,*,New Hampshire,Black
-2010,*,New Hampshire,Black
-2020,*,New Hampshire,Asian
-2018,*,New Hampshire,Asian
-2016,*,New Hampshire,Asian
-2014,*,New Hampshire,Asian
-2012,*,New Hampshire,Asian
-2010,*,New Hampshire,Asian
-2020,*,New Hampshire,Hispanic
-2018,*,New Hampshire,Hispanic
-2016,*,New Hampshire,Hispanic
-2014,*,New Hampshire,Hispanic
-2012,*,New Hampshire,Hispanic
-2010,*,New Hampshire,Hispanic
+2020,-10000000000,New Hampshire,Black
+2018,-10000000000,New Hampshire,Black
+2016,-10000000000,New Hampshire,Black
+2014,-10000000000,New Hampshire,Black
+2012,-10000000000,New Hampshire,Black
+2010,-10000000000,New Hampshire,Black
+2020,-10000000000,New Hampshire,Asian
+2018,-10000000000,New Hampshire,Asian
+2016,-10000000000,New Hampshire,Asian
+2014,-10000000000,New Hampshire,Asian
+2012,-10000000000,New Hampshire,Asian
+2010,-10000000000,New Hampshire,Asian
+2020,-10000000000,New Hampshire,Hispanic
+2018,-10000000000,New Hampshire,Hispanic
+2016,-10000000000,New Hampshire,Hispanic
+2014,-10000000000,New Hampshire,Hispanic
+2012,-10000000000,New Hampshire,Hispanic
+2010,-10000000000,New Hampshire,Hispanic
 2020,78.3,New Jersey,Total
 2018,54,New Jersey,Total
 2016,61.5,New Jersey,Total
@@ -1169,18 +1169,18 @@
 2014,56.5,New Mexico,White non-Hispanic
 2012,70.5,New Mexico,White non-Hispanic
 2010,52.1,New Mexico,White non-Hispanic
-2020,*,New Mexico,Black
-2018,*,New Mexico,Black
-2016,*,New Mexico,Black
-2014,*,New Mexico,Black
-2012,*,New Mexico,Black
-2010,*,New Mexico,Black
-2020,*,New Mexico,Asian
-2018,*,New Mexico,Asian
-2016,*,New Mexico,Asian
-2014,*,New Mexico,Asian
-2012,*,New Mexico,Asian
-2010,*,New Mexico,Asian
+2020,-10000000000,New Mexico,Black
+2018,-10000000000,New Mexico,Black
+2016,-10000000000,New Mexico,Black
+2014,-10000000000,New Mexico,Black
+2012,-10000000000,New Mexico,Black
+2010,-10000000000,New Mexico,Black
+2020,-10000000000,New Mexico,Asian
+2018,-10000000000,New Mexico,Asian
+2016,-10000000000,New Mexico,Asian
+2014,-10000000000,New Mexico,Asian
+2012,-10000000000,New Mexico,Asian
+2010,-10000000000,New Mexico,Asian
 2020,53.8,New Mexico,Hispanic
 2018,40.5,New Mexico,Hispanic
 2016,48.2,New Mexico,Hispanic
@@ -1251,7 +1251,7 @@
 2018,45.5,North Carolina,Asian
 2016,58.5,North Carolina,Asian
 2014,25.9,North Carolina,Asian
-2012,*,North Carolina,Asian
+2012,-10000000000,North Carolina,Asian
 2010,32.4,North Carolina,Asian
 2020,48.8,North Carolina,Hispanic
 2018,38.6,North Carolina,Hispanic
@@ -1277,24 +1277,24 @@
 2014,53.2,North Dakota,White non-Hispanic
 2012,66,North Dakota,White non-Hispanic
 2010,56.2,North Dakota,White non-Hispanic
-2020,*,North Dakota,Black
-2018,*,North Dakota,Black
-2016,*,North Dakota,Black
-2014,*,North Dakota,Black
-2012,*,North Dakota,Black
-2010,*,North Dakota,Black
-2020,*,North Dakota,Asian
-2018,*,North Dakota,Asian
-2016,*,North Dakota,Asian
-2014,*,North Dakota,Asian
-2012,*,North Dakota,Asian
-2010,*,North Dakota,Asian
-2020,*,North Dakota,Hispanic
-2018,*,North Dakota,Hispanic
-2016,*,North Dakota,Hispanic
-2014,*,North Dakota,Hispanic
-2012,*,North Dakota,Hispanic
-2010,*,North Dakota,Hispanic
+2020,-10000000000,North Dakota,Black
+2018,-10000000000,North Dakota,Black
+2016,-10000000000,North Dakota,Black
+2014,-10000000000,North Dakota,Black
+2012,-10000000000,North Dakota,Black
+2010,-10000000000,North Dakota,Black
+2020,-10000000000,North Dakota,Asian
+2018,-10000000000,North Dakota,Asian
+2016,-10000000000,North Dakota,Asian
+2014,-10000000000,North Dakota,Asian
+2012,-10000000000,North Dakota,Asian
+2010,-10000000000,North Dakota,Asian
+2020,-10000000000,North Dakota,Hispanic
+2018,-10000000000,North Dakota,Hispanic
+2016,-10000000000,North Dakota,Hispanic
+2014,-10000000000,North Dakota,Hispanic
+2012,-10000000000,North Dakota,Hispanic
+2010,-10000000000,North Dakota,Hispanic
 2020,70.1,Ohio,Total
 2018,52.5,Ohio,Total
 2016,63.6,Ohio,Total
@@ -1323,7 +1323,7 @@
 2018,50.1,Ohio,Asian
 2016,46.8,Ohio,Asian
 2014,38.1,Ohio,Asian
-2012,*,Ohio,Asian
+2012,-10000000000,Ohio,Asian
 2010,38.5,Ohio,Asian
 2020,58.7,Ohio,Hispanic
 2018,32.6,Ohio,Hispanic
@@ -1355,12 +1355,12 @@
 2014,29.6,Oklahoma,Black
 2012,54.6,Oklahoma,Black
 2010,37,Oklahoma,Black
-2020,*,Oklahoma,Asian
-2018,*,Oklahoma,Asian
-2016,*,Oklahoma,Asian
-2014,*,Oklahoma,Asian
-2012,*,Oklahoma,Asian
-2010,*,Oklahoma,Asian
+2020,-10000000000,Oklahoma,Asian
+2018,-10000000000,Oklahoma,Asian
+2016,-10000000000,Oklahoma,Asian
+2014,-10000000000,Oklahoma,Asian
+2012,-10000000000,Oklahoma,Asian
+2010,-10000000000,Oklahoma,Asian
 2020,30.3,Oklahoma,Hispanic
 2018,33.7,Oklahoma,Hispanic
 2016,33.4,Oklahoma,Hispanic
@@ -1386,16 +1386,16 @@
 2012,70.2,Oregon,White non-Hispanic
 2010,58.2,Oregon,White non-Hispanic
 2020,51.2,Oregon,Black
-2018,*,Oregon,Black
-2016,*,Oregon,Black
-2014,*,Oregon,Black
-2012,*,Oregon,Black
-2010,*,Oregon,Black
+2018,-10000000000,Oregon,Black
+2016,-10000000000,Oregon,Black
+2014,-10000000000,Oregon,Black
+2012,-10000000000,Oregon,Black
+2010,-10000000000,Oregon,Black
 2020,60.6,Oregon,Asian
 2018,26.2,Oregon,Asian
-2016,*,Oregon,Asian
+2016,-10000000000,Oregon,Asian
 2014,24.4,Oregon,Asian
-2012,*,Oregon,Asian
+2012,-10000000000,Oregon,Asian
 2010,48.7,Oregon,Asian
 2020,51.9,Oregon,Hispanic
 2018,34.8,Oregon,Hispanic
@@ -1457,23 +1457,23 @@
 2014,46.6,Rhode Island,White non-Hispanic
 2012,63.3,Rhode Island,White non-Hispanic
 2010,50.3,Rhode Island,White non-Hispanic
-2020,*,Rhode Island,Black
-2018,*,Rhode Island,Black
-2016,*,Rhode Island,Black
-2014,*,Rhode Island,Black
-2012,*,Rhode Island,Black
-2010,*,Rhode Island,Black
-2020,*,Rhode Island,Asian
-2018,*,Rhode Island,Asian
-2016,*,Rhode Island,Asian
-2014,*,Rhode Island,Asian
-2012,*,Rhode Island,Asian
-2010,*,Rhode Island,Asian
-2020,*,Rhode Island,Hispanic
+2020,-10000000000,Rhode Island,Black
+2018,-10000000000,Rhode Island,Black
+2016,-10000000000,Rhode Island,Black
+2014,-10000000000,Rhode Island,Black
+2012,-10000000000,Rhode Island,Black
+2010,-10000000000,Rhode Island,Black
+2020,-10000000000,Rhode Island,Asian
+2018,-10000000000,Rhode Island,Asian
+2016,-10000000000,Rhode Island,Asian
+2014,-10000000000,Rhode Island,Asian
+2012,-10000000000,Rhode Island,Asian
+2010,-10000000000,Rhode Island,Asian
+2020,-10000000000,Rhode Island,Hispanic
 2018,37.8,Rhode Island,Hispanic
-2016,*,Rhode Island,Hispanic
-2014,*,Rhode Island,Hispanic
-2012,*,Rhode Island,Hispanic
+2016,-10000000000,Rhode Island,Hispanic
+2014,-10000000000,Rhode Island,Hispanic
+2012,-10000000000,Rhode Island,Hispanic
 2010,19.5,Rhode Island,Hispanic
 2020,63.4,South Carolina,Total
 2018,48.7,South Carolina,Total
@@ -1499,17 +1499,17 @@
 2014,44.4,South Carolina,Black
 2012,69.3,South Carolina,Black
 2010,53.7,South Carolina,Black
-2020,*,South Carolina,Asian
-2018,*,South Carolina,Asian
-2016,*,South Carolina,Asian
-2014,*,South Carolina,Asian
-2012,*,South Carolina,Asian
-2010,*,South Carolina,Asian
+2020,-10000000000,South Carolina,Asian
+2018,-10000000000,South Carolina,Asian
+2016,-10000000000,South Carolina,Asian
+2014,-10000000000,South Carolina,Asian
+2012,-10000000000,South Carolina,Asian
+2010,-10000000000,South Carolina,Asian
 2020,38.3,South Carolina,Hispanic
 2018,17.6,South Carolina,Hispanic
-2016,*,South Carolina,Hispanic
+2016,-10000000000,South Carolina,Hispanic
 2014,13,South Carolina,Hispanic
-2012,*,South Carolina,Hispanic
+2012,-10000000000,South Carolina,Hispanic
 2010,8.9,South Carolina,Hispanic
 2020,58.5,South Dakota,Total
 2018,51.9,South Dakota,Total
@@ -1529,24 +1529,24 @@
 2014,47,South Dakota,White non-Hispanic
 2012,64.3,South Dakota,White non-Hispanic
 2010,56.2,South Dakota,White non-Hispanic
-2020,*,South Dakota,Black
-2018,*,South Dakota,Black
-2016,*,South Dakota,Black
-2014,*,South Dakota,Black
-2012,*,South Dakota,Black
-2010,*,South Dakota,Black
-2020,*,South Dakota,Asian
-2018,*,South Dakota,Asian
-2016,*,South Dakota,Asian
-2014,*,South Dakota,Asian
-2012,*,South Dakota,Asian
-2010,*,South Dakota,Asian
-2020,*,South Dakota,Hispanic
-2018,*,South Dakota,Hispanic
-2016,*,South Dakota,Hispanic
-2014,*,South Dakota,Hispanic
-2012,*,South Dakota,Hispanic
-2010,*,South Dakota,Hispanic
+2020,-10000000000,South Dakota,Black
+2018,-10000000000,South Dakota,Black
+2016,-10000000000,South Dakota,Black
+2014,-10000000000,South Dakota,Black
+2012,-10000000000,South Dakota,Black
+2010,-10000000000,South Dakota,Black
+2020,-10000000000,South Dakota,Asian
+2018,-10000000000,South Dakota,Asian
+2016,-10000000000,South Dakota,Asian
+2014,-10000000000,South Dakota,Asian
+2012,-10000000000,South Dakota,Asian
+2010,-10000000000,South Dakota,Asian
+2020,-10000000000,South Dakota,Hispanic
+2018,-10000000000,South Dakota,Hispanic
+2016,-10000000000,South Dakota,Hispanic
+2014,-10000000000,South Dakota,Hispanic
+2012,-10000000000,South Dakota,Hispanic
+2010,-10000000000,South Dakota,Hispanic
 2020,66.4,Tennessee,Total
 2018,49.6,Tennessee,Total
 2016,54,Tennessee,Total
@@ -1571,11 +1571,11 @@
 2014,31.2,Tennessee,Black
 2012,61.1,Tennessee,Black
 2010,36.4,Tennessee,Black
-2020,*,Tennessee,Asian
+2020,-10000000000,Tennessee,Asian
 2018,30.2,Tennessee,Asian
-2016,*,Tennessee,Asian
-2014,*,Tennessee,Asian
-2012,*,Tennessee,Asian
+2016,-10000000000,Tennessee,Asian
+2014,-10000000000,Tennessee,Asian
+2012,-10000000000,Tennessee,Asian
 2010,14.2,Tennessee,Asian
 2020,41.4,Tennessee,Hispanic
 2018,28.7,Tennessee,Hispanic
@@ -1637,18 +1637,18 @@
 2014,38.6,Utah,White non-Hispanic
 2012,61,Utah,White non-Hispanic
 2010,40.5,Utah,White non-Hispanic
-2020,*,Utah,Black
-2018,*,Utah,Black
-2016,*,Utah,Black
-2014,*,Utah,Black
-2012,*,Utah,Black
-2010,*,Utah,Black
-2020,*,Utah,Asian
-2018,*,Utah,Asian
-2016,*,Utah,Asian
-2014,*,Utah,Asian
-2012,*,Utah,Asian
-2010,*,Utah,Asian
+2020,-10000000000,Utah,Black
+2018,-10000000000,Utah,Black
+2016,-10000000000,Utah,Black
+2014,-10000000000,Utah,Black
+2012,-10000000000,Utah,Black
+2010,-10000000000,Utah,Black
+2020,-10000000000,Utah,Asian
+2018,-10000000000,Utah,Asian
+2016,-10000000000,Utah,Asian
+2014,-10000000000,Utah,Asian
+2012,-10000000000,Utah,Asian
+2010,-10000000000,Utah,Asian
 2020,49.6,Utah,Hispanic
 2018,43.6,Utah,Hispanic
 2016,58.1,Utah,Hispanic
@@ -1673,24 +1673,24 @@
 2014,43.3,Vermont,White non-Hispanic
 2012,63.2,Vermont,White non-Hispanic
 2010,55.4,Vermont,White non-Hispanic
-2020,*,Vermont,Black
-2018,*,Vermont,Black
-2016,*,Vermont,Black
-2014,*,Vermont,Black
-2012,*,Vermont,Black
-2010,*,Vermont,Black
-2020,*,Vermont,Asian
-2018,*,Vermont,Asian
-2016,*,Vermont,Asian
-2014,*,Vermont,Asian
-2012,*,Vermont,Asian
-2010,*,Vermont,Asian
-2020,*,Vermont,Hispanic
-2018,*,Vermont,Hispanic
-2016,*,Vermont,Hispanic
-2014,*,Vermont,Hispanic
-2012,*,Vermont,Hispanic
-2010,*,Vermont,Hispanic
+2020,-10000000000,Vermont,Black
+2018,-10000000000,Vermont,Black
+2016,-10000000000,Vermont,Black
+2014,-10000000000,Vermont,Black
+2012,-10000000000,Vermont,Black
+2010,-10000000000,Vermont,Black
+2020,-10000000000,Vermont,Asian
+2018,-10000000000,Vermont,Asian
+2016,-10000000000,Vermont,Asian
+2014,-10000000000,Vermont,Asian
+2012,-10000000000,Vermont,Asian
+2010,-10000000000,Vermont,Asian
+2020,-10000000000,Vermont,Hispanic
+2018,-10000000000,Vermont,Hispanic
+2016,-10000000000,Vermont,Hispanic
+2014,-10000000000,Vermont,Hispanic
+2012,-10000000000,Vermont,Hispanic
+2010,-10000000000,Vermont,Hispanic
 2020,71.5,Virginia,Total
 2018,57.5,Virginia,Total
 2016,68.2,Virginia,Total
@@ -1781,24 +1781,24 @@
 2014,34.6,West Virginia,White non-Hispanic
 2012,48.1,West Virginia,White non-Hispanic
 2010,41.3,West Virginia,White non-Hispanic
-2020,*,West Virginia,Black
-2018,*,West Virginia,Black
-2016,*,West Virginia,Black
-2014,*,West Virginia,Black
-2012,*,West Virginia,Black
-2010,*,West Virginia,Black
-2020,*,West Virginia,Asian
-2018,*,West Virginia,Asian
-2016,*,West Virginia,Asian
-2014,*,West Virginia,Asian
-2012,*,West Virginia,Asian
-2010,*,West Virginia,Asian
-2020,*,West Virginia,Hispanic
-2018,*,West Virginia,Hispanic
-2016,*,West Virginia,Hispanic
-2014,*,West Virginia,Hispanic
-2012,*,West Virginia,Hispanic
-2010,*,West Virginia,Hispanic
+2020,-10000000000,West Virginia,Black
+2018,-10000000000,West Virginia,Black
+2016,-10000000000,West Virginia,Black
+2014,-10000000000,West Virginia,Black
+2012,-10000000000,West Virginia,Black
+2010,-10000000000,West Virginia,Black
+2020,-10000000000,West Virginia,Asian
+2018,-10000000000,West Virginia,Asian
+2016,-10000000000,West Virginia,Asian
+2014,-10000000000,West Virginia,Asian
+2012,-10000000000,West Virginia,Asian
+2010,-10000000000,West Virginia,Asian
+2020,-10000000000,West Virginia,Hispanic
+2018,-10000000000,West Virginia,Hispanic
+2016,-10000000000,West Virginia,Hispanic
+2014,-10000000000,West Virginia,Hispanic
+2012,-10000000000,West Virginia,Hispanic
+2010,-10000000000,West Virginia,Hispanic
 2020,73.6,Wisconsin,Total
 2018,64.6,Wisconsin,Total
 2016,70.5,Wisconsin,Total
@@ -1823,12 +1823,12 @@
 2014,40.9,Wisconsin,Black
 2012,78.5,Wisconsin,Black
 2010,46.3,Wisconsin,Black
-2020,*,Wisconsin,Asian
+2020,-10000000000,Wisconsin,Asian
 2018,66,Wisconsin,Asian
-2016,*,Wisconsin,Asian
+2016,-10000000000,Wisconsin,Asian
 2014,10.2,Wisconsin,Asian
-2012,*,Wisconsin,Asian
-2010,*,Wisconsin,Asian
+2012,-10000000000,Wisconsin,Asian
+2010,-10000000000,Wisconsin,Asian
 2020,58.4,Wisconsin,Hispanic
 2018,59.4,Wisconsin,Hispanic
 2016,42.8,Wisconsin,Hispanic
@@ -1853,21 +1853,21 @@
 2014,41.4,Wyoming,White non-Hispanic
 2012,62.3,Wyoming,White non-Hispanic
 2010,48.9,Wyoming,White non-Hispanic
-2020,*,Wyoming,Black
-2018,*,Wyoming,Black
-2016,*,Wyoming,Black
-2014,*,Wyoming,Black
-2012,*,Wyoming,Black
-2010,*,Wyoming,Black
-2020,*,Wyoming,Asian
-2018,*,Wyoming,Asian
-2016,*,Wyoming,Asian
-2014,*,Wyoming,Asian
-2012,*,Wyoming,Asian
-2010,*,Wyoming,Asian
-2020,*,Wyoming,Hispanic
-2018,*,Wyoming,Hispanic
-2016,*,Wyoming,Hispanic
-2014,*,Wyoming,Hispanic
-2012,*,Wyoming,Hispanic
-2010,*,Wyoming,Hispanic
+2020,-10000000000,Wyoming,Black
+2018,-10000000000,Wyoming,Black
+2016,-10000000000,Wyoming,Black
+2014,-10000000000,Wyoming,Black
+2012,-10000000000,Wyoming,Black
+2010,-10000000000,Wyoming,Black
+2020,-10000000000,Wyoming,Asian
+2018,-10000000000,Wyoming,Asian
+2016,-10000000000,Wyoming,Asian
+2014,-10000000000,Wyoming,Asian
+2012,-10000000000,Wyoming,Asian
+2010,-10000000000,Wyoming,Asian
+2020,-10000000000,Wyoming,Hispanic
+2018,-10000000000,Wyoming,Hispanic
+2016,-10000000000,Wyoming,Hispanic
+2014,-10000000000,Wyoming,Hispanic
+2012,-10000000000,Wyoming,Hispanic
+2010,-10000000000,Wyoming,Hispanic

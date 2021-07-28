@@ -1,10 +1,11 @@
 <html>
 <script src='https://d3js.org/d3.v5.min.js'></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
-<select id="selectButton"></select>
 <div class="header">
   <h1>Header</h1>
   <p>My supercool header</p></div>
+  <p style="text-align:center;">
+<select id="selectButton"></select>
 <style>
 
 .selectButton{
@@ -36,7 +37,7 @@ div.tooltip {
 <script>
 
 // set the dimensions and margins of the graph
-const margin = {top: 10, right: 100, bottom: 100, left: 60},
+const margin = {top:5, right: 100, bottom: 100, left: 60},
     width = 1200 - margin.left - margin.right,
     height = 750 - margin.top - margin.bottom;
 
@@ -58,7 +59,7 @@ d3.csv("https://kaf4.github.io/data/US_Race_AllAge.csv")
     races = data.columns.slice([1]);
     });
 
-races.push("All")
+races.push("Compare All")
 
 d3.select("#selectButton").selectAll('myOptions')
     .data(races).enter().append('option')
@@ -82,7 +83,7 @@ const y = d3.scaleLinear()
       
 var div = d3.select("body").append("div").attr("class", "tooltip").style("opacity", 0);
 var dateFormat = d3.timeFormat("%Y");
-var selection = "Total"
+var selection = "All Races"
 
 var slices = data.columns.slice(1).map(function(race) {
         return {race: race, values: data.map(function(d){
@@ -138,7 +139,7 @@ d3.selectAll("circle").remove()
 linelabel.remove()
 
 
-if (selection == "All") {
+if (selection == "Compare All") {
 
 var slice2 = data.columns.slice(1).map(function(race) {
         return {race: race, values: data.map(function(d){
@@ -310,4 +311,14 @@ svg.append("g").call(d3.annotation().annotations(annotations7)).style("stroke-da
 
 })
 
-</script></body></html>
+</script>
+
+<p></p>
+<div style="color: gray; font-size: 14px;">
+<p>This  visualization ... of UIUC</p>
+<p>Resources:</p>
+<ul>
+<li><a href="www.google.com">Data on XXX </a></li></ul></div>
+
+</body>
+</html>

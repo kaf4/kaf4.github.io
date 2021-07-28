@@ -7,6 +7,11 @@
   <p>My supercool header</p></div>
 <style>
 
+.selectButton{
+position: bottom;
+font-size: 20px;
+}
+
 .header {
   padding: 10px;
   text-align: center;
@@ -55,10 +60,11 @@ d3.csv("https://kaf4.github.io/data/US_Race_AllAge.csv")
 
 races.push("All")
 
-d3.select("#selectButton").selectAll('myOptions').append("svg")
+d3.select("#selectButton").selectAll('myOptions')
     .data(races).enter().append('option')
     .text(function (d) { return d; })
     .attr("value", function (d) { return d; })
+    .attr("transform", `translate(${margin.right},${margin.top})`);
 
 const x = d3.scaleTime()
       .domain(d3.extent(data, function(d) { return d.year; }))

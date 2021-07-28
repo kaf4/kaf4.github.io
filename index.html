@@ -3,11 +3,12 @@
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
 <select id="selectButton"></select>
 <style>
+
 div.tooltip {	
     position: absolute;			
     text-align: center;			
-    width: 60px;					
-    height: 30px;					
+    width: 100px;					
+    height: 45px;					
     padding: 2px;				
     font: 14px sans-serif;		
     background: lightsteelblue;	
@@ -22,7 +23,7 @@ div.tooltip {
 // set the dimensions and margins of the graph
 const margin = {top: 10, right: 100, bottom: 100, left: 60},
     width = 1200 - margin.left - margin.right,
-    height = 1000 - margin.top - margin.bottom;
+    height = 750 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
 const svg = d3.select("body")
@@ -88,21 +89,21 @@ const lines = selectRaceGroups.selectAll(".line")
       .enter()
       .append("path")
         .attr("fill", "none")
-        .attr("stroke", function(d){return color(d.key) })
+        .attr("stroke", function(d){return color(d.race)})
         .attr("stroke-width", 1)
         .attr("d", function(d){return valueLine(d.values)})
 
 selectRaceGroups.selectAll("dot")	
 	.data(data)			
     .enter().append("circle")				
-    .attr("r", 2.5)		
+    .attr("r", 4)		
 	.attr("cx", function(d) { return x(d.year);})
     .attr("cy", function(d) { return y(d[selection]); })
      .on("mouseover", function(d) {div.transition().duration(200)		
             .style("opacity", .9);		
-      div.html(dateFormat(d.year) + "<br/>"  + d[selection] +"%")	
+      div.html("Year: "+dateFormat(d.year) + "<br/>" +"Race: " + selection + "<br/>" +" Voters: " + d[selection] +"%")	
             .style("left", (d3.event.pageX) + "px")		
-            .style("top", (d3.event.pageY) + "px");})					
+            .style("top", (d3.event.pageY)+10 + "px");})					
      .on("mouseout", function(d) { div.transition().duration(500)		
              .style("opacity", 0);});
     
@@ -125,7 +126,7 @@ if (selection == "All") {
 
 var slice2 = data.columns.slice(1).map(function(race) {
         return {race: race, values: data.map(function(d){
-        return {year: d3.timeParse("%Y")(d.Year),
+        return {race: race, year: d3.timeParse("%Y")(d.Year),
                 measurement: +d[race]};})};});
                 
 var selectRaceGroups = svg.selectAll(".raceGroups").data(slice2);
@@ -133,30 +134,30 @@ var color = d3.scaleOrdinal(d3.schemeCategory10);
 
 selectRaceGroups.selectAll("path.line").data(slice2)
     .attr("fill", "none")
-    .attr("stroke", "green")
+    .attr("stroke", function(d){return color(d.race)})
     .attr("stroke-width", 1)
     .attr("d", function(d){return valueLine(d.values)})
     
 selectRaceGroups.selectAll("dot")	
-	.data(function(d) {return d.values})			
+	.data(function(d) {return d.values;})
     .enter().append("circle")				
-    .attr("r", 2.5)		
+    .attr("r", 4)		
 	.attr("cx", function(d) { return x(d.year);})
     .attr("cy", function(d) { return y(d.measurement); })
      .on("mouseover", function(d) {div.transition().duration(200)		
             .style("opacity", .9);		
-      div.html(dateFormat(d.year) + "<br/>"  + d.measurement +"%")	
+      div.html("Year: "+dateFormat(d.year) + "<br/>" + "Race: " + d.race + "<br/>" +" Voters: " + d.measurement +"%")	
             .style("left", (d3.event.pageX) + "px")		
             .style("top", (d3.event.pageY) + "px");})					
      .on("mouseout", function(d) { div.transition().duration(500)		
              .style("opacity", 0);});
 
 linelabel = selectRaceGroups.append("text")
-      .datum(function(d) { return {race: d.race, value: d.values[0]}; })
+      .datum(function(d) {return {race: d.race, value: d.values[0]}; })
       .attr("transform", function(d) { return "translate(" + x(d.value.year) + "," + y(d.value.measurement) + ")"; })
       .attr("x", 3)
       .attr("dy", ".35em")
-      .text(function(d) { return d.race;});
+      .text(function(d) {return d.race;});
 
 }
 
@@ -172,19 +173,19 @@ var color = d3.scaleOrdinal(d3.schemeCategory10);
 
 selectRaceGroups.selectAll("path.line").data(slice)
     .attr("fill", "none")
-    .attr("stroke", "red")
+    .attr("stroke", function(d){return color(d.race)})
     .attr("stroke-width", 1)
     .attr("d", function(d){return valueLine(d.values)})
     
 selectRaceGroups.selectAll("dot")	
 	.data(function(d) {return d.values})			
     .enter().append("circle")				
-    .attr("r", 2.5)		
+    .attr("r", 4)		
 	.attr("cx", function(d) { return x(d.year);})
     .attr("cy", function(d) { return y(d.measurement); })
      .on("mouseover", function(d) {div.transition().duration(200)		
             .style("opacity", .9);		
-      div.html(dateFormat(d.year) + "<br/>"  + d.measurement +"%")	
+      div.html("Year: "+dateFormat(d.year) + "<br/>" +"Race: " + selection + "<br/>" +" Voters: " + d.measurement +"%")	
             .style("left", (d3.event.pageX) + "px")		
             .style("top", (d3.event.pageY) + "px");})					
      .on("mouseout", function(d) { div.transition().duration(500)		
@@ -192,7 +193,7 @@ selectRaceGroups.selectAll("dot")
 
 linelabel = selectRaceGroups.append("text")
       .datum(function(d) { return {race: d.race, value: d.values[0]}; })
-      .attr("transform", function(d) { return "translate(" + x(d.value.year) + "," + y(d.value.measurement) + ")"; })
+      .attr("transform", function(d) {return "translate(" + x(d.value.year) + "," + y(d.value.measurement) + ")"; })
       .attr("x", 3)
       .attr("dy", ".35em")
       .text(function(d) { return selection;});
@@ -265,7 +266,7 @@ const annotations2 = [{note: {label: "20%"},
     connector: {end: "none", type: "line", lineType : "vertical"},
     color: ["grey"], x: 0, y: 160, dy: 0, dx: width }]
 
-var ydist = 88.8;
+var ydist = 64;
 
 const annotations3 = [{note: {label: "30%"},
     connector: {end: "none", type: "line", lineType : "vertical"},

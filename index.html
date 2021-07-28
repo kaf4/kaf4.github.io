@@ -1,17 +1,20 @@
-<!DOCTYPE html>
-<script type="module">
-import * as d3 from "https://cdn.skypack.dev/d3@7";
-const div = d3.selectAll("div");
-</script>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
-</html>
-
 <html>
 <script src='https://d3js.org/d3.v5.min.js'></script>
+<select id="selectButton"></select>
+<style>
+div.tooltip {	
+    position: absolute;			
+    text-align: center;			
+    width: 60px;					
+    height: 30px;					
+    padding: 2px;				
+    font: 14px sans-serif;		
+    background: lightsteelblue;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
+</style>
 <body>
 <script>
 
@@ -28,95 +31,178 @@ const svg = d3.select("body")
   .append("g")
     .attr("transform", `translate(${margin.left},${margin.top})`);
 
+var color = d3.scaleOrdinal(d3.schemeCategory10);
+
 //Read the data
 d3.csv("https://kaf4.github.io/data/US_Race_AllAge.csv")
 .then(function(data){
   data.forEach(function(d){
     d.year = d3.timeParse("%Y")(d.Year);
-    d.Total = +d.Total;
-    d.White = +d.White;
-    d.WhiteNH = +d.WhiteNH;
-    d.Black = +d.Black
-    d.Asian = +d.Asian
-    d.Hispanic = +d.Hispanic
-    races = data.columns.slice(1);
+    races = data.columns.slice([1]);
     });
 
-    // x-axis
-    const x = d3.scaleTime()
+races.push("All")
+
+d3.select("#selectButton").selectAll('myOptions')
+    .data(races).enter().append('option')
+    .text(function (d) { return d; })
+    .attr("value", function (d) { return d; })
+
+const x = d3.scaleTime()
       .domain(d3.extent(data, function(d) { return d.year; }))
       .range([ 0, width ]);
-    svg.append("g")
-      .attr("transform", `translate(0, ${height})`)
-      .call(d3.axisBottom(x));
 
-    // y-axis
-    const y = d3.scaleLinear()
+const y = d3.scaleLinear()
       .domain([25, 75])
       .range([ height, 0]);
+      
+    svg.append("g")
+      .attr("transform", `translate(0, ${height})`)
+      .call(d3.axisBottom(x));    
     svg.append("g")
       .call(d3.axisLeft(y));
       
-var totalLine = d3.line()
+var div = d3.select("body").append("div").attr("class", "tooltip").style("opacity", 0);
+var dateFormat = d3.timeFormat("%Y");
+var selection = "Total"
+
+var slices = data.columns.slice(1).map(function(race) {
+        return {race: race, values: data.map(function(d){
+        return {year: d3.timeParse("%Y")(d.Year),
+                measurement: +d[selection]};})};});
+                
+var valueLine = d3.line().defined(d => !isNaN(d.measurement))
     .x(function(d) { return x(d.year); })
-    .y(function(d) { return y(d.Total); });
+    .y(function(d) { return y(+d.measurement); });
     
-var whiteLine = d3.line()
-    .x(function(d) { return x(d.year); })
-    .y(function(d) { return y(d.White); });
 
-var whiteNHLine = d3.line()
-    .x(function(d) { return x(d.year); })
-    .y(function(d) { return y(d.WhiteNH); });
+var selectRaceGroups = svg.selectAll(".raceGroups")
+		    .data(slices, function(d){return d ? d.key : this.key;})
+		    .enter()
+		    .append("g")
+		    .attr("class", "raceGroups")
+    
+const lines = selectRaceGroups.selectAll(".line")
+      .data(slices)
+      .enter()
+      .append("path")
+        .attr("fill", "none")
+        .attr("stroke", function(d){return color(d.key) })
+        .attr("stroke-width", 1)
+        .attr("d", function(d){return valueLine(d.values)})
 
-var blackLine = d3.line()
-    .x(function(d) { return x(d.year); })
-    .y(function(d) { return y(d.Black); });
-
-var asianLine = d3.line()
-    .x(function(d) { return x(d.year); })
-    .y(function(d) { return y(d.Asian); });
-
-var hispanicLine = d3.line()
-    .x(function(d) { return x(d.year); })
-    .y(function(d) { return y(d.Hispanic); });
-
-
-  svg.append("path")
-      .data([data]).attr("fill", "none")
-      .attr("class", "line")
-      .style("stroke", "blue")
-      .attr("d", totalLine);
-  
-  svg.append("path")
-      .data([data]).attr("fill", "none")
-      .attr("class", "line")
-      .style("stroke", "orange")
-      .attr("d", whiteLine);
+selectRaceGroups.selectAll("dot")	
+	.data(data)			
+    .enter().append("circle")				
+    .attr("r", 2.5)		
+	.attr("cx", function(d) { return x(d.year);})
+    .attr("cy", function(d) { return y(d[selection]); })
+     .on("mouseover", function(d) {div.transition().duration(200)		
+            .style("opacity", .9);		
+      div.html(dateFormat(d.year) + "<br/>"  + d[selection] +"%")	
+            .style("left", (d3.event.pageX) + "px")		
+            .style("top", (d3.event.pageY) + "px");})					
+     .on("mouseout", function(d) { div.transition().duration(500)		
+             .style("opacity", 0);});
+    
+var linelabel = selectRaceGroups.append("text")
+      .datum(function(d) { return {race: d.race, value: d.values[0]}; })
+      .attr("transform", function(d) { return "translate(" + x(d.value.year) + "," + y(d.value.measurement) + ")"; })
+      .attr("x", 3)
+      .attr("dy", ".35em")
+      .text(function(d) { return selection;});  
       
-  svg.append("path")
-      .data([data]).attr("fill", "none")
-      .attr("class", "line")
-      .style("stroke", "green")
-      .attr("d", whiteNHLine);
-      
-   svg.append("path")
-      .data([data]).attr("fill", "none")
-      .attr("class", "line")
-      .style("stroke", "black")
-      .attr("d", blackLine);
+lines.attr("d", function(d){return valueLine(d.values)}).attr("class", "line")
 
-  svg.append("path")
-      .data([data]).attr("fill", "none")
-      .attr("class", "line")
-      .style("stroke", "red")
-      .attr("d", asianLine);
-  
-  svg.append("path")
-      .data([data]).attr("fill", "none")
-      .attr("class", "line")
-      .style("stroke", "purple")
-      .attr("d", hispanicLine);
+function update(selection) {
+
+d3.selectAll("circle").remove()
+linelabel.remove()
+
+
+if (selection == "All") {
+
+var slice2 = data.columns.slice(1).map(function(race) {
+        return {race: race, values: data.map(function(d){
+        return {year: d3.timeParse("%Y")(d.Year),
+                measurement: +d[race]};})};});
+                
+var selectRaceGroups = svg.selectAll(".raceGroups").data(slice2);
+var color = d3.scaleOrdinal(d3.schemeCategory10);
+
+selectRaceGroups.selectAll("path.line").data(slice2)
+    .attr("fill", "none")
+    .attr("stroke", "green")
+    .attr("stroke-width", 1)
+    .attr("d", function(d){return valueLine(d.values)})
+    
+selectRaceGroups.selectAll("dot")	
+	.data(function(d) {return d.values})			
+    .enter().append("circle")				
+    .attr("r", 2.5)		
+	.attr("cx", function(d) { return x(d.year);})
+    .attr("cy", function(d) { return y(d.measurement); })
+     .on("mouseover", function(d) {div.transition().duration(200)		
+            .style("opacity", .9);		
+      div.html(dateFormat(d.year) + "<br/>"  + d.measurement +"%")	
+            .style("left", (d3.event.pageX) + "px")		
+            .style("top", (d3.event.pageY) + "px");})					
+     .on("mouseout", function(d) { div.transition().duration(500)		
+             .style("opacity", 0);});
+
+linelabel = selectRaceGroups.append("text")
+      .datum(function(d) { return {race: d.race, value: d.values[0]}; })
+      .attr("transform", function(d) { return "translate(" + x(d.value.year) + "," + y(d.value.measurement) + ")"; })
+      .attr("x", 3)
+      .attr("dy", ".35em")
+      .text(function(d) { return d.race;});
+
+}
+
+else{
+
+var slice = data.columns.slice(1).map(function(race) {
+        return {race: race, values: data.map(function(d){
+        return {year: d3.timeParse("%Y")(d.Year),
+                measurement: +d[selection]};})};});
+var selectRaceGroups = svg.selectAll(".raceGroups").data(slice);
+
+var color = d3.scaleOrdinal(d3.schemeCategory10);
+
+selectRaceGroups.selectAll("path.line").data(slice)
+    .attr("fill", "none")
+    .attr("stroke", "red")
+    .attr("stroke-width", 1)
+    .attr("d", function(d){return valueLine(d.values)})
+    
+selectRaceGroups.selectAll("dot")	
+	.data(function(d) {return d.values})			
+    .enter().append("circle")				
+    .attr("r", 2.5)		
+	.attr("cx", function(d) { return x(d.year);})
+    .attr("cy", function(d) { return y(d.measurement); })
+     .on("mouseover", function(d) {div.transition().duration(200)		
+            .style("opacity", .9);		
+      div.html(dateFormat(d.year) + "<br/>"  + d.measurement +"%")	
+            .style("left", (d3.event.pageX) + "px")		
+            .style("top", (d3.event.pageY) + "px");})					
+     .on("mouseout", function(d) { div.transition().duration(500)		
+             .style("opacity", 0);});
+
+linelabel = selectRaceGroups.append("text")
+      .datum(function(d) { return {race: d.race, value: d.values[0]}; })
+      .attr("transform", function(d) { return "translate(" + x(d.value.year) + "," + y(d.value.measurement) + ")"; })
+      .attr("x", 3)
+      .attr("dy", ".35em")
+      .text(function(d) { return selection;});
+
+}
+}
+
+d3.select("#selectButton").on("change", function(event,d) {
+const selectedState = d3.select(this).property("value")
+update(selectedState)
+    })
 
 })
 </script></body></html>

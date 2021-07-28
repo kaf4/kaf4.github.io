@@ -2,8 +2,18 @@
 <script src='https://d3js.org/d3.v5.min.js'></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
 <select id="selectButton"></select>
+<div class="header">
+  <h1>Header</h1>
+  <p>My supercool header</p></div>
 <style>
 
+.header {
+  padding: 10px;
+  text-align: center;
+  background: none;
+  color: black;
+  font-size: 20px;
+}
 div.tooltip {	
     position: absolute;			
     text-align: center;			
@@ -211,42 +221,42 @@ var dist = 69.3;
 const annotations92 = [{ note: {label: "Clinton v. Bush", align: "middle"},
     type: d3.annotationCalloutCircle,
     subject: {radius: 16, radiusPadding: 0},
-    color: ["blue"], x: dist, y: height+10, dy: 25, dx: -15}]
+    color: ["blue"], x: dist, y: height+15, dy: 25, dx: -15}]
 
 const annotations96 = [{ note: {label: "Clinton v. Dole", align: "middle"},
     type: d3.annotationCalloutCircle,
     subject: {radius: 16, radiusPadding: 0},
-    color: ["blue"], x: dist*3, y: height+10, dy: 25, dx: -15}]
+    color: ["blue"], x: dist*3, y: height+15, dy: 25, dx: -15}]
 
 const annotations00 = [{ note: {label: "Gore v. Bush", align: "middle"},
     type: d3.annotationCalloutCircle,
     subject: {radius: 16, radiusPadding: 0},
-    color: ["red"], x: dist*5, y: height+10, dy: 25, dx: -15}]
+    color: ["red"], x: dist*5, y: height+15, dy: 25, dx: -15}]
 
 const annotations04 = [{ note: {label: "Kerry v. Bush", align: "middle"},
     type: d3.annotationCalloutCircle,
     subject: {radius: 16, radiusPadding: 0},
-    color: ["red"], x: dist*7, y: height+10, dy: 25, dx: -15}]
+    color: ["red"], x: dist*7, y: height+15, dy: 25, dx: -15}]
     
 const annotations08 = [{ note: {label: "Obama v. McCain", align: "middle"},
     type: d3.annotationCalloutCircle,
     subject: {radius: 16, radiusPadding: 0},
-    color: ["blue"], x: dist*9, y: height+10, dy: 25, dx: -15}]
+    color: ["blue"], x: dist*9, y: height+15, dy: 25, dx: -15}]
     
 const annotations12 = [{ note: {label: "Obama v. Romney", align: "middle"},
     type: d3.annotationCalloutCircle,
     subject: {radius: 16, radiusPadding: 0},
-    color: ["blue"], x: dist*11, y: height+10, dy: 25, dx: -15}]
+    color: ["blue"], x: dist*11, y: height+15, dy: 25, dx: -15}]
     
 const annotations16 = [{ note: {label: "Clinton v. Trump", align: "middle"},
     type: d3.annotationCalloutCircle,
     subject: {radius: 16, radiusPadding: 0},
-    color: ["red"], x: dist*13, y: height+10, dy: 25, dx: -15}]
+    color: ["red"], x: dist*13, y: height+15, dy: 25, dx: -15}]
     
 const annotations20 = [{ note: {label: "Biden v. Trump", align: "middle"},
     type: d3.annotationCalloutCircle,
     subject: {radius: 16, radiusPadding: 0},
-    color: ["blue"], x: dist*15, y: height+10, dy: 25, dx: -15}]
+    color: ["blue"], x: dist*15, y: height+15, dy: 25, dx: -15}]
   
 svg.append("g").call(d3.annotation().annotations(annotations92))
 svg.append("g").call(d3.annotation().annotations(annotations96))
@@ -291,10 +301,6 @@ svg.append("g").call(d3.annotation().annotations(annotations4)).style("stroke-da
 svg.append("g").call(d3.annotation().annotations(annotations5)).style("stroke-dasharray", ("3, 3"))
 svg.append("g").call(d3.annotation().annotations(annotations6)).style("stroke-dasharray", ("3, 3"))
 svg.append("g").call(d3.annotation().annotations(annotations7)).style("stroke-dasharray", ("3, 3"))
-
-svg.append("text")
-	    .attr("font-weight", "bold")
-	    .text("US RACES");
 
 })
 

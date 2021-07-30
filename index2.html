@@ -2,20 +2,28 @@
 <script src='https://d3js.org/d3.v5.min.js'></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
 <div class="header">
-  <h1>US Ages Voting</h1>
-  <p>My supercool header</p></div>
-  <p style="text-align:center;">
-<select id="selectButton"></select>
+  <h1>United States Voting Data from 1990 to 2020</h1></div>
+  
+  <div p style= "font-size: 14px;">
+  <p>Elections... 2018 and 2020... </p><br/>
+  <p>Chart below depicts... </p>
+  <p>Pesidential races are annotated along the x-axis. A race in red indicates the Republican candidate one. A race in blue indicated the Domcratic candidate won. </p><br/></div>
+  <div p style= "font-size: 14px; text-align:left; margin-left: 400px">
+  <p><a href='https://kaf4.github.io/index'><button>Click Here</button></a> to Explore by Race</p>
+  <p><a href='https://kaf4.github.io/index2'><button>Click Here</button></a> to Explore by Age</p>
+  <p></p></div>
+  <div p style="font-size: 14px; text-align:left; margin-left: 700px">
+  <p>Choose a XXX from the drop down box to see... 
+<select id="selectButton"></select></p></div>
 <style>
 
 .selectButton{
 position: bottom;
 font-size: 20px;
 }
-
 .header {
-  padding: 10px;
-  text-align: center;
+  margin-left: 200px;
+  text-align: left;
   background: none;
   color: black;
   font-size: 20px;
@@ -33,6 +41,7 @@ div.tooltip {
     pointer-events: none;			
 }
 </style>
+
 <body>
 <script>
 
@@ -74,10 +83,10 @@ const y = d3.scaleLinear()
       .domain([15, 75])
       .range([ height, 0]);
       
-    svg.append("g")
+svg.append("g")
       .attr("transform", `translate(0, ${height})`)
       .call(d3.axisBottom(x)).style("font-size","0.77em");    
-    svg.append("g")
+svg.append("g")
       .call(d3.axisLeft(y)).style("font-size","0.8em");
       
 var div = d3.select("body").append("div").attr("class", "tooltip").style("opacity", 0);
@@ -119,13 +128,13 @@ selectAgeGroups.selectAll("dot")
             .style("opacity", .9);		
       div.html("Year: "+dateFormat(d.year) + "<br/>" +"Age: " + selection + "<br/>" +" Voters: " + d[selection] +"%")	
             .style("left", (d3.event.pageX) + "px")		
-            .style("top", (d3.event.pageY)+10 + "px");})					
+            .style("top", (d3.event.pageY) + 10 + "px");})					
      .on("mouseout", function(d) { div.transition().duration(500)		
              .style("opacity", 0);});
     
 var linelabel = selectAgeGroups.append("text")
       .datum(function(d) { return {age: d.age, value: d.values[0]}; })
-      .attr("transform", function(d) { return "translate(" + x(d.value.year) + "," + y(d.value.measurement) + ")"; })
+      .attr("transform", function(d) { return "translate(" + (x(d.value.year)+10) + "," + y(d.value.measurement) + ")"; })
       .attr("x", 3)
       .attr("dy", ".35em")
       .text(function(d) { return selection;});  
@@ -170,7 +179,7 @@ selectAgeGroups.selectAll("dot")
 
 linelabel = selectAgeGroups.append("text")
       .datum(function(d) { return {age: d.age, value: d.values[0]}; })
-      .attr("transform", function(d) { return "translate(" + x(d.value.year) + "," + y(d.value.measurement) + ")"; })
+      .attr("transform", function(d) { return "translate(" + (x(d.value.year)+10) + "," + y(d.value.measurement) + ")"; })
       .attr("x", 3)
       .attr("dy", ".35em")
       .text(function(d) { return d.age;});
@@ -209,7 +218,7 @@ selectAgeGroups.selectAll("dot")
 
 linelabel = selectAgeGroups.append("text")
       .datum(function(d) { return {age: d.age, value: d.values[0]}; })
-      .attr("transform", function(d) { return "translate(" + x(d.value.year) + "," + y(d.value.measurement) + ")"; })
+      .attr("transform", function(d) { return "translate(" + (x(d.value.year)+10) + "," + y(d.value.measurement) + ")"; })
       .attr("x", 3)
       .attr("dy", ".35em")
       .text(function(d) { return selection;});
@@ -312,12 +321,11 @@ svg.append("g").call(d3.annotation().annotations(annotations7)).style("stroke-da
 
 </script>
 
-<p></p>
 <div style="color: gray; font-size: 14px;">
 <p>This  visualization ... of UIUC</p>
 <p>Resources:</p>
 <ul>
-<li><a href="www.google.com">Data on XXX </a></li></ul></div>
+<li><a href="https://www.census.gov/topics/public-sector/voting.html">US Census Bureau Data on Voting and Registration </a></li></ul></div>
 
 </body>
 </html>

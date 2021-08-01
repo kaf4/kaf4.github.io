@@ -114,7 +114,7 @@ const lines = selectAgeGroups.selectAll(".line")
       .append("path")
         .attr("fill", "none")
         .attr("stroke", function(d){return color(d.key) })
-        .attr("stroke-width", 1)
+        .attr("stroke-width", 1.2)
         .attr("d", function(d){return valueLine(d.values)})
 
 selectAgeGroups.selectAll("dot")	
@@ -159,7 +159,7 @@ var color = d3.scaleOrdinal(d3.schemeCategory10);
 selectAgeGroups.selectAll("path.line").data(slice2)
     .attr("fill", "none")
     .attr("stroke", function(d){return color(d.age)})
-    .attr("stroke-width", 1)
+    .attr("stroke-width", 1.2)
     .attr("d", function(d){return valueLine(d.values)})
     
 selectAgeGroups.selectAll("dot")	
@@ -198,7 +198,7 @@ var color = d3.scaleOrdinal(d3.schemeCategory10);
 selectAgeGroups.selectAll("path.line").data(slice)
     .attr("fill", "none")
     .attr("stroke", function(d){return color(d.race)})
-    .attr("stroke-width", 1)
+    .attr("stroke-width", 1.2)
     .attr("d", function(d){return valueLine(d.values)})
     
 selectAgeGroups.selectAll("dot")	

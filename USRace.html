@@ -56,8 +56,6 @@ const svg = d3.select("body")
   .append("g")
     .attr("transform", `translate(${margin.left},${margin.top})`);
 
-var color = d3.scaleOrdinal(d3.schemeCategory10);
-
 //Read the data
 d3.csv("https://kaf4.github.io/data/US_Race_AllAge.csv")
 .then(function(data){
@@ -67,6 +65,9 @@ d3.csv("https://kaf4.github.io/data/US_Race_AllAge.csv")
     });
 
 races.push("Compare All")
+
+var color = d3.scaleOrdinal().domain(["White", "Black", "Asian", "Hispanic", "All Races"])
+  .range(["red", "purple", "blue", "cyan", "darkgreen"])
 
 d3.select("#selectButton").selectAll('myOptions')
     .data(races).enter().append('option')
@@ -113,7 +114,7 @@ const lines = selectRaceGroups.selectAll(".line")
       .enter()
       .append("path")
         .attr("fill", "none")
-        .attr("stroke", function(d){return color(d.race)})
+        .attr("stroke", function(d){return color([selection])})
         .attr("stroke-width", 1.2)
         .attr("d", function(d){return valueLine(d.values)})
 
@@ -154,7 +155,6 @@ var slice2 = data.columns.slice(1).map(function(race) {
                 measurement: +d[race]};})};});
                 
 var selectRaceGroups = svg.selectAll(".raceGroups").data(slice2);
-var color = d3.scaleOrdinal(d3.schemeCategory10);
 
 selectRaceGroups.selectAll("path.line").data(slice2)
     .attr("fill", "none")
@@ -193,11 +193,9 @@ var slice = data.columns.slice(1).map(function(race) {
                 measurement: +d[selection]};})};});
 var selectRaceGroups = svg.selectAll(".raceGroups").data(slice);
 
-var color = d3.scaleOrdinal(d3.schemeCategory10);
-
 selectRaceGroups.selectAll("path.line").data(slice)
     .attr("fill", "none")
-    .attr("stroke", function(d){return color(d.race)})
+    .attr("stroke", function(d){return color([selection])})
     .attr("stroke-width", 1.2)
     .attr("d", function(d){return valueLine(d.values)})
     

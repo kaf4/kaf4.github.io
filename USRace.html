@@ -157,6 +157,7 @@ var slice2 = data.columns.slice(1).map(function(race) {
 var selectRaceGroups = svg.selectAll(".raceGroups").data(slice2);
 
 selectRaceGroups.selectAll("path.line").data(slice2)
+    .transition().duration(500)
     .attr("fill", "none")
     .attr("stroke", function(d){return color(d.race)})
     .attr("stroke-width", 1.2)
@@ -194,6 +195,7 @@ var slice = data.columns.slice(1).map(function(race) {
 var selectRaceGroups = svg.selectAll(".raceGroups").data(slice);
 
 selectRaceGroups.selectAll("path.line").data(slice)
+    .transition().duration(500)
     .attr("fill", "none")
     .attr("stroke", function(d){return color([selection])})
     .attr("stroke-width", 1.2)

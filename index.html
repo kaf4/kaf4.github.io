@@ -2,21 +2,20 @@
 <script src='https://d3js.org/d3.v5.min.js'></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
 <div class="header">
-  <h1>United States Voting Data from 1990 to 2020</h1></div>
+  <h1>United States Voter Participation Data from 1990 to 2020</h1></div>
   
-  <div p style= "font-size: 14px; text-align:left; margin-left: 50px">
-  <p>Elections... 2018 and 2020... </p><br/>
-  <p>Chart below depicts... </p>
-  <p>Pesidential races are annotated along the x-axis. A race in red indicates the Republican candidate one. A race in blue indicated the Democratic candidate won. </p><br/></div>
-  <div p style= "font-size: 14px; text-align:left; margin-left: 420px">
-  <p><a href='https://kaf4.github.io/USRace'><button>Click Here</button></a> to Explore Voting Data by Race</p>
-  <p><a href='https://kaf4.github.io/USAge'><button>Click Here</button></a> to Explore Voting Data by Age</p>
+  <div p style= "font-size: 16px; text-align:left; margin-left: 50px">
+  <p>The chart below depicts voter participation as a percentage of overall population from 1990 through 2020. </p>
+  <p>Presidential races are annotated along the x-axis. Color indicates the winning party: red for Republican, blue for Democratic. </p><br/></div>
+  <div p style= "font-size: 16px; text-align:left; margin-left: 420px">
+  <p><a href='https://kaf4.github.io/USRace'><button>Click Here to Explore Data by Race</button></a></p>
+  <p><a href='https://kaf4.github.io/USAge'><button> Click Here to Explore Data by Age</button></a></p>
   <p></p></div>
 
 <style>
 
 .header {
-  margin-left: 100px;
+  margin-left: 75px;
   text-align: left;
   background: none;
   color: black;
@@ -106,7 +105,7 @@ const lines = selectRaceGroups.selectAll(".line")
       .enter()
       .append("path")
         .attr("fill", "none")
-        .attr("stroke", function(d){return color(d.race)})
+        .attr("stroke", "darkgreen")
         .attr("stroke-width", 1.2)
         .attr("d", function(d){return valueLine(d.values)})
 
@@ -222,7 +221,7 @@ d3.select('svg').append("g")
 d3.select('svg').append("g")
     .attr("transform", "translate(" + (20) + " ," + (750/2) + ")")
     .append("text").style("text-anchor", "middle")
-    .text("Percent of Population Voted").attr("transform", "rotate(-90)")
+    .text("Percent of Voter Participation by Population").attr("transform", "rotate(-90)")
 
 })
 
@@ -230,7 +229,7 @@ d3.select('svg').append("g")
 
 
 <div style="color: gray; font-size: 14px;">
-<p>This  visualization ... of UIUC</p>
+<p>This visualization was created as a project for CS 416: Data Visualization at the University of Illinois as Urbana-Champaign</p>
 <p>Resources:</p>
 <ul>
 <li><a href="https://www.census.gov/topics/public-sector/voting.html">US Census Bureau Data on Voting and Registration </a></li></ul></div>

@@ -157,6 +157,7 @@ var slice2 = data.columns.slice(1).map(function(age) {
 var selectAgeGroups = svg.selectAll(".ageGroups").data(slice2);
 
 selectAgeGroups.selectAll("path.line").data(slice2)
+    .transition().duration(500)
     .attr("fill", "none")
     .attr("stroke", function(d){return color(d.age)})
     .attr("stroke-width", 1.2)
@@ -194,6 +195,7 @@ var slice = data.columns.slice(1).map(function(age) {
 var selectAgeGroups = svg.selectAll(".ageGroups").data(slice);
 
 selectAgeGroups.selectAll("path.line").data(slice)
+    .transition().duration(500)
     .attr("fill", "none")
     .attr("stroke", function(d){return color([selection])})
     .attr("stroke-width", 1.2)

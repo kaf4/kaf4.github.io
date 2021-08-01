@@ -57,7 +57,8 @@ const svg = d3.select("body")
   .append("g")
     .attr("transform", `translate(${margin.left},${margin.top})`);
 
-var color = d3.scaleOrdinal(d3.schemeCategory10);
+var color = d3.scaleOrdinal().domain(["18 to 24", "25 to 44", "45 to 64", "65+", "All Ages"])
+  .range(["red", "purple", "blue", "cyan", "darkgreen"])
 
 //Read the data
 d3.csv("https://kaf4.github.io/data/US_AllAge.csv")
@@ -113,7 +114,7 @@ const lines = selectAgeGroups.selectAll(".line")
       .enter()
       .append("path")
         .attr("fill", "none")
-        .attr("stroke", function(d){return color(d.key) })
+        .attr("stroke", function(d){return color([selection])})
         .attr("stroke-width", 1.2)
         .attr("d", function(d){return valueLine(d.values)})
 
@@ -154,7 +155,6 @@ var slice2 = data.columns.slice(1).map(function(age) {
                 measurement: +d[age]};})};});
                 
 var selectAgeGroups = svg.selectAll(".ageGroups").data(slice2);
-var color = d3.scaleOrdinal(d3.schemeCategory10);
 
 selectAgeGroups.selectAll("path.line").data(slice2)
     .attr("fill", "none")
@@ -193,11 +193,9 @@ var slice = data.columns.slice(1).map(function(age) {
                 measurement: +d[selection]};})};});
 var selectAgeGroups = svg.selectAll(".ageGroups").data(slice);
 
-var color = d3.scaleOrdinal(d3.schemeCategory10);
-
 selectAgeGroups.selectAll("path.line").data(slice)
     .attr("fill", "none")
-    .attr("stroke", function(d){return color(d.race)})
+    .attr("stroke", function(d){return color([selection])})
     .attr("stroke-width", 1.2)
     .attr("d", function(d){return valueLine(d.values)})
     

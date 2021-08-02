@@ -4,8 +4,9 @@
 <div class="header">
   <h1>United States Voter Participation Data from 1990 to 2020</h1></div>
   <div p style= "font-size: 16px; text-align:left; margin-left: 50px">
-  <p>The chart below depicts voter participation as a percentage of overall population from 1990 through 2020. </p>
-  <p>Presidential races are annotated along the x-axis. Color indicates the winning party: red for Republican, blue for Democratic. </p><br/></div>
+  <p> The chart below depicts voter participation as a percentage of overall population from 1990 through 2020. </br>
+  Both 2018 and 2020 were historic years for overall voter turnout in recent presidential and midterm elections.</br>
+  Presidential races are annotated along the x-axis. Color indicates the winning party: red for Republican, blue for Democratic. </p><br/></div>
   <div p style= "font-size: 16px; text-align:left; margin-left: 420px">
   <p><a href='https://kaf4.github.io/USRace'><button>Click Here to Explore Data by Race</button></a></p>
   <p><a href='https://kaf4.github.io/USAge'><button> Click Here to Explore Data by Age</button></a></p>
@@ -36,12 +37,10 @@ div.tooltip {
 <body>
 <script>
 
-// set the dimensions and margins of the graph
 const margin = {top:5, right: 100, bottom: 100, left: 60},
     width = 1200 - margin.left - margin.right,
     height = 700 - margin.top - margin.bottom;
 
-// append the svg object to the body of the page
 const svg = d3.select("body")
   .append("svg")
     .attr("width", width + margin.left + margin.right)
@@ -49,9 +48,6 @@ const svg = d3.select("body")
   .append("g")
     .attr("transform", `translate(${margin.left},${margin.top})`);
 
-var color = d3.scaleOrdinal(d3.schemeCategory10);
-
-//Read the data
 d3.csv("https://kaf4.github.io/data/US_Race_AllAge.csv")
 .then(function(data){
   data.forEach(function(d){
@@ -73,10 +69,11 @@ const y = d3.scaleLinear()
       .domain([25, 75])
       .range([ height, 0]);
       
-    svg.append("g")
+svg.append("g")
       .attr("transform", `translate(0, ${height})`)
-      .call(d3.axisBottom(x)).style("font-size","0.77em");    
-    svg.append("g")
+      .call(d3.axisBottom(x)).style("font-size","0.77em");
+      
+svg.append("g")
       .call(d3.axisLeft(y)).style("font-size","0.8em");
       
 var div = d3.select("body").append("div").attr("class", "tooltip").style("opacity", 0);
@@ -176,25 +173,27 @@ svg.append("g").call(d3.annotation().annotations(annotations12))
 svg.append("g").call(d3.annotation().annotations(annotations16))
 svg.append("g").call(d3.annotation().annotations(annotations20))
 
-
 var ydist = 59.5;
 
 const annotations3 = [{note: {label: "30%"},
     connector: {end: "none", type: "line", lineType : "vertical"},
     color: ["grey"], x: 0, y: height-(ydist*1), dy: 0, dx: width }]
+
 const annotations4 = [{note: {label: "40%"},
     connector: {end: "none", type: "line", lineType : "vertical"},
     color: ["grey"], x: 0, y: height-(ydist*3), dy: 0, dx: width }]
+
 const annotations5 = [{note: {label: "50%"},
     connector: {end: "none", type: "line", lineType : "vertical"},
     color: ["grey"], x: 0, y: height-(ydist*5), dy: 0, dx: width }]
+    
 const annotations6 = [{note: {label: "60%"},
     connector: {end: "none", type: "line", lineType : "vertical"},
     color: ["grey"], x: 0, y: height-(ydist*7), dy: 0, dx: width }]
+
 const annotations7 = [{note: {label: "70%"},
     connector: {end: "none", type: "line", lineType : "vertical"},
     color: ["grey"], x: 0, y: height-(ydist*9), dy: 0, dx: width }]
-
 
 
 svg.append("g").call(d3.annotation().annotations(annotations3)).style("stroke-dasharray", ("3, 3"))
@@ -202,7 +201,6 @@ svg.append("g").call(d3.annotation().annotations(annotations4)).style("stroke-da
 svg.append("g").call(d3.annotation().annotations(annotations5)).style("stroke-dasharray", ("3, 3"))
 svg.append("g").call(d3.annotation().annotations(annotations6)).style("stroke-dasharray", ("3, 3"))
 svg.append("g").call(d3.annotation().annotations(annotations7)).style("stroke-dasharray", ("3, 3"))
-
 
 const annotationsPeak18 = [{note: {label: "Peak Presidential Election Voter Turnout Since 1992", wrap: 200},
     type: d3.annotationCalloutCircle,
@@ -218,7 +216,7 @@ svg.append("g").call(d3.annotation().annotations(annotationsPeak18))
 svg.append("g").call(d3.annotation().annotations(annotationsPeak20))
 
 d3.select('svg').append("g")
-    .attr("transform", "translate(" + (1212/2) + " ," + (685) + ")").append("text")
+    .attr("transform", "translate(" + (1212/2) + " ," + (640) + ")").append("text")
     .style("text-anchor", "middle")
     .text("Year of Election");
       

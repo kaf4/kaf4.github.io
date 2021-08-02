@@ -4,10 +4,10 @@
 <div class="header">
     <h1>United States Voter Participation Data from 1990 to 2020 by Age</h1></div>
     <div p style= "font-size: 16px; text-align:left; margin-left: 50px">
-    <p>The chart below depicts voter participation as a percentage of the overall population of the age group selected below from 1990 through 2020. </p>
+    <p>The chart below depicts voter participation as a percentage of the race group selected below from 1990 through 2020. </p>
     <p>Presidential races are annotated along the x-axis. Color indicates the winning party: red for Republican, blue for Democratic. </p><br/></div>
     <div p style= "font-size: 16px; text-align:left; margin-left: 420px">
-  <p><a href='https://kaf4.github.io/USRace'><button>Click Here to Explore Data by Race</button></a></p>
+  <p><a href='https://kaf4.github.io/USAge'><button>Click Here to Explore Data by Age</button></a></p>
   <p></p></div>
   <div p style="font-size: 14px; text-align:left; margin-left: 910px">
   <p>Select an Age Group:  
@@ -19,7 +19,7 @@ position: bottom;
 font-size: 20px;
 }
 .header {
-  margin-left: 50px;
+  margin-left: 100px;
   text-align: left;
   background: none;
   color: black;
@@ -38,14 +38,13 @@ div.tooltip {
     pointer-events: none;			
 }
 </style>
-
 <body>
 <script>
 
 // set the dimensions and margins of the graph
 const margin = {top:5, right: 100, bottom: 100, left: 60},
     width = 1200 - margin.left - margin.right,
-    height = 750 - margin.top - margin.bottom;
+    height = 700 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
 const svg = d3.select("body")
@@ -55,44 +54,45 @@ const svg = d3.select("body")
   .append("g")
     .attr("transform", `translate(${margin.left},${margin.top})`);
 
-var color = d3.scaleOrdinal().domain(["18 to 24", "25 to 44", "45 to 64", "65+", "All Ages"])
-  .range(["red", "purple", "blue", "cyan", "darkgreen"])
-
 //Read the data
-d3.csv("https://kaf4.github.io/data/US_AllAge.csv")
+d3.csv("https://kaf4.github.io/data/US_Race_AllAge.csv")
 .then(function(data){
   data.forEach(function(d){
     d.year = d3.timeParse("%Y")(d.Year);
-    ages = data.columns.slice([1]);
+    races = data.columns.slice([1]);
     });
 
-ages.push("Compare All")
+races.push("Compare All")
+
+var color = d3.scaleOrdinal().domain(["White", "Black", "Asian", "Hispanic", "All Races"])
+  .range(["red", "purple", "blue", "cyan", "darkgreen"])
 
 d3.select("#selectButton").selectAll('myOptions')
-    .data(ages).enter().append('option')
+    .data(races).enter().append('option')
     .text(function (d) { return d; })
     .attr("value", function (d) { return d; })
+    .attr("transform", `translate(${margin.right},${margin.top})`);
 
 const x = d3.scaleTime()
       .domain(d3.extent(data, function(d) { return d.year; }))
       .range([ 0, width ]);
 
 const y = d3.scaleLinear()
-      .domain([15, 75])
+      .domain([25, 75])
       .range([ height, 0]);
       
-svg.append("g")
+    svg.append("g")
       .attr("transform", `translate(0, ${height})`)
       .call(d3.axisBottom(x)).style("font-size","0.77em");    
-svg.append("g")
+    svg.append("g")
       .call(d3.axisLeft(y)).style("font-size","0.8em");
       
 var div = d3.select("body").append("div").attr("class", "tooltip").style("opacity", 0);
 var dateFormat = d3.timeFormat("%Y");
-var selection = "All Ages"
+var selection = "All Races"
 
-var slices = data.columns.slice(1).map(function(age) {
-        return {age: age, values: data.map(function(d){
+var slices = data.columns.slice(1).map(function(race) {
+        return {race: race, values: data.map(function(d){
         return {year: d3.timeParse("%Y")(d.Year),
                 measurement: +d[selection]};})};});
                 
@@ -101,13 +101,13 @@ var valueLine = d3.line().defined(d => !isNaN(d.measurement))
     .y(function(d) { return y(+d.measurement); });
     
 
-var selectAgeGroups = svg.selectAll(".ageGroups")
+var selectRaceGroups = svg.selectAll(".raceGroups")
 		    .data(slices, function(d){return d ? d.key : this.key;})
 		    .enter()
 		    .append("g")
-		    .attr("class", "ageGroups")
+		    .attr("class", "raceGroups")
     
-const lines = selectAgeGroups.selectAll(".line")
+const lines = selectRaceGroups.selectAll(".line")
       .data(slices)
       .enter()
       .append("path")
@@ -116,7 +116,7 @@ const lines = selectAgeGroups.selectAll(".line")
         .attr("stroke-width", 1.2)
         .attr("d", function(d){return valueLine(d.values)})
 
-selectAgeGroups.selectAll("dot")	
+selectRaceGroups.selectAll("dot")	
 	.data(data)			
     .enter().append("circle")				
     .attr("r", 4)		
@@ -124,14 +124,14 @@ selectAgeGroups.selectAll("dot")
     .attr("cy", function(d) { return y(d[selection]); })
      .on("mouseover", function(d) {div.transition().duration(200)		
             .style("opacity", .9);		
-      div.html("Year: "+dateFormat(d.year) + "<br/>" +"Age: " + selection + "<br/>" +" Voters: " + d[selection] +"%")	
+      div.html("Year: "+dateFormat(d.year) + "<br/>" +"Race: " + selection + "<br/>" +" Voters: " + d[selection] +"%")	
             .style("left", (d3.event.pageX) + "px")		
-            .style("top", (d3.event.pageY) + 10 + "px");})					
+            .style("top", (d3.event.pageY)+10 + "px");})					
      .on("mouseout", function(d) { div.transition().duration(500)		
              .style("opacity", 0);});
     
-var linelabel = selectAgeGroups.append("text")
-      .datum(function(d) { return {age: d.age, value: d.values[0]}; })
+var linelabel = selectRaceGroups.append("text")
+      .datum(function(d) { return {race: d.race, value: d.values[0]}; })
       .attr("transform", function(d) { return "translate(" + (x(d.value.year)+10) + "," + y(d.value.measurement) + ")"; })
       .attr("x", 3)
       .attr("dy", ".35em")
@@ -147,59 +147,59 @@ linelabel.remove()
 
 if (selection == "Compare All") {
 
-var slice2 = data.columns.slice(1).map(function(age) {
-        return {age: age, values: data.map(function(d){
-        return {age: age, year: d3.timeParse("%Y")(d.Year),
-                measurement: +d[age]};})};});
+var slice2 = data.columns.slice(1).map(function(race) {
+        return {race: race, values: data.map(function(d){
+        return {race: race, year: d3.timeParse("%Y")(d.Year),
+                measurement: +d[race]};})};});
                 
-var selectAgeGroups = svg.selectAll(".ageGroups").data(slice2);
+var selectRaceGroups = svg.selectAll(".raceGroups").data(slice2);
 
-selectAgeGroups.selectAll("path.line").data(slice2)
+selectRaceGroups.selectAll("path.line").data(slice2)
     .transition().duration(500)
     .attr("fill", "none")
-    .attr("stroke", function(d){return color(d.age)})
+    .attr("stroke", function(d){return color(d.race)})
     .attr("stroke-width", 1.2)
     .attr("d", function(d){return valueLine(d.values)})
     
-selectAgeGroups.selectAll("dot")	
-	.data(function(d) {return d.values})			
+selectRaceGroups.selectAll("dot")	
+	.data(function(d) {return d.values;})
     .enter().append("circle")				
     .attr("r", 4)		
 	.attr("cx", function(d) { return x(d.year);})
     .attr("cy", function(d) { return y(d.measurement); })
      .on("mouseover", function(d) {div.transition().duration(200)		
             .style("opacity", .9);		
-      div.html("Year: "+dateFormat(d.year) + "<br/>" + "Age: " + d.age + "<br/>" +" Voters: " + d.measurement +"%")	
+      div.html("Year: "+dateFormat(d.year) + "<br/>" + "Race: " + d.race + "<br/>" +" Voters: " + d.measurement +"%")	
             .style("left", (d3.event.pageX) + "px")		
             .style("top", (d3.event.pageY) + "px");})					
      .on("mouseout", function(d) { div.transition().duration(500)		
              .style("opacity", 0);});
 
-linelabel = selectAgeGroups.append("text")
-      .datum(function(d) { return {age: d.age, value: d.values[0]}; })
+linelabel = selectRaceGroups.append("text")
+      .datum(function(d) {return {race: d.race, value: d.values[0]}; })
       .attr("transform", function(d) { return "translate(" + (x(d.value.year)+10) + "," + y(d.value.measurement) + ")"; })
       .attr("x", 3)
       .attr("dy", ".35em")
-      .text(function(d) { return d.age;});
+      .text(function(d) {return d.race;});
 
 }
 
 else{
 
-var slice = data.columns.slice(1).map(function(age) {
-        return {age: age, values: data.map(function(d){
+var slice = data.columns.slice(1).map(function(race) {
+        return {race: race, values: data.map(function(d){
         return {year: d3.timeParse("%Y")(d.Year),
                 measurement: +d[selection]};})};});
-var selectAgeGroups = svg.selectAll(".ageGroups").data(slice);
+var selectRaceGroups = svg.selectAll(".raceGroups").data(slice);
 
-selectAgeGroups.selectAll("path.line").data(slice)
+selectRaceGroups.selectAll("path.line").data(slice)
     .transition().duration(500)
     .attr("fill", "none")
     .attr("stroke", function(d){return color([selection])})
     .attr("stroke-width", 1.2)
     .attr("d", function(d){return valueLine(d.values)})
     
-selectAgeGroups.selectAll("dot")	
+selectRaceGroups.selectAll("dot")	
 	.data(function(d) {return d.values})			
     .enter().append("circle")				
     .attr("r", 4)		
@@ -207,15 +207,15 @@ selectAgeGroups.selectAll("dot")
     .attr("cy", function(d) { return y(d.measurement); })
      .on("mouseover", function(d) {div.transition().duration(200)		
             .style("opacity", .9);		
-      div.html("Year: "+dateFormat(d.year) + "<br/>" +"Age: " + selection + "<br/>" +" Voters: " + d.measurement +"%")	
+      div.html("Year: "+dateFormat(d.year) + "<br/>" +"Race: " + selection + "<br/>" +" Voters: " + d.measurement +"%")	
             .style("left", (d3.event.pageX) + "px")		
             .style("top", (d3.event.pageY) + "px");})					
      .on("mouseout", function(d) { div.transition().duration(500)		
              .style("opacity", 0);});
 
-linelabel = selectAgeGroups.append("text")
-      .datum(function(d) { return {age: d.age, value: d.values[0]}; })
-      .attr("transform", function(d) { return "translate(" + (x(d.value.year)+10) + "," + y(d.value.measurement) + ")"; })
+linelabel = selectRaceGroups.append("text")
+      .datum(function(d) { return {race: d.race, value: d.values[0]}; })
+      .attr("transform", function(d) {return "translate(" + (x(d.value.year)+10) + "," + y(d.value.measurement) + ")"; })
       .attr("x", 3)
       .attr("dy", ".35em")
       .text(function(d) { return selection;});
@@ -228,7 +228,7 @@ const selectedState = d3.select(this).property("value")
 update(selectedState)
     })
 
-var dist = 69.3;
+    var dist = 69.3;
 
 const annotations92 = [{ note: {label: "Clinton v. Bush", align: "middle"},
     type: d3.annotationCalloutCircle,
@@ -284,30 +284,30 @@ const annotations1 = [{note: {label: "10%"},
     connector: {end: "none", type: "line", lineType : "vertical"},
     color: ["grey"], x: 0, y: 160, dy: 0, dx: width }]
     
-
-var ydist = 53.6;
-
 const annotations2 = [{note: {label: "20%"},
     connector: {end: "none", type: "line", lineType : "vertical"},
-    color: ["grey"], x: 0, y: height-(ydist*1), dy: 0, dx: width }]
+    color: ["grey"], x: 0, y: 160, dy: 0, dx: width }]
+
+var ydist = 59.5;
+
 const annotations3 = [{note: {label: "30%"},
     connector: {end: "none", type: "line", lineType : "vertical"},
-    color: ["grey"], x: 0, y: height-(ydist*3), dy: 0, dx: width }]
+    color: ["grey"], x: 0, y: height-(ydist*1), dy: 0, dx: width }]
 const annotations4 = [{note: {label: "40%"},
     connector: {end: "none", type: "line", lineType : "vertical"},
-    color: ["grey"], x: 0, y: height-(ydist*5), dy: 0, dx: width }]
+    color: ["grey"], x: 0, y: height-(ydist*3), dy: 0, dx: width }]
 const annotations5 = [{note: {label: "50%"},
     connector: {end: "none", type: "line", lineType : "vertical"},
-    color: ["grey"], x: 0, y: height-(ydist*7), dy: 0, dx: width }]
+    color: ["grey"], x: 0, y: height-(ydist*5), dy: 0, dx: width }]
 const annotations6 = [{note: {label: "60%"},
     connector: {end: "none", type: "line", lineType : "vertical"},
-    color: ["grey"], x: 0, y: height-(ydist*9), dy: 0, dx: width }]
+    color: ["grey"], x: 0, y: height-(ydist*7), dy: 0, dx: width }]
 const annotations7 = [{note: {label: "70%"},
     connector: {end: "none", type: "line", lineType : "vertical"},
-    color: ["grey"], x: 0, y: height-(ydist*11), dy: 0, dx: width }]
+    color: ["grey"], x: 0, y: height-(ydist*9), dy: 0, dx: width }]
 
 
-svg.append("g").call(d3.annotation().annotations(annotations2)).style("stroke-dasharray", ("3, 3"))
+
 svg.append("g").call(d3.annotation().annotations(annotations3)).style("stroke-dasharray", ("3, 3"))
 svg.append("g").call(d3.annotation().annotations(annotations4)).style("stroke-dasharray", ("3, 3"))
 svg.append("g").call(d3.annotation().annotations(annotations5)).style("stroke-dasharray", ("3, 3"))
@@ -324,15 +324,13 @@ d3.select('svg').append("g")
     .append("text").style("text-anchor", "middle")
     .text("Percent of Population Voted").attr("transform", "rotate(-90)")
 
-
 })
 
 </script>
-
 <div style="color: gray; font-size: 14px;">
     <p>This visualization was created as a project for CS 416: Data Visualization at the University of Illinois as Urbana-Champaign</p>
     <p>Resources:</p>
     <ul>
-    <li><a href="https://www.census.gov/topics/public-sector/voting.html">US Census Bureau Data on Voting and Registration </a></li></ul></div>
+    <li><a href="https://www.census.gov/topics/public-sector/voting.html">US Census Bureau Data on Voting and Registration </a></li></ul></div>    
 </body>
 </html>

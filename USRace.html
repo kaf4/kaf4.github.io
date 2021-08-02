@@ -2,9 +2,9 @@
 <script src='https://d3js.org/d3.v5.min.js'></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
 <div class="header">
-    <h1>United States Voter Participation Data from 1990 to 2020 by Age</h1></div>
+    <h1>United States Voter Participation Data from 1990 to 2020 by Race</h1></div>
     <div p style= "font-size: 16px; text-align:left; margin-left: 50px">
-    <p>The chart below depicts voter participation as a percentage of the citizen population of the race group selected below from 1990 through 2020. </p>
+    <p>The chart below depicts voter participation as a percentage of the citizen population of the race group selected below from 1990 through 2020.</p>
     <p>Presidential races are annotated along the x-axis. Color indicates the winning party: red for Republican, blue for Democratic. </p><br/></div>
     <div p style= "font-size: 16px; text-align:left; margin-left: 420px">
   <p><a href='https://kaf4.github.io/USAge'><button>Click Here to Explore Data by Age</button></a></p>
@@ -44,7 +44,7 @@ div.tooltip {
 // set the dimensions and margins of the graph
 const margin = {top:5, right: 100, bottom: 100, left: 60},
     width = 1200 - margin.left - margin.right,
-    height = 750 - margin.top - margin.bottom;
+    height = 700 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
 const svg = d3.select("body")
@@ -288,7 +288,7 @@ const annotations2 = [{note: {label: "20%"},
     connector: {end: "none", type: "line", lineType : "vertical"},
     color: ["grey"], x: 0, y: 160, dy: 0, dx: width }]
 
-var ydist = 64.5;
+var ydist = 59.4;
 
 const annotations3 = [{note: {label: "30%"},
     connector: {end: "none", type: "line", lineType : "vertical"},

@@ -4,8 +4,11 @@
 <div class="header">
     <h1>United States Voter Participation Data from 1990 to 2020 by Race</h1></div>
     <div p style= "font-size: 16px; text-align:left; margin-left: 50px">
-    <p>The chart below depicts voter participation as a percentage of the citizen population of the race group selected below from 1990 through 2020.</p>
-    <p>Presidential races are annotated along the x-axis. Color indicates the winning party: red for Republican, blue for Democratic. </p><br/></div>
+    <p>The chart below depicts voter participation as a percentage of the citizen population of the race group selected below from 1990 through 2020. </br>
+ While 2018 and 2020 were historic years for overall voter turnout in recent presidential and midterm elections.</br>
+-- Black voter participation in midterm elections increased more than 10% from 2014 to more than 50% in 2018 for the first time during a midterm election.</br>
+-- Asian and Hispanic voter participation peaked in the 2018 midterm election and the 2020 presidential election. </br>
+Presidential races are annotated along the x-axis. Color indicates the winning party: red for Republican, blue for Democratic. </p><br/></div>
     <div p style= "font-size: 16px; text-align:left; margin-left: 420px">
   <p><a href='https://kaf4.github.io/USAge'><button>Click Here to Explore Data by Age</button></a></p>
   <p></p></div>
@@ -41,12 +44,10 @@ div.tooltip {
 <body>
 <script>
 
-// set the dimensions and margins of the graph
 const margin = {top:5, right: 100, bottom: 100, left: 60},
     width = 1200 - margin.left - margin.right,
     height = 700 - margin.top - margin.bottom;
 
-// append the svg object to the body of the page
 const svg = d3.select("body")
   .append("svg")
     .attr("width", width + margin.left + margin.right)
@@ -54,7 +55,6 @@ const svg = d3.select("body")
   .append("g")
     .attr("transform", `translate(${margin.left},${margin.top})`);
 
-//Read the data
 d3.csv("https://kaf4.github.io/data/US_Race_AllAge.csv")
 .then(function(data){
   data.forEach(function(d){
@@ -143,7 +143,6 @@ function update(selection) {
 
 d3.selectAll("circle").remove()
 linelabel.remove()
-
 
 if (selection == "Compare All") {
 
@@ -284,20 +283,22 @@ var ydist = 59.4;
 const annotations3 = [{note: {label: "30%"},
     connector: {end: "none", type: "line", lineType : "vertical"},
     color: ["grey"], x: 0, y: height-(ydist*1), dy: 0, dx: width }]
+
 const annotations4 = [{note: {label: "40%"},
     connector: {end: "none", type: "line", lineType : "vertical"},
     color: ["grey"], x: 0, y: height-(ydist*3), dy: 0, dx: width }]
+
 const annotations5 = [{note: {label: "50%"},
     connector: {end: "none", type: "line", lineType : "vertical"},
     color: ["grey"], x: 0, y: height-(ydist*5), dy: 0, dx: width }]
+
 const annotations6 = [{note: {label: "60%"},
     connector: {end: "none", type: "line", lineType : "vertical"},
     color: ["grey"], x: 0, y: height-(ydist*7), dy: 0, dx: width }]
+
 const annotations7 = [{note: {label: "70%"},
     connector: {end: "none", type: "line", lineType : "vertical"},
     color: ["grey"], x: 0, y: height-(ydist*9), dy: 0, dx: width }]
-
-
 
 svg.append("g").call(d3.annotation().annotations(annotations3)).style("stroke-dasharray", ("3, 3"))
 svg.append("g").call(d3.annotation().annotations(annotations4)).style("stroke-dasharray", ("3, 3"))
@@ -306,7 +307,7 @@ svg.append("g").call(d3.annotation().annotations(annotations6)).style("stroke-da
 svg.append("g").call(d3.annotation().annotations(annotations7)).style("stroke-dasharray", ("3, 3"))
 
 d3.select('svg').append("g")
-    .attr("transform", "translate(" + (1212/2) + " ," + (685) + ")").append("text")
+    .attr("transform", "translate(" + (1212/2) + " ," + (640) + ")").append("text")
     .style("text-anchor", "middle")
     .text("Year of Election");
       

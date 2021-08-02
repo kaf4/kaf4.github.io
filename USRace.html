@@ -279,15 +279,6 @@ svg.append("g").call(d3.annotation().annotations(annotations12))
 svg.append("g").call(d3.annotation().annotations(annotations16))
 svg.append("g").call(d3.annotation().annotations(annotations20))
 
-
-const annotations1 = [{note: {label: "10%"},
-    connector: {end: "none", type: "line", lineType : "vertical"},
-    color: ["grey"], x: 0, y: 160, dy: 0, dx: width }]
-    
-const annotations2 = [{note: {label: "20%"},
-    connector: {end: "none", type: "line", lineType : "vertical"},
-    color: ["grey"], x: 0, y: 160, dy: 0, dx: width }]
-
 var ydist = 59.4;
 
 const annotations3 = [{note: {label: "30%"},
@@ -322,7 +313,7 @@ d3.select('svg').append("g")
 d3.select('svg').append("g")
     .attr("transform", "translate(" + (20) + " ," + (750/2) + ")")
     .append("text").style("text-anchor", "middle")
-    .text("Percent of Population Voted").attr("transform", "rotate(-90)")
+    .text("Percent of Voter Participation by Selected Population").attr("transform", "rotate(-90)")
 
 })
 

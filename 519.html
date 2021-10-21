@@ -1,0 +1,44 @@
+<html>
+<script src='https://d3js.org/d3.v5.min.js'></script>
+<script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
+<div class="header">
+  <h1>Boston Lobstah</h1></div>
+  <div p style= "font-size: 16px; text-align:left; margin-left: 50px">
+  <p> text test<br/>
+  </br>more text</br></p></div>
+  <div p style= "font-size: 16px; text-align:left; margin-left: 420px">
+  <p></p></div>
+
+<style>
+
+.header {
+  margin-left: 75px;
+  text-align: left;
+  background: none;
+  color: black;
+  font-size: 20px;
+}
+
+</style>
+<body>
+<script>
+
+const margin = {top:5, right: 100, bottom: 100, left: 60},
+    width = 1200 - margin.left - margin.right,
+    height = 700 - margin.top - margin.bottom;
+
+const svg = d3.select("body")
+  .append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", `translate(${margin.left},${margin.top})`);
+
+</script>
+<div style="color: gray; font-size: 14px;">
+<p>This visualization was created as a project for CS 519: Scientific Visualization at the University of Illinois as Urbana-Champaign</p>
+<p>Resources:</p>
+<ul>
+<li><a href="https://www.census.gov/topics/public-sector/voting.html">US Census Bureau Data on Voting and Registration </a></li></ul></div>
+</body>
+</html>
